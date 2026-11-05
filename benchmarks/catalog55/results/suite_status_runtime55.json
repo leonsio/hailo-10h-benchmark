@@ -2,15 +2,15 @@
   "phase": "runtime55_suites_complete",
   "archives": [
     {
-      "path": "/home/leonsio/hailo-10h-benchmark/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.5.0_20261105-094955.tar.gz",
-      "sha256": "5f4c07164daa8dfad959abd2a6af6f366ec4d861d7b2881ab4eacf3c13b7bef5",
-      "files": 203,
+      "path": "/home/leonsio/hailo-10h-benchmark/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.5.0_20261105-101402.tar.gz",
+      "sha256": "d41bdbffc2c83c457a6be7d8f3a8940c31299b5d3b0378b8b77a04df5d168e70",
+      "files": 211,
       "verified": true
     },
     {
-      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.4.0_20261105-074813.tar.gz",
-      "sha256": "a113af229c32b4d2a02923d7a47f680f6ef395d6fe1912f11b61daea5736d81a",
-      "files": 68,
+      "path": "/home/leonsio/hailo-10h-benchmark/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.4.0_20261105-101403.tar.gz",
+      "sha256": "cee145cac734c0c1292ff2b00cc4ed3155cbfd3a4f23122203244c821a7d5893",
+      "files": 88,
       "verified": true
     }
   ],
@@ -18,8 +18,8 @@
   "updated": "2026-11-05T07:48:14+0100",
   "editorial_review_complete": true,
   "review_pending": 0,
-  "evaluation_archives": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/evaluation_archives_v1.3.json",
-  "evaluator_version": "reference-checks-v1.3",
+  "evaluation_archives": "/home/leonsio/hailo-10h-benchmark/benchmarks/catalog55/results/evaluation_archives_v1.4.json",
+  "evaluator_version": "reference-checks-v1.4",
   "integrated_models": [
     "Qwen3-4B-Instruct-2507"
   ]

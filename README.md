@@ -18,7 +18,7 @@ Reproducible text-chat measurements on a Raspberry Pi CM5 with an 8 GB Hailo-10H
 - [Raw measurements, answers, logs, scoring histories and original archives](benchmarks/catalog55/results/).
 - [Bilingual questions](benchmarks/catalog55/questions.md), [JSON](benchmarks/catalog55/questions.json), [scoring rubric](benchmarks/catalog55/evaluation_rubric.md).
 
-**Latest scoring: `reference-checks-v1.3`.** Corrupted output with a recognizable correct answer gets **0.25 points and format 0**; an explanatory sentence gets **0** when only the answer was requested, and may get **1** when no such restriction exists. Known normal stop delimiters are removed without penalty. Older immutable archives contain the scoring version recorded at their creation. Current overview/run pages use the latest v1.3 main-run assessments. Editorial judgments are Codex assessments, not a human panel or a second independent model.
+**Latest scoring: `reference-checks-v1.4`.** Corrupted output with a recognizable correct answer gets **0.25 points and format 0**; an explanatory sentence gets **0** when only the answer was requested, and may get **1** when no such restriction exists. **E05 exception:** a clear statement that current weather data is unavailable is correct regardless of sentence count; generic refusals and fabricated weather do not qualify. Known normal stop delimiters are removed without penalty. Older immutable archives contain the scoring version recorded at their creation. Current overview/run pages use the latest v1.4 main-run assessments. Editorial judgments are Codex assessments, not a human panel or a second independent model.
 
 ## Kurzbewertung / Main takeaways
 

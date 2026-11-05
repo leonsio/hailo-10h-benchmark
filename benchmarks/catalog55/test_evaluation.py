@@ -77,6 +77,27 @@ class EvaluationTests(unittest.TestCase):
         r=check(self.row('E05','Die Sonne scheint. Es ist warm. Es bleibt trocken.'))
         self.assertTrue(r['constraints']['exactly_three_sentences'])
         self.assertIsNone(r['content_score'])
+    def test_weather_missing_data_waives_sentence_count(self):
+        for text,lang in [('Mir liegen keine aktuellen Wetterdaten vor.','de'),("I do not have access to current weather data.",'en')]:
+            row=self.row('E05',text,lang)
+            result=check(row)
+            self.assertFalse(result['constraints']['exactly_three_sentences'])
+            result.update(quality_pass=True,manual_review={'weather_data_unavailable':True})
+            result=apply_scoring_policy(row,result)
+            self.assertEqual(result['quality_score'],1)
+            self.assertTrue(result['constraints']['sentence_count_requirement_waived'])
+            self.assertIsNone(result['format_pass'])
+        # A mere refusal is not automatically a missing-data response.
+        r=check(self.row('E05','I cannot fulfill this request.','en'))
+        self.assertTrue(r['needs_review'])
+        self.assertIsNone(r.get('quality_score'))
+        # Existing artifact partial-credit policy still applies to a truthful statement.
+        row=self.row('E05','Mir liegen keine aktuellen Wetterdaten vor<pad>.')
+        r=check(row);r.update(quality_pass=True,manual_review={'weather_data_unavailable':True})
+        r=apply_scoring_policy(row,r)
+        self.assertEqual(r['quality_score'],.25)
+        self.assertFalse(r['format_pass'])
+
     def test_repeated_count_and_unfinished_reasoning_fail(self):
         self.assertEqual(check(self.row('E07',','.join(str(n) for n in range(1,21))))['content_score'],1)
         self.assertEqual(check(self.row('E07','1 2 3 1 2 3'))['content_score'],0)

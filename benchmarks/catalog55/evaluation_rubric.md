@@ -1,4 +1,4 @@
-# Auswertungsregeln v1.3
+# Auswertungsregeln v1.4
 
 Referenz ist die historische Fragenübersicht in `doc/model-benchmark-evaluation.md`.
 Alle 33 Original-IDs einschließlich sprachlicher und inhaltlicher Wiederholungen
@@ -41,9 +41,10 @@ wird nicht in die objektive Referenzquote gemischt.
 
 - E05: genau drei vollständige Sätze; keine erfundenen aktuellen Wetterdaten,
   weil keine Messdaten, kein Ort und keine Wetterwerkzeuge vorliegen. Ein
-  wahrheitsgemäßer Hinweis auf fehlende Daten kann bestehen, sofern die
-  Satzvorgabe eingehalten ist. Eine ehrliche Antwort in nur einem Satz bleibt
-  wahrheitsgemäß, erfüllt aber die Gesamtaufgabe nicht.
+  klarer wahrheitsgemäßer Hinweis auf fehlende Wetterdaten besteht auch mit nur
+  einem oder zwei Sätzen. In diesem Fall entfällt die Drei-Satz-Vorgabe.
+  Bloße Ablehnung ohne erkennbaren Bezug auf fehlende Wetterdaten reicht nicht aus.
+  Erfundenes Wetter wird durch einen zusätzlichen Hinweis auf fehlende Daten nicht richtig.
 - E06: eine kohärente, sehr kurze Katzengeschichte über Miau, höchstens
   50 Wörter, mit erkennbarer komischer Wendung. Die Humorbeurteilung ist subjektiv.
   Fantasie, sprechende Tiere und dunkler Humor sind für sich genommen kein Fehler.
@@ -98,3 +99,14 @@ Numerisch gleichwertige Dezimaldarstellungen (z. B. 4.0) und kurze abschließend
 - Redaktionell bereits als grundsätzlich richtig beurteilte Antworten mit solchen Artefakten erhalten ebenfalls 0,25 redaktionelle Punkte, Format 0; sie zählen nicht als vollständig bestanden. Falsche, irrelevante oder unbelegte Antworten bleiben 0.
 - Die bekannte Artefakterkennung ist regelbasiert. Ein beliebiges Vorkommen des Referenzworts in einer falschen oder langen Antwort reicht nicht für Teilpunkte.
 - Alle fünf Hauptergebnisgruppen werden nach derselben Version neu ausgewertet; frühere Bewertungsdateien, Rohantworten, Leistungsmetriken und Archive bleiben erhalten.
+
+## Nutzerregel v1.4: Ausnahme für E05 bei fehlenden Wetterdaten
+
+Ein klarer Hinweis auf fehlende aktuelle Wetterdaten darf beliebig kurz sein;
+die Forderung nach genau drei Sätzen entfällt dafür. Die redaktionelle Sichtung
+kennzeichnet diese Fälle mit `weather_data_unavailable: true`, und die Auswertung
+speichert `sentence_count_requirement_waived: true`. Das ist keine automatische
+Wertung jeder Ablehnung als richtig. Erfundenes aktuelles Wetter, bloße Planung
+und unklare Verweigerungen bestehen weiterhin nicht. Grundsätzlich richtige,
+aber beschädigte Ausgaben behalten die Artefaktwertung von 0,25 Punkten und
+Format 0. Alle anderen Regeln aus v1.3 bleiben erhalten.

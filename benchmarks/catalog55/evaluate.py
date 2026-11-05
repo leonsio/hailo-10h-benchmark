@@ -14,7 +14,7 @@ from pathlib import Path
 import re
 import unicodedata
 
-VERSION='reference-checks-v1.3'
+VERSION='reference-checks-v1.4'
 NUMERIC={'C01':4,'C03':102,'C05':23,'E01':4,'E02':5,'E11':4,'E15':4,'E16':4}
 CONTROLLED={f'C{i:02}' for i in range(1,7)}
 MANUAL={'E05','E06'}|{f'H{i:02}' for i in range(1,11)}
@@ -108,6 +108,10 @@ def apply_scoring_policy(row,result):
     if result.get('technical_error'):
         return result
     if not result['objective']:
+        if row['question']=='E05' and result.get('manual_review',{}).get('weather_data_unavailable') is True:
+            result.setdefault('constraints',{}).update(sentence_count_requirement_waived=True)
+            result['format_pass']=None
+            result['reason']='Editorial review: clear missing-weather-data response; user waives the three-sentence requirement'
         if 'quality_pass' in result:
             passed=result.get('semantic_quality_pass',result['quality_pass'])
             result['semantic_quality_pass']=passed
@@ -194,8 +198,8 @@ def check(row, _probe=False):
         constraints={}
         if q=='E05':
             sentences=[s for s in re.split(r'(?<=[.!?])\s+',text.strip()) if re.search(r'\w',s)]
-            constraints=dict(sentence_count=len(sentences),exactly_three_sentences=len(sentences)==3)
-            result['reference']='Exactly three sentences; no invented current weather without supplied weather data'
+            constraints=dict(sentence_count=len(sentences),exactly_three_sentences=len(sentences)==3,missing_weather_data_exception_allowed=True)
+            result['reference']='Clear statement of missing weather data: no sentence-count requirement; otherwise exactly three sentences and no invented current weather'
         elif q=='E06':
             constraints=dict(word_count=word_count(text),within_50_words=word_count(text)<=50,mentions_miau=bool(re.search(r'\bMiau\b',text,re.I)))
             result['reference']='Coherent very short funny cat story about Miau; maximum 50 words'
@@ -255,7 +259,7 @@ def evaluate(output):
     tmp.write_text(''.join(json.dumps(r,ensure_ascii=False)+'\n' for r in checked))
     tmp.replace(output/'answer_checks.jsonl')
     atomic_json(output/'review_queue.json',list(groups.values()))
-    atomic_json(output/'evaluation_metadata.json',dict(version=VERSION,evaluator_source_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),manual_reviews_sha256=hashlib.sha256((output/'manual_reviews.json').read_bytes()).hexdigest() if (output/'manual_reviews.json').exists() else None,answer_count=len(rows),raw_answers_sha256=hashlib.sha256((output/'answers.jsonl').read_bytes()).hexdigest() if (output/'answers.jsonl').exists() else None,controlled_scoring='Explicit output restrictions affect points; semantic_score preserves factual match; format separately reported',partial_credit='Output artifacts with recognizable correct answer: 0.25, format=0; strict output restriction violated without artifact: 0; Bolivia: La Paz alone 0.5; calendar: weekday/date each 0.5',subjective_scoring='Codex/editorial review is separate from objective accuracy; structural checks alone do not establish quality',reference_date='2028-03-01 minus two days = Monday 2028-02-28'))
+    atomic_json(output/'evaluation_metadata.json',dict(version=VERSION,evaluator_source_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),manual_reviews_sha256=hashlib.sha256((output/'manual_reviews.json').read_bytes()).hexdigest() if (output/'manual_reviews.json').exists() else None,answer_count=len(rows),raw_answers_sha256=hashlib.sha256((output/'answers.jsonl').read_bytes()).hexdigest() if (output/'answers.jsonl').exists() else None,controlled_scoring='Explicit output restrictions affect points; semantic_score preserves factual match; format separately reported',partial_credit='Output artifacts with recognizable correct answer: 0.25, format=0; strict output restriction violated without artifact: 0; Bolivia: La Paz alone 0.5; calendar: weekday/date each 0.5',subjective_scoring='Codex/editorial review is separate from objective accuracy; E05: clear missing-weather-data statements waive sentence count; generic refusals or fabricated weather do not qualify',reference_date='2028-03-01 minus two days = Monday 2028-02-28'))
     return summaries
 
 if __name__=='__main__':

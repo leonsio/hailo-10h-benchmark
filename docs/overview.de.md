@@ -2,7 +2,7 @@
 
 [Deutsch](overview.de.md) · [English](overview.en.md) · [Repository](../README.md)
 
-Datengrundlage: 4 Kombinationen aus Runtime und Model Zoo; Qwen3-4B ist in den letzten 5.5/5.5-Lauf integriert. Raspberry Pi CM5, etwa 15 GiB Host-RAM und Hailo-10H mit 8 GB. Alle hier dargestellten Hauptbewertungen verwenden **reference-checks-v1.3**; ältere Berichte/Archive können frühere Punktzahlen enthalten.
+Datengrundlage: 4 Kombinationen aus Runtime und Model Zoo; Qwen3-4B ist in den letzten 5.5/5.5-Lauf integriert. Raspberry Pi CM5, etwa 15 GiB Host-RAM und Hailo-10H mit 8 GB. Alle hier dargestellten Hauptbewertungen verwenden **reference-checks-v1.4**; ältere Berichte/Archive können frühere Punktzahlen enthalten.
 
 ## Versuchsmatrix
 
@@ -58,15 +58,15 @@ Token/s als arithmetische Mittelwerte. CPU-Gemma verwendet in jeder Spalte dasse
 | Modell | Antworten | Ladungen | Laden s | TTFT DE / EN s | Decode Token/s | Datei GiB | Hailo-RAM GiB | Host-RSS GiB | Objektive Punkte | Redaktionelle Punkte | Offen |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Qwen3-4B-Instruct-2507 | 198 | 3 | 18.85 | 3.08 / 1.55 | 2.10 | 5.27 | 6.13 | 0.12 | 98/126 | 58/72 | 0 |
-| Gemma4-E2B-Instruct | 198 | 3 | 13.48 | 0.52 / 0.45 | 5.67 | 3.11 | 3.78 | 0.08 | 79.5/126 | 59.25/72 | 0 |
+| Gemma4-E2B-Instruct | 198 | 3 | 13.48 | 0.52 / 0.45 | 5.67 | 3.11 | 3.78 | 0.08 | 79.5/126 | 60/72 | 0 |
 | Qwen3-VL-4B-Instruct | 198 | 3 | 22.87 | 3.28 / 1.65 | 2.29 | 6.08 | 6.95 | 0.12 | 105.5/126 | 59/72 | 0 |
 | DeepSeek-R1-Distill-Qwen-1.5B | 198 | 3 | 5.72 | 1.74 / 1.46 | 7.70 | 2.10 | 2.49 | 0.07 | 10.25/126 | 0/72 | 0 |
 | Qwen2.5-Coder-1.5B-Instruct | 198 | 3 | 3.84 | 0.63 / 0.32 | 8.33 | 1.55 | 2.02 | 0.07 | 98.5/126 | 16/72 | 0 |
-| Qwen2-1.5B-Instruct | 198 | 3 | 3.94 | 0.63 / 0.32 | 8.32 | 1.54 | 2.02 | 0.07 | 90.5/126 | 38/72 | 0 |
-| Qwen2-VL-2B-Instruct | 198 | 3 | 8.10 | 0.55 / 0.28 | 7.75 | 2.91 | 3.50 | 0.08 | 84/126 | 30/72 | 0 |
+| Qwen2-1.5B-Instruct | 198 | 3 | 3.94 | 0.63 / 0.32 | 8.32 | 1.54 | 2.02 | 0.07 | 90.5/126 | 40/72 | 0 |
+| Qwen2-VL-2B-Instruct | 198 | 3 | 8.10 | 0.55 / 0.28 | 7.75 | 2.91 | 3.50 | 0.08 | 84/126 | 33/72 | 0 |
 | Qwen2.5-1.5B-Instruct | 198 | 3 | 5.22 | 0.73 / 0.37 | 7.40 | 2.32 | 2.81 | 0.07 | 72.5/126 | 31/72 | 0 |
 | Qwen2-1.5B-Instruct-Function-Calling-v1 | 198 | 3 | 6.56 | 0.80 / 0.40 | 7.01 | 2.43 | 3.02 | 0.09 | 68.5/126 | 7/72 | 0 |
-| Llama3.2-1B-Instruct | 198 | 3 | 3.60 | 0.67 / 0.39 | 10.09 | 1.26 | 1.74 | 0.07 | 39/126 | 21/72 | 0 |
+| Llama3.2-1B-Instruct | 198 | 3 | 3.60 | 0.67 / 0.39 | 10.09 | 1.26 | 1.74 | 0.07 | 39/126 | 24/72 | 0 |
 | Qwen3-1.7B-Instruct | 198 | 3 | 7.02 | 1.25 / 0.63 | 4.77 | 2.75 | 3.40 | 0.08 | 112.5/126 | 9/72 | 0 |
 | Qwen3-VL-2B-Instruct | 198 | 3 | 7.96 | 1.26 / 0.64 | 4.88 | 2.97 | 3.75 | 0.08 | 107/126 | 0/72 | 0 |
 | gemma-4-E2B-it | 198 | 3 | 2.74 | 1.26 / 1.25 | 8.48 | 2.41 | — | 0.46 | 108/126 | 66/72 | 0 |
@@ -85,11 +85,11 @@ Token/s als arithmetische Mittelwerte. CPU-Gemma verwendet in jeder Spalte dasse
 | Modell | Antworten | Ladungen | Laden s | TTFT DE / EN s | Decode Token/s | Datei GiB | Hailo-RAM GiB | Host-RSS GiB | Objektive Punkte | Redaktionelle Punkte | Offen |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | gemma-4-E2B-it | 198 | 3 | 2.74 | 1.26 / 1.25 | 8.48 | 2.41 | — | 0.46 | 108/126 | 66/72 | 0 |
-| Gemma4-E2B-Instruct | 198 | 3 | 13.48 | 0.52 / 0.45 | 5.67 | 3.11 | 3.78 | 0.08 | 79.5/126 | 59.25/72 | 0 |
+| Gemma4-E2B-Instruct | 198 | 3 | 13.48 | 0.52 / 0.45 | 5.67 | 3.11 | 3.78 | 0.08 | 79.5/126 | 60/72 | 0 |
 
 **CPU/LiteRT:** das ausgewogenste Ergebnis in diesem Test: 108/126 objektive und 66/72 redaktionelle Punkte bei etwa 8,48 Token/s. Erster Text nach etwa 1,26 s. Für allgemeinen Textchat auf diesem CM5 geeignet, wenn CPU-Ressourcen verfügbar sind. Kalenderfehler bleiben; es ist nicht allgemein fehlerfrei.
 
-**Hailo/nativ:** früherer erster Text (etwa 0,52 s DE / 0,45 s EN), aber etwa 5,67 Token/s, 79,5/126 objektive und 59,25/72 redaktionelle Punkte. Mehrere Ausgaben enthalten Restmarker, Padding oder angehängtes `agma`; erkennbare richtige Antworten erhalten nach Nutzerregel 0,25 Punkte. Ob Tokenizer, Konvertierung oder Decoder die Ursache sind, wurde nicht isoliert. Vor Nutzung für exakte strukturierte Ausgaben sollten diese Artefakte untersucht werden.
+**Hailo/nativ:** früherer erster Text (etwa 0,52 s DE / 0,45 s EN), aber etwa 5,67 Token/s, 79,5/126 objektive und 60/72 redaktionelle Punkte. Mehrere Ausgaben enthalten Restmarker, Padding oder angehängtes `agma`; erkennbare richtige Antworten erhalten nach Nutzerregel 0,25 Punkte. Ob Tokenizer, Konvertierung oder Decoder die Ursache sind, wurde nicht isoliert. Vor Nutzung für exakte strukturierte Ausgaben sollten diese Artefakte untersucht werden.
 
 Es handelt sich um unterschiedliche LiteRT- und HEF-Artefakte, nicht um ein bitgleiches Modell auf zwei Prozessoren. Der LiteRT-Export verwendet laut Modellkarte gemischte 2-/4-/8-Bit-Gewichte; eine gleiche native Quantisierung ist nicht nachgewiesen. Unterschiedliche Chat-Aufbereitung, Sampler und Rechenkerne können beitragen; ihr Einzeleffekt wurde nicht gemessen. Gleiche Seeds garantieren über Backends hinweg keine gleichen Stichproben.
 
@@ -101,7 +101,7 @@ Host-RSS nach dem Laden (etwa 0,46 GiB) ist nicht der gesamte Speicherverbrauch 
 
 - **Ausgewogener allgemeiner Textchat: Gemma4-E2B mit LiteRT auf CPU.** In diesem Katalog das beste Verhältnis von Sach-/Formatpunkten und redaktionellen Ergebnissen bei etwa 8,5 Token/s. Host-Auslastung berücksichtigen und Fakten weiterhin prüfen.
 - **Sachliche/strukturierte Kurzantworten auf Hailo: Qwen3-1.7B mit Zoo 5.5 und Runtime 5.5.** Höchste objektive Hailo-Bewertung (112,5/126), etwa 4,77 Token/s. JSON validieren und erfundene Aktionen/Zustände ablehnen; 9/72 redaktionelle Punkte erlauben keine uneingeschränkte Chatempfehlung.
-- **Hailo mit schneller Generierung: Qwen2.5-Coder-1.5B.** Etwa 8,33 Token/s und 98,5/126 objektive Punkte. Das ist ein Kurzantwort-/JSON-Ergebnis, kein Programmierbenchmark; redaktionell bleibt es schwach (16/72). Qwen2-1.5B ist bei ähnlichem Tempo redaktionell ausgewogener (38/72), hat aber weniger objektive Punkte (90,5/126).
+- **Hailo mit schneller Generierung: Qwen2.5-Coder-1.5B.** Etwa 8,33 Token/s und 98,5/126 objektive Punkte. Das ist ein Kurzantwort-/JSON-Ergebnis, kein Programmierbenchmark; redaktionell bleibt es schwach (16/72). Qwen2-1.5B ist bei ähnlichem Tempo redaktionell ausgewogener (40/72), hat aber weniger objektive Punkte (90,5/126).
 - **Hailo-Chat mit besserem Umgang mit fehlenden Zugriffsmöglichkeiten: Qwen3-VL-4B erproben.** 105,5/126 objektive und 59/72 redaktionelle Punkte; etwa 2,29 Token/s und 6,95 GiB belegter Gerätespeicher. Nur sinnvoll, wenn Latenz und Speicherbedarf passen. Bildqualität wurde nicht geprüft.
 - **Qwen3-VL-2B für weniger Speicher und mehr Tempo als 4B, mit strenger Absicherung.** 107/126 objektive Punkte und etwa 4,88 Token/s; 0/72 redaktionelle Punkte in diesem Katalog sprechen gegen einen ungeprüften Einsatz als Gerätesteuerungsassistent.
 - **Qwen3-4B nicht allein wegen der Größe bevorzugen.** Der letzte 5.5-Lauf liefert 98/126 objektive und 58/72 redaktionelle Punkte, aber nur etwa 2,10 Token/s. Dieser Test rechtfertigt keinen generellen Wechsel von kleineren Modellen.
@@ -112,7 +112,7 @@ Host-RSS nach dem Laden (etwa 0,46 GiB) ist nicht der gesamte Speicherverbrauch 
 
 Je vollständigem Modell: 3 Ladungen in frischen Prozessen, 33 Fragen × 2 Sprachen × 3 = 198 Anfragen mit frischem Kontext. Temperatur 0,1; Seeds 1/2/3; Ausgabelimit 128; Kontextlimit 2048 soweit konfiguriert. Keine Bilder, echten Tools oder externen Wetterdaten. Das nächste Artefakt kann im Hintergrund geladen werden; nie zwei Hailo-Modelle gleichzeitig.
 
-Nutzerregel v1.3: erkennbare richtige Antworten mit beschädigten Ausgabe-Artefakten = 0,25 Punkte und Format 0; zusätzliche Erklärung bei ausdrücklicher Kurzantwortvorgabe = 0. Ohne diese Vorgabe ist ein richtiger Satz erlaubt. Reguläre erkannte Stopmarker werden ohne Abzug entfernt. Rohantworten bleiben unverändert. Objektive Punkte und redaktionelle Codex-Sichtung werden nicht zu einer erfundenen Gesamtgenauigkeit vermischt.
+Nutzerregel v1.4: erkennbare richtige Antworten mit beschädigten Ausgabe-Artefakten = 0,25 Punkte und Format 0; zusätzliche Erklärung bei ausdrücklicher Kurzantwortvorgabe = 0. Ohne diese Vorgabe ist ein richtiger Satz erlaubt. Bei E05 entfällt die Drei-Satz-Vorgabe für einen klaren Hinweis auf fehlende aktuelle Wetterdaten. Bloße Ablehnung und erfundenes Wetter zählen nicht als richtige Antwort. Reguläre erkannte Stopmarker werden ohne Abzug entfernt. Rohantworten bleiben unverändert. Objektive Punkte und redaktionelle Codex-Sichtung werden nicht zu einer erfundenen Gesamtgenauigkeit vermischt.
 
 Nur drei Wiederholungen, ähnliche Fragen, nicht kontrollierte Temperatur-/Cache-/Lastbedingungen und zeitlich aufeinanderfolgende Experimente. Die Werte sind beschreibend, keine statistisch abgesicherten Ranglisten. TTFT ist der erste nichtleere Textchunk; Ausgaben werden nachtokenisiert, daher ist Token/s nicht zwingend der interne Decoder-Durchsatz. Download sowie native Imports/Geräteerzeugung sind von der Ladezeit ausgenommen.
 

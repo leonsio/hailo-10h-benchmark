@@ -4,7 +4,7 @@
 
 Runtime: **HailoRT-CLI version 5.4.0** · Zoo: **v5.5.0** · Start: 2026-11-04T14:43:33+0100
 
-Diagnostic, preflight, interrupted or failed attempt. Excluded from headline comparisons. Its original settings may differ and legacy correctness files are not promoted to v1.3.
+Diagnostic, preflight, interrupted or failed attempt. Excluded from headline comparisons. Its original settings may differ and legacy correctness files are not promoted to v1.4.
 
 | Model | Answers | Loads | Load s | TTFT DE / EN s | Decode token/s | File GiB | Hailo RAM GiB | Host RSS GiB | Objective points | Editorial points | Pending |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|

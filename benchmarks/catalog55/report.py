@@ -74,7 +74,7 @@ def render(output):
     if (output/'correctness_summary.json').exists():
         quality=json.loads((output/'correctness_summary.json').read_text())
         qa={(row['model'],row['language']):row for row in quality}
-        lines += ['', '## Richtigkeit der Antworten', '', 'Automatische Referenzprüfung und gesonderte redaktionelle Sichtung durch Codex. Noch offene Fälle sind nicht als richtig bestätigt. Technische Generierungsfehler werden separat erfasst.', '', '| Modell | C DE Punkte / Format | C EN Punkte / Format | Sachaufgaben DE Punkte | Sachaufgaben EN Punkte | Redaktionell geprüft | Offen |', '|---|---|---|---|---|---:|---:|']
+        lines += ['', '## Richtigkeit der Antworten', '', 'Automatische Referenzprüfung und gesonderte redaktionelle Sichtung durch Codex. E05: Bei einem klaren Hinweis auf fehlende Wetterdaten entfällt die Drei-Satz-Vorgabe (v1.4). Noch offene Fälle sind nicht als richtig bestätigt. Technische Generierungsfehler werden separat erfasst.', '', '| Modell | C DE Punkte / Format | C EN Punkte / Format | Sachaufgaben DE Punkte | Sachaufgaben EN Punkte | Redaktionell geprüft | Offen |', '|---|---|---|---|---|---:|---:|']
         for model in metadata['models']:
             de=qa.get((model,'de'),{}); en=qa.get((model,'en'),{})
             def controlled(row):

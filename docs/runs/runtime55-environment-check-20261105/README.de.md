@@ -4,7 +4,7 @@
 
 Runtime: **HailoRT-CLI version 5.5.0** · Zoo: **existing-service-artifact** · Start: 2026-11-05T00:08:59+0100
 
-Diagnose-, Vorab-, abgebrochener oder fehlgeschlagener Lauf. Nicht in die Gesamtvergleichswerte eingemischt. Einstellungen können abweichen; alte Bewertungsdateien werden nicht als v1.3 ausgegeben.
+Diagnose-, Vorab-, abgebrochener oder fehlgeschlagener Lauf. Nicht in die Gesamtvergleichswerte eingemischt. Einstellungen können abweichen; alte Bewertungsdateien werden nicht als v1.4 ausgegeben.
 
 | Modell | Antworten | Ladungen | Laden s | TTFT DE / EN s | Decode Token/s | Datei GiB | Hailo-RAM GiB | Host-RSS GiB | Objektive Punkte | Redaktionelle Punkte | Offen |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|

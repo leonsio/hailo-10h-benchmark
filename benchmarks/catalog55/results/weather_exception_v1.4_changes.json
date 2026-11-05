@@ -1,0 +1,108 @@
+[
+  {
+    "run": "runtime54-prefetch",
+    "changes": [
+      {
+        "model": "Qwen2-1.5B-Instruct",
+        "language": "en",
+        "old_editorial_points": 27.0,
+        "new_editorial_points": 29.0
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "language": "en",
+        "old_editorial_points": 24.0,
+        "new_editorial_points": 27.0
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "language": "en",
+        "old_editorial_points": 17.0,
+        "new_editorial_points": 20.0
+      }
+    ],
+    "measurement_hashes": {
+      "answers.jsonl": "bb1d1950273f59d9fa3cd3cd1663adb41e63e91ec330aa68fb19bb49941134be",
+      "loads.jsonl": "00d84915dd6e25324520ddff661b4d9e2fc9587abff70face32c6081b245eb70"
+    },
+    "review_pending": 0
+  },
+  {
+    "run": "runtime54-zoo54",
+    "changes": [
+      {
+        "model": "Qwen2-1.5B-Instruct",
+        "language": "en",
+        "old_editorial_points": 27.0,
+        "new_editorial_points": 29.0
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "language": "en",
+        "old_editorial_points": 17.0,
+        "new_editorial_points": 20.0
+      }
+    ],
+    "measurement_hashes": {
+      "answers.jsonl": "5011602c4fced6911032e94d75ed72eaf3e45e4a07be2dcd3e987afdd22f674b",
+      "loads.jsonl": "2d88de0403f2780079c732307fa2190bf71abdfdd952dc24940473c18aaba6ba"
+    },
+    "review_pending": 0
+  },
+  {
+    "run": "runtime55-zoo55",
+    "changes": [
+      {
+        "model": "Gemma4-E2B-Instruct",
+        "language": "de",
+        "old_editorial_points": 33.0,
+        "new_editorial_points": 33.75
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct",
+        "language": "en",
+        "old_editorial_points": 27.0,
+        "new_editorial_points": 29.0
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "language": "en",
+        "old_editorial_points": 24.0,
+        "new_editorial_points": 27.0
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "language": "en",
+        "old_editorial_points": 17.0,
+        "new_editorial_points": 20.0
+      }
+    ],
+    "measurement_hashes": {
+      "answers.jsonl": "4721f2d6d92077b6a531dfb3f00b0e9ab6c7475c8620b88e7a8dbaba1f751778",
+      "loads.jsonl": "6261aaf16f4c9e6d78509b330da1cee4e40ea29e63cbdca358b8160b2356cba3"
+    },
+    "review_pending": 0
+  },
+  {
+    "run": "runtime55-zoo54",
+    "changes": [
+      {
+        "model": "Qwen2-1.5B-Instruct",
+        "language": "en",
+        "old_editorial_points": 27.0,
+        "new_editorial_points": 29.0
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "language": "en",
+        "old_editorial_points": 17.0,
+        "new_editorial_points": 20.0
+      }
+    ],
+    "measurement_hashes": {
+      "answers.jsonl": "16d1d32ee85efe282481d2afd893d54c3b62ce0a45e13899e66944bea5085b9a",
+      "loads.jsonl": "4c11976917bb92df9346db4149783840bbde444fce504f4f1e9b8bfa1f282de1"
+    },
+    "review_pending": 0
+  }
+]

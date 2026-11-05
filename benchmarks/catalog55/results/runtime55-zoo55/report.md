@@ -1,6 +1,6 @@
 # Ergebnisse des Chat-Benchmarks
 
-Aktualisiert: 2026-11-05 09:49:08 CET.
+Aktualisiert: 2026-11-05 10:13:03 CET.
 Status: abgeschlossen. Start: 2026-11-05T00:14:57+0100.
 Runtime: `HailoRT-CLI version 5.5.0`. Modellartefakte: `v5.5.0`.
 Drei Wiederholungen je Modell; maximal 128 Ausgabetokens. Hintergrunddownload: aktiviert.
@@ -34,7 +34,7 @@ Details: `answers.jsonl`, `loads.jsonl`, `events.jsonl`, `question_means.json`, 
 
 ## Richtigkeit der Antworten
 
-Automatische Referenzprüfung und gesonderte redaktionelle Sichtung durch Codex. Noch offene Fälle sind nicht als richtig bestätigt. Technische Generierungsfehler werden separat erfasst.
+Automatische Referenzprüfung und gesonderte redaktionelle Sichtung durch Codex. E05: Bei einem klaren Hinweis auf fehlende Wetterdaten entfällt die Drei-Satz-Vorgabe (v1.4). Noch offene Fälle sind nicht als richtig bestätigt. Technische Generierungsfehler werden separat erfasst.
 
 | Modell | C DE Punkte / Format | C EN Punkte / Format | Sachaufgaben DE Punkte | Sachaufgaben EN Punkte | Redaktionell geprüft | Offen |
 |---|---|---|---|---|---:|---:|

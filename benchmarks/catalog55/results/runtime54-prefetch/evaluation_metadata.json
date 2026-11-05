@@ -1,11 +1,11 @@
 {
-  "version": "reference-checks-v1.3",
-  "evaluator_source_sha256": "92868b8347d556013090890f826e745b783cdb0bae5e0910fc9c677387a34c5f",
-  "manual_reviews_sha256": "ec5d92116b0ea57794a767307d05007ad19cb8c5622ef5e27a49cf8a15e8ff26",
+  "version": "reference-checks-v1.4",
+  "evaluator_source_sha256": "7a783315c2267bab9fe70ae2ccc4988057c100069f010617b1fdbc74069c105a",
+  "manual_reviews_sha256": "c2970625feced5ae6064946d83f0d479e64826404b7523d7cd809aadc1135707",
   "answer_count": 1980,
   "raw_answers_sha256": "bb1d1950273f59d9fa3cd3cd1663adb41e63e91ec330aa68fb19bb49941134be",
   "controlled_scoring": "Explicit output restrictions affect points; semantic_score preserves factual match; format separately reported",
   "partial_credit": "Output artifacts with recognizable correct answer: 0.25, format=0; strict output restriction violated without artifact: 0; Bolivia: La Paz alone 0.5; calendar: weekday/date each 0.5",
-  "subjective_scoring": "Codex/editorial review is separate from objective accuracy; structural checks alone do not establish quality",
+  "subjective_scoring": "Codex/editorial review is separate from objective accuracy; E05: clear missing-weather-data statements waive sentence count; generic refusals or fabricated weather do not qualify",
   "reference_date": "2028-03-01 minus two days = Monday 2028-02-28"
 }

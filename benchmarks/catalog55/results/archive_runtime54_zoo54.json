@@ -1,6 +1,6 @@
 {
-  "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.4.0_zoo-v5.4.0_20261104-222347.tar.gz",
-  "sha256": "a547a6863fa944f3a94392e0d22ca4f38364b87fcaaef7dc6971ffb4b7108b61",
-  "files": 65,
+  "path": "/home/leonsio/hailo-10h-benchmark/benchmarks/catalog55/results/archives/hailort-5.4.0_zoo-v5.4.0_20261105-101401.tar.gz",
+  "sha256": "7631eceac4117449ed5e2f6b6e21cdc986c13dab3c9ed955d9ab6c65a2b5ebf5",
+  "files": 93,
   "verified": true
 }

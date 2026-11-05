@@ -270,8 +270,8 @@
     "objective_points": 45.0,
     "manual_reviewed": 36,
     "manual_pending": 0,
-    "manual_quality_pass": 27,
-    "manual_quality_points": 27.0,
+    "manual_quality_pass": 29,
+    "manual_quality_points": 29.0,
     "review_pending": 0,
     "technical_errors": 0
   },
@@ -316,8 +316,8 @@
     "objective_points": 42.0,
     "manual_reviewed": 36,
     "manual_pending": 0,
-    "manual_quality_pass": 24,
-    "manual_quality_points": 24.0,
+    "manual_quality_pass": 27,
+    "manual_quality_points": 27.0,
     "review_pending": 0,
     "technical_errors": 0
   },
@@ -454,8 +454,8 @@
     "objective_points": 26.0,
     "manual_reviewed": 36,
     "manual_pending": 0,
-    "manual_quality_pass": 17,
-    "manual_quality_points": 17.0,
+    "manual_quality_pass": 20,
+    "manual_quality_points": 20.0,
     "review_pending": 0,
     "technical_errors": 0
   },

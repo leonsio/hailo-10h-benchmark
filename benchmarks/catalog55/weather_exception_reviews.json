@@ -1,0 +1,542 @@
+{
+  "question": "E05",
+  "version": "reference-checks-v1.4",
+  "decisions": {
+    "22fdfd3c4eb7404bba5d6e8eb8dea8c08c95cb292b0d9b9d9d7b8d7a11467c42": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653694+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "e8a4f1f7090494af5dbe8229f77ca5d51c01b0dcc9a1ab0022ff8a745e35ea77": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653776+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "8f67e51bf0039462b24473e7b909c425557d1c8510aedeec029d6862795ff2de": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653818+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "45db480cc2fa0ba182f695ecc7e55c5bfe729f12c7bc5c31951bf7b389d33151": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653854+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "c288a9fc7c9d776349882fb10fc090de9cc3536cace6e7f49732eaed86ebd3bb": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653888+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "6391512a8ab0f441df45e9bad8c9358cda26155b2fd54dc56abb6fb81ef1c80c": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653920+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "867564b3e86402852e0c9b130aa7360a19629bb3e2872944231f07af44d8b412": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653935+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "8fd73679573b9b97c70a12ec3bee6395fdb903cba5c11d0387e44b52740f9b7f": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653948+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "b461ecc08a67290548635c1a0174fc2ea11b0a0e88177e581c682169220f62eb": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653963+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "7649841b0a9703b7d53cea5401c0ee69247099353141f3be6b2e3f9b821888ed": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653978+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "2ece29f3beba1256b8bfbf46987363ad2dd9996254169c0d055bebead5b980ee": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.653990+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "d814a71e6b1fd6e1ff63c528b82f31862fd661a54af58dc9c70ea269cecc9c1b": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654003+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "72547bd243dfb5452895886214e14fa42eae91ef73b6eb54f319c4349d3f83dc": {
+      "quality_pass": true,
+      "weather_data_unavailable": true,
+      "notes": "Klarer Hinweis auf fehlende aktuelle Wetterdaten; Satzanzahl nach Nutzerregel v1.4 unerheblich.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654015+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "2ec6c66c5d2e2675518f3957094c6540d294cdd22bd65b2499061c0538d6956b": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654027+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "cb3ee64d2610e2a980e7033c62b80bbecc3abc0a48e88fe24aec2c6f71fe67d8": {
+      "quality_pass": true,
+      "weather_data_unavailable": true,
+      "notes": "Klarer Hinweis auf fehlende aktuelle Wetterdaten; Satzanzahl nach Nutzerregel v1.4 unerheblich.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654039+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "69c4789b217c3517cae2fd30868cdd10f2b55210499fde79e2f8ae683589a2aa": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654056+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "b2031e7de4d37251ebe462b74214b0560fa1c70da28feb5185d1cf58139ea855": {
+      "quality_pass": true,
+      "weather_data_unavailable": true,
+      "notes": "Klarer Hinweis auf fehlende aktuelle Wetterdaten; Satzanzahl nach Nutzerregel v1.4 unerheblich.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654069+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "df229cdbc05e5f6dfc08d5b716a99962b04cfd8fe96f158ead1735850309636c": {
+      "quality_pass": true,
+      "weather_data_unavailable": true,
+      "notes": "Klarer Hinweis auf fehlende aktuelle Wetterdaten; Satzanzahl nach Nutzerregel v1.4 unerheblich.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654083+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "1328633fedffea02b2c546b9cb891d3bf2a7aca6c22194f0f071e4c66d3a6d6d": {
+      "quality_pass": true,
+      "weather_data_unavailable": true,
+      "notes": "Klarer Hinweis auf fehlende aktuelle Wetterdaten; Satzanzahl nach Nutzerregel v1.4 unerheblich.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654095+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "33586610f7a3aaedc2f727b2184627cf57e6b775dbc45ddf28f623cc60b9573e": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654107+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "2aa10269f3dbf303d00dfb99e86824bc02bbe55ddf9f70228681b711c50e5e27": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654118+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "8f89388047bf75b3c6bd20325817232f286718d828dd45c6b3119a37fb780c52": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654131+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "0cb6484cc0b2b9e437d9a6c8697c3bd0737b9bae2f3b59be13e50346fe9256ed": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654143+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "f5cdce0210da73dd81bd9cfbf6bfb5133a2ad39740dc63ce3aa57d71511661ec": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654156+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "61741e29fbc0b433c1e3ecb2011a1cb745cd54eaeed68391615bdd9f4465b297": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654170+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "fa5ea2af4144b031d766be2da0a6cd293cd2c846ae454ff69720d6f7f2b57dd5": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654182+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "e1abd35091127004bd72fbd1f1547ce0a792b07cbe4844411ee80b43ebc9e843": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654193+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "06085e6ccef4c26c6cbfb54425748ebfc428aa81e082e6938331d09c865bd1bf": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654204+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "f39c178825f325a6fa4b64e70d2942e795ef3645658004ad5dcc4bb9a56c0236": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654217+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "2e6af1fb33ed37d15194651a06a7a1bca9d576e31dc39f5d021f1168038fc491": {
+      "quality_pass": true,
+      "weather_data_unavailable": true,
+      "notes": "Klarer Hinweis auf fehlende aktuelle Wetterdaten; Satzanzahl nach Nutzerregel v1.4 unerheblich.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654229+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "547d78ddf5adb8c167623e161490af7fba85623f12f253ba9c4da9a517041e7a": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654242+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "b95a871324ceccfa0537241e0f5387f0e7ef9f15f9c9673416f49876d09dfb1b": {
+      "quality_pass": true,
+      "weather_data_unavailable": true,
+      "notes": "Klarer Hinweis auf fehlende aktuelle Wetterdaten; Satzanzahl nach Nutzerregel v1.4 unerheblich.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654254+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "6b22fe3b81401a93189d0b6433a31c904f83b78cfceb42c481eb9288e89fb45a": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654266+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "ab7ce0f5e95b820cb9c8875262913d6578ca85400e6e5d1b6a4b2a7558e564fb": {
+      "quality_pass": true,
+      "weather_data_unavailable": true,
+      "notes": "Klarer Hinweis auf fehlende aktuelle Wetterdaten; Satzanzahl nach Nutzerregel v1.4 unerheblich.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654278+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "fff978ed16c5e9e20e5b4aa8563fa7659b9d3812f59f23356b522ff350d1ba73": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654290+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "71bed5e64f8d1ce3a24247dee5d5c9a776a7983fe8ffb979a7f79868f8a41b61": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654304+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "6272d4c5270762fb7ae399d2bd8459022586b1a8f60adc9aa09187d14f7a9e81": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654315+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "e4e5ab47cffceb53bd213dc6ee9282113352a1bc18e584203485f5a1c0adf728": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654327+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "d193b9bfb8d9446ebc39673e43b4103749acd9b93f655b0cfd9bb78b1e6fddaa": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654340+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "d047a5cc3521cefd3a7042207b17e25b54823ac27360c95a5261fc91b68eb3f4": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654351+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "dc41c2fc54b039314c7b763b71a4344fae4078275a3ebcfe52b89bd7d5a8373d": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654366+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "08b91ac02cc8f23d3d0fe0978d962311f31f85f948f32a2a0707ef06430f459d": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654377+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "4faef12032dfa208231c83ba23203486d20aa516a947dec63ba9241d69b7ad0a": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654389+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "4464a948ded20b6806482101b4061006baa72fac7e16cd0bc15ed25f1085eeff": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654401+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "d233c1f9b0b6e3008cfda12d3bc25264535f69aa12de083c548b65e2e92a58a2": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654414+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "108c3fe7935d80752aa4b54631ac349c5884548a4a18e80f923c5722690936e9": {
+      "quality_pass": true,
+      "weather_data_unavailable": true,
+      "notes": "Klarer Hinweis auf fehlende aktuelle Wetterdaten; Satzanzahl nach Nutzerregel v1.4 unerheblich.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654426+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "ae1c6937b54ce82e32f5a78007b38de06f95b68775a57140ac6434511a1729b9": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654437+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "2175b7fc51064367a75942b2b6d98735682590fc7009fd8b69010c37b112a479": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654447+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "b1ae58189fb5914de40b4a29ca7318ed1708a25acdc3d08e582521f7cc0c4fd9": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654458+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "4f08bcd49f5e2a6165dcaae53876d6a2684220ecd96aaa2ffe856210fe92fb94": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654469+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "37bbbb73cb9948627dcc864d48f5b8700d447713339dfd2c3ef87fcb442a63ff": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654481+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "fb9b20916ec413e40349d0012b42b3ca74ff7ba27250d8ef150f0ba510886478": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654492+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "59777b35b74dd411dc648929cd353971668feaaae293eea1867e16cda740ead1": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654503+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "d48ac90a3a876ece2884ccc2a0f0b7236a3bd72f946cae2577c0225b325b8231": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654515+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "baf086d2cf23cd594753055cacb8ee028737e91028b900ef3d1e263ad1f92200": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654529+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "b10e66b7d5885ef745e3e884300dbf4f6c7b9f4890622e3fea6b302a9bd28d00": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654540+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "cece76614d823ff8afea24a4f2eee0af2da6bcd325cfbc3f23b9a764a0fe5e4a": {
+      "quality_pass": true,
+      "weather_data_unavailable": true,
+      "notes": "Fehlende Eingangsdaten und daraus fehlende Auskunft sind im Kontext erkennbar; Satzanzahl unerheblich. Beschädigtes agma/Sprachfragment wird weiterhin mit 0,25 statt 1 Punkt bewertet.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654552+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "00ba1df030e4f9b4c77af29ca47f54e9df9c490d57e591408d24dd8a02a57bbc": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654564+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "301765b49f01cb5884e6cc1b16a90612053cc43b907bce01899a5acc62cbc0f7": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654577+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "6af4d88513309957e724b158728baf9371396e12eed8372bba834c180b73eb73": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654592+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "2b1ec9886671636e7345a018b22e7b79a8c5122d5130a55314fd4449ac9e8868": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654604+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "59e7f5825b1587fd123afa1a2b1d46505e3f05bee6cd1cfabb46b1acebf12679": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654619+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "b27083df9070cdc847f5d519f3057a4c6d51131e77c418067535ac2d9e6f7c82": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654632+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "2dbebe1c926e25bb35e7954cf5dc0f68abc736f8633bad37de262095aed4f7ae": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654647+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "12970add53547b082f0de2ceb05633d3291c4233aa2b04a6604367391a44f6e2": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654661+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "afacf07c2de7293aef5f2c1de1761081f0d3531e6cff48938d4d52ac39ce4087": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654676+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    },
+    "afef5641c6491f98a00a92454e532d63076cbad73f4b8c310846752c02edc8c4": {
+      "quality_pass": false,
+      "weather_data_unavailable": false,
+      "notes": "Kein klarer abgeschlossener Hinweis auf fehlende Wetterdaten: erfundene Wetterbehauptung, bloße Planung oder allgemeine Ablehnung; die neue Ausnahme greift nicht.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T10:12:16.654690+01:00",
+      "rubric_version": "editorial-v1.4-weather-exception"
+    }
+  }
+}
