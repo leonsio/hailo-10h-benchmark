@@ -4,7 +4,7 @@
 
 | Modell | Antworten | Ladungen | Laden s | TTFT DE / EN s | Decode Token/s | Datei GiB | Hailo-RAM GiB | Host-RSS GiB | Objektive Punkte | Redaktionelle Punkte | Offen |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Qwen3-4B-Instruct-2507 | 0 | 0 | — | — / — | — | — | — | — | — | — | — |
+| Qwen3-4B-Instruct-2507 | 66 | 1 | 18.93 | 3.09 / 1.56 | 2.10 | 5.27 | 6.16 | 0.12 | 32/42 | 19/24 | 0 |
 | Gemma4-E2B-Instruct | 66 | 1 | 13.66 | 0.52 / 0.45 | 5.67 | 3.11 | 3.74 | 0.08 | 26.5/42 | 19.75/24 | 0 |
 | Qwen3-VL-4B-Instruct | 66 | 1 | 22.52 | 3.28 / 1.65 | 2.28 | 6.08 | 6.95 | 0.12 | 34.5/42 | 19/24 | 0 |
 | DeepSeek-R1-Distill-Qwen-1.5B | 66 | 1 | 5.75 | 1.74 / 1.46 | 7.71 | 2.10 | 2.48 | 0.07 | 4/42 | 0/24 | 0 |

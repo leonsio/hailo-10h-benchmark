@@ -4,11 +4,11 @@
 
 Runtime: **HailoRT-CLI version 5.5.0** · Zoo: **v5.5.0** · Start: 2026-11-05T00:14:57+0100
 
-Hauptexperiment / vollständiger Modellnachtest.
+Hauptexperiment.
 
 | Modell | Antworten | Ladungen | Laden s | TTFT DE / EN s | Decode Token/s | Datei GiB | Hailo-RAM GiB | Host-RSS GiB | Objektive Punkte | Redaktionelle Punkte | Offen |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Qwen3-4B-Instruct-2507 | 0 | 0 | — | — / — | — | — | — | — | — | — | — |
+| Qwen3-4B-Instruct-2507 | 198 | 3 | 18.85 | 3.08 / 1.55 | 2.10 | 5.27 | 6.13 | 0.12 | 98/126 | 58/72 | 0 |
 | Gemma4-E2B-Instruct | 198 | 3 | 13.48 | 0.52 / 0.45 | 5.67 | 3.11 | 3.78 | 0.08 | 79.5/126 | 59.25/72 | 0 |
 | Qwen3-VL-4B-Instruct | 198 | 3 | 22.87 | 3.28 / 1.65 | 2.29 | 6.08 | 6.95 | 0.12 | 105.5/126 | 59/72 | 0 |
 | DeepSeek-R1-Distill-Qwen-1.5B | 198 | 3 | 5.72 | 1.74 / 1.46 | 7.70 | 2.10 | 2.49 | 0.07 | 10.25/126 | 0/72 | 0 |
@@ -24,11 +24,7 @@ Hauptexperiment / vollständiger Modellnachtest.
 
 Mittelwerte sind keine kontrollierten Kaltstarts. RAM wird nach dem Laden gemessen, nicht als Inferenzspitze. Fehlende Werte sind keine Nullen. Objektive und redaktionelle Punkte bleiben getrennt; 0 offene Prüfungen bedeutet nicht, dass alle Antworten bestanden haben.
 
-Der ursprüngliche Qwen3-4B-Eintrag scheiterte beim Download, nicht beim Laden. Der abgeschlossene Nachtest wird getrennt dokumentiert und in der Übersicht verwendet.
-
-## Fehler
-
-- **Qwen3-4B-Instruct-2507**: RuntimeError('download exit 92')
+Qwen3-4B ist in diesen Lauf integriert: 3 Ladungen und 198 Antworten. Die Messungen erfolgten später mit deaktiviertem Vorladen; Fragen und Inferenzparameter stimmen überein. Herkunftsdaten und der ursprüngliche Downloadfehler bleiben unter provenance/ erhalten.
 
 ## Wiederholungen
 
@@ -49,3 +45,4 @@ Der ursprüngliche Qwen3-4B-Eintrag scheiterte beim Download, nicht beim Laden. 
 - [evaluation_metadata.json](../../../benchmarks/catalog55/results/runtime55-zoo55/evaluation_metadata.json)
 - [report.md](../../../benchmarks/catalog55/results/runtime55-zoo55/report.md)
 - [evaluation_history](../../../benchmarks/catalog55/results/runtime55-zoo55/evaluation_history)
+- [provenance](../../../benchmarks/catalog55/results/runtime55-zoo55/provenance)

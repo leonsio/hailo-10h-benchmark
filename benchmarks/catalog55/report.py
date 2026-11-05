@@ -46,6 +46,8 @@ def render(output):
     fmt=lambda v:'—' if v is None else f'{v:.2f}'
     gib=lambda value:fmt(value/(1024**3)) if value is not None else '—'
     lines=['# Ergebnisse des Chat-Benchmarks','',f"Aktualisiert: {time.strftime('%Y-%m-%d %H:%M:%S %Z')}.",f"Status: {'abgeschlossen' if set(metadata['models'])<=completed else 'Zwischenstand'}. Start: {metadata['started']}.",f"Runtime: `{metadata['runtime']}`. Modellartefakte: `{metadata['release']}`.",f"Drei Wiederholungen je Modell; maximal {metadata['max_tokens']} Ausgabetokens. Hintergrunddownload: {'aktiviert' if metadata.get('prefetch') else 'deaktiviert'}.",'','| Modell | Datei GiB | Hailo-RAM GiB | Host-RSS GiB | Ladungen | Antworten | Ladezeit s | TTFT DE s | TTFT EN s | Decode DE Token/s | Decode EN Token/s | Status |','|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|']
+    if metadata.get('integrated_model_measurements'):
+        lines.insert(6, 'Qwen3-4B ist in diesen Lauf integriert (3 Ladungen, 198 Antworten); seine Messungen erfolgten später ohne Hintergrunddownload. Herkunft und ursprünglicher Downloadfehler: `provenance/`.')
     for model in metadata['models']:
         de=pairs.get((model,'de'),{})
         en=pairs.get((model,'en'),{})

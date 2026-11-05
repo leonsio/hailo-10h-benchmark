@@ -2,14 +2,14 @@
 
 [Deutsch](overview.de.md) · [English](overview.en.md) · [Repository](../README.md)
 
-Datengrundlage: 4 Kombinationen aus Runtime und Model Zoo sowie der erfolgreiche Qwen3-4B-Nachtest. Raspberry Pi CM5, etwa 15 GiB Host-RAM und Hailo-10H mit 8 GB. Alle hier dargestellten Hauptbewertungen verwenden **reference-checks-v1.3**; ältere Berichte/Archive können frühere Punktzahlen enthalten.
+Datengrundlage: 4 Kombinationen aus Runtime und Model Zoo; Qwen3-4B ist in den letzten 5.5/5.5-Lauf integriert. Raspberry Pi CM5, etwa 15 GiB Host-RAM und Hailo-10H mit 8 GB. Alle hier dargestellten Hauptbewertungen verwenden **reference-checks-v1.3**; ältere Berichte/Archive können frühere Punktzahlen enthalten.
 
 ## Versuchsmatrix
 
 | Runtime / firmware / driver | Model Zoo 5.4 | Model Zoo 5.5 |
 |---|---|---|
 | 5.4.0 | [Results](runs/runtime54-zoo54/README.de.md) | [Results](runs/runtime54-prefetch/README.de.md) |
-| 5.5.0 | [Results](runs/runtime55-zoo54/README.de.md) | [Results](runs/runtime55-zoo55/README.de.md) + [Qwen3-4B retry](runs/runtime55-zoo55-qwen4b-persistent/README.de.md) |
+| 5.5.0 | [Results](runs/runtime55-zoo54/README.de.md) | [Results](runs/runtime55-zoo55/README.de.md) |
 
 „Runtime“ bezeichnet hier die gemeinsam aktualisierten Komponenten Firmware, Runtime, Python-Binding und PCIe-Treiber. Der Effekt des Treibers allein wurde nicht isoliert.
 
@@ -73,7 +73,7 @@ Token/s als arithmetische Mittelwerte. CPU-Gemma verwendet in jeder Spalte dasse
 
 ## Einordnung
 
-- Das Upgrade verbessert vor allem Modellkompatibilität und Ladezeiten. Gemma4-E2B und Qwen3-VL-4B laufen jetzt; Qwen3-4B wurde im späteren Nachtest erfolgreich geprüft. Die Ladefehler unter Runtime 5.4 sind keine gültige Grundlage für einen Qualitätsvergleich dieser Modelle.
+- Das Upgrade verbessert vor allem Modellkompatibilität und Ladezeiten. Gemma4-E2B und Qwen3-VL-4B laufen jetzt; die erfolgreichen Qwen3-4B-Messungen sind in den letzten 5.5-Lauf integriert. Die Ladefehler unter Runtime 5.4 sind keine gültige Grundlage für einen Qualitätsvergleich dieser Modelle.
 - Bei den neun gemeinsamen nativen Modellen und der CPU-Referenz sind alle 1.980 zugeordneten Rohantworten der Zoo-5.5-Läufe unter Runtime 5.4/5.5 identisch. Qualitätsänderungen entstehen damit durch Katalogartefakte oder geänderte Bewertungsregeln, nicht durch eine beobachtete Antwortänderung infolge des Runtime-Upgrades.
 - Die meisten gemeinsamen nativen Modelle gewinnen mit Runtime 5.5 nur etwa 1–4 % Decode-Durchsatz; die CPU-Referenz schwankt selbst um etwa 1,5 %. Diese kleinen Gewinne vorsichtig bewerten. Deutlichere Ladezeitverkürzungen: Qwen3-VL-2B (16,03 → 7,96 s), Qwen2-VL-2B (12,31 → 8,10 s) und Qwen2.5-1.5B (8,77 → 5,22 s). Dateicaches und Hintergrunddownloads waren nicht kontrolliert.
 - Zoo 5.5 verbessert insbesondere die objektiven Textchat-Ergebnisse von Qwen3-VL-2B gegenüber Zoo 5.4. Das 4B-VLM geht mit fehlendem Gerätezugriff vorsichtiger um und schreibt oft kohärentere Kurzgeschichten, ist aber langsamer und gewinnt nicht jede Sachaufgabe.
@@ -104,7 +104,7 @@ Host-RSS nach dem Laden (etwa 0,46 GiB) ist nicht der gesamte Speicherverbrauch 
 - **Hailo mit schneller Generierung: Qwen2.5-Coder-1.5B.** Etwa 8,33 Token/s und 98,5/126 objektive Punkte. Das ist ein Kurzantwort-/JSON-Ergebnis, kein Programmierbenchmark; redaktionell bleibt es schwach (16/72). Qwen2-1.5B ist bei ähnlichem Tempo redaktionell ausgewogener (38/72), hat aber weniger objektive Punkte (90,5/126).
 - **Hailo-Chat mit besserem Umgang mit fehlenden Zugriffsmöglichkeiten: Qwen3-VL-4B erproben.** 105,5/126 objektive und 59/72 redaktionelle Punkte; etwa 2,29 Token/s und 6,95 GiB belegter Gerätespeicher. Nur sinnvoll, wenn Latenz und Speicherbedarf passen. Bildqualität wurde nicht geprüft.
 - **Qwen3-VL-2B für weniger Speicher und mehr Tempo als 4B, mit strenger Absicherung.** 107/126 objektive Punkte und etwa 4,88 Token/s; 0/72 redaktionelle Punkte in diesem Katalog sprechen gegen einen ungeprüften Einsatz als Gerätesteuerungsassistent.
-- **Qwen3-4B nicht allein wegen der Größe bevorzugen.** Der erfolgreiche Nachtest liefert 98/126 objektive und 58/72 redaktionelle Punkte, aber nur etwa 2,10 Token/s. Dieser Test rechtfertigt keinen generellen Wechsel von kleineren Modellen.
+- **Qwen3-4B nicht allein wegen der Größe bevorzugen.** Der letzte 5.5-Lauf liefert 98/126 objektive und 58/72 redaktionelle Punkte, aber nur etwa 2,10 Token/s. Dieser Test rechtfertigt keinen generellen Wechsel von kleineren Modellen.
 - **Gemma auf Hailo: zuerst Ausgabeartefakte untersuchen.** Der erste Text kommt früher als beim CPU-Export, die weitere Generierung ist aber langsamer und die Bewertung niedriger. Für aktuellen allgemeinen Textchat den CPU-Export bevorzugen; eine Energieeffizienzempfehlung ist nicht durch Messungen gedeckt.
 - **Llama und DeepSeek:** Llama ist am schnellsten (~10 Token/s), aber in diesem Katalog schwach (39/126). DeepSeek wird durch die kurze Ausgabelänge eingeschränkt. Für diese Aufgaben sind beide keine Standardempfehlung.
 

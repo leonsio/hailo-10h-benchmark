@@ -2,14 +2,14 @@
 
 [Deutsch](overview.de.md) · [English](overview.en.md) · [Repository](../README.md)
 
-Data: 4 runtime/Zoo combinations plus the successful Qwen3-4B retry. Raspberry Pi CM5, about 15 GiB host RAM and an 8 GB Hailo-10H. All headline scores use **reference-checks-v1.3**; previous reports/archives may contain superseded scores.
+Data: 4 runtime/Zoo combinations; Qwen3-4B is integrated into the final 5.5/5.5 experiment. Raspberry Pi CM5, about 15 GiB host RAM and an 8 GB Hailo-10H. All headline scores use **reference-checks-v1.3**; previous reports/archives may contain superseded scores.
 
 ## Experiment matrix
 
 | Runtime / firmware / driver | Model Zoo 5.4 | Model Zoo 5.5 |
 |---|---|---|
 | 5.4.0 | [Results](runs/runtime54-zoo54/README.en.md) | [Results](runs/runtime54-prefetch/README.en.md) |
-| 5.5.0 | [Results](runs/runtime55-zoo54/README.en.md) | [Results](runs/runtime55-zoo55/README.en.md) + [Qwen3-4B retry](runs/runtime55-zoo55-qwen4b-persistent/README.en.md) |
+| 5.5.0 | [Results](runs/runtime55-zoo54/README.en.md) | [Results](runs/runtime55-zoo55/README.en.md) |
 
 Runtime means the entire updated firmware/runtime/driver stack. These experiments do not isolate the PCIe driver alone.
 
@@ -73,7 +73,7 @@ Token/s, arithmetic means. CPU Gemma uses the same LiteRT artifact in every colu
 
 ## Findings
 
-- Updating the stack mainly improves model compatibility and load times. Gemma4-E2B and Qwen3-VL-4B now run, and Qwen3-4B completed its later retry. Their runtime-5.4 load failures provide no valid model-quality baseline.
+- Updating the stack mainly improves model compatibility and load times. Gemma4-E2B and Qwen3-VL-4B now run, and the completed Qwen3-4B measurements are included in the final 5.5 experiment. Their runtime-5.4 load failures provide no valid model-quality baseline.
 - For the nine shared native models and CPU reference, all 1,980 matched raw answers of the Zoo-5.5 runs are identical across runtime 5.4/5.5. Quality changes therefore come from the Zoo artifacts or revised scoring, not an observed change in answers caused by the runtime update.
 - Most shared native models gain only about 1–4% decode throughput with runtime 5.5; CPU reference variability is about 1.5%. Treat these small gains cautiously. Larger load-time reductions include Qwen3-VL-2B (16.03 → 7.96 s), Qwen2-VL-2B (12.31 → 8.10 s), and Qwen2.5-1.5B (8.77 → 5.22 s). OS caches and background downloads were not controlled.
 - Zoo 5.5 notably improves text-chat objective results for Qwen3-VL-2B compared with Zoo 5.4. The 4B VLM is more careful about absent device access and often writes more coherent short stories, but is slower and does not win every factual task.
@@ -104,7 +104,7 @@ Host RSS after load (about 0.46 GiB) is not total CPU inference memory: memory m
 - **Hailo with faster generation: Qwen2.5-Coder-1.5B.** About 8.33 token/s and 98.5/126 objective points. This is a short-answer/JSON result, not a coding benchmark; editorial behavior remains weak (16/72). Qwen2-1.5B gives more balanced editorial behavior (38/72) at similar speed, with lower objective points (90.5/126).
 - **Hailo conversation with better limitation handling: trial Qwen3-VL-4B.** 105.5/126 objective and 59/72 editorial points; about 2.29 token/s and 6.95 GiB loaded device RAM. Use only if this latency/memory cost is acceptable. Vision quality was not tested.
 - **Qwen3-VL-2B for lower memory/faster output than 4B, with strong guardrails.** Objective score 107/126 and about 4.88 token/s, but 0/72 editorial points in this catalog make it unsuitable as an unchecked device-control assistant.
-- **Do not prefer Qwen3-4B just for size.** The successful retry gives 98/126 objective points and 58/72 editorial points, but only about 2.10 token/s. On this workload it does not justify a default switch from smaller choices.
+- **Do not prefer Qwen3-4B just for size.** The final 5.5 run gives 98/126 objective points and 58/72 editorial points, but only about 2.10 token/s. On this workload it does not justify a default switch from smaller choices.
 - **Gemma on Hailo: investigate output artifacts first.** It starts speaking sooner than the CPU export, but is slower afterwards and scores lower. Prefer the CPU export for current general text chat; no power-efficiency claim is supported.
 - **Llama and DeepSeek:** Llama is fastest (~10 token/s) but low quality in this catalog (39/126); DeepSeek is constrained by the short output limit. Neither is the default choice for these questions.
 

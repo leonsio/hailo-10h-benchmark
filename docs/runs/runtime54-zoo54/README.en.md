@@ -4,7 +4,7 @@
 
 Runtime: **HailoRT-CLI version 5.4.0** · Zoo: **v5.4.0** · Start: 2026-11-04T19:03:16+0100
 
-Main experiment / supplemental full-model retry.
+Main experiment.
 
 | Model | Answers | Loads | Load s | TTFT DE / EN s | Decode token/s | File GiB | Hailo RAM GiB | Host RSS GiB | Objective points | Editorial points | Pending |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|

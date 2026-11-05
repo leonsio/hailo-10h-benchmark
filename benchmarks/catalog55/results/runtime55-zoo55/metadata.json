@@ -30,5 +30,20 @@
   "stall_timeout_s": 600,
   "prefetch": true,
   "questions_sha256": "e34a5f9f7ae4e364e5a6a4bd33413a98d797b71468c5c7d7030423a8b1f456f1",
-  "measurements": "TTFT includes context setup; tokens/s uses retokenized output. Native loads exclude download/import/VDevice creation. OS cache uncontrolled. VLM chat is text-only. One next artifact may download and hash in background during inference and later reloads."
+  "measurements": "TTFT includes context setup; tokens/s uses retokenized output. Native loads exclude download/import/VDevice creation. OS cache uncontrolled. VLM chat is text-only. One next artifact may download and hash in background during inference and later reloads.",
+  "integrated_model_measurements": {
+    "Qwen3-4B-Instruct-2507": {
+      "source": "provenance/qwen3-4b-measurements",
+      "original_started": "2026-11-05T08:11:08+0100",
+      "integrated_at": "2026-11-05T09:47:56.005411+01:00",
+      "prefetch": false,
+      "source_sha256": {
+        "answers.jsonl": "e3b56a683465756f7fccd5ac16cd24f382e785f90bb7cf9d42b8b3e9557838a2",
+        "loads.jsonl": "e36dd8890d7d6864f2b50fb3654da9e3678cac9212e0526e46cb62e5e99c0605",
+        "events.jsonl": "1604bd4ddc126b478624663e1d6f2d2c4c9a4a59bfd38aa130337ff8e48ec863",
+        "metadata.json": "bfade1b05e3a73120e807c5454e3cfafe74322ea5eba8fe77f9cd57d5de8b4a9"
+      },
+      "note": "Same questions and inference settings; measured later after successful download, with background prefetch disabled. These are the three Qwen repetitions of this experiment."
+    }
+  }
 }

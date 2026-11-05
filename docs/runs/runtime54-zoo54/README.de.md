@@ -4,7 +4,7 @@
 
 Runtime: **HailoRT-CLI version 5.4.0** · Zoo: **v5.4.0** · Start: 2026-11-04T19:03:16+0100
 
-Hauptexperiment / vollständiger Modellnachtest.
+Hauptexperiment.
 
 | Modell | Antworten | Ladungen | Laden s | TTFT DE / EN s | Decode Token/s | Datei GiB | Hailo-RAM GiB | Host-RSS GiB | Objektive Punkte | Redaktionelle Punkte | Offen |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|

@@ -2,9 +2,9 @@
   "phase": "runtime55_suites_complete",
   "archives": [
     {
-      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.5.0_20261105-043402.tar.gz",
-      "sha256": "19a73e2279984ed31a28bc6d30346ecfacbb7668779ad84a9a419aeab7e05b59",
-      "files": 75,
+      "path": "/home/leonsio/hailo-10h-benchmark/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.5.0_20261105-094955.tar.gz",
+      "sha256": "5f4c07164daa8dfad959abd2a6af6f366ec4d861d7b2881ab4eacf3c13b7bef5",
+      "files": 203,
       "verified": true
     },
     {
@@ -19,5 +19,8 @@
   "editorial_review_complete": true,
   "review_pending": 0,
   "evaluation_archives": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/evaluation_archives_v1.3.json",
-  "evaluator_version": "reference-checks-v1.3"
+  "evaluator_version": "reference-checks-v1.3",
+  "integrated_models": [
+    "Qwen3-4B-Instruct-2507"
+  ]
 }

@@ -1,6 +1,6 @@
 model,language,answers,controlled_content_correct,controlled_points,artifact_partial,strict_response_violations,controlled_total,controlled_review_pending,controlled_format_correct,objective_fully_correct,objective_partial,objective_incorrect,objective_scored,objective_points,manual_reviewed,manual_pending,manual_quality_pass,manual_quality_points,review_pending,technical_errors
-Qwen3-4B-Instruct-2507,de,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Qwen3-4B-Instruct-2507,en,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Qwen3-4B-Instruct-2507,de,99,15,15.0,0,3,18,0,15,45,6,12,63,48.0,36,0,27,27.0,0,0
+Qwen3-4B-Instruct-2507,en,99,18,18.0,0,0,18,0,18,45,10,8,63,50.0,36,0,31,31.0,0,0
 Gemma4-E2B-Instruct,de,99,15,15.75,18,3,18,0,15,30,18,15,63,34.5,36,0,33,33.0,0,0
 Gemma4-E2B-Instruct,en,99,15,15.75,21,3,18,0,15,42,12,9,63,45.0,36,0,24,26.25,0,0
 Qwen3-VL-4B-Instruct,de,99,18,18.0,0,0,18,0,18,51,6,6,63,54.0,36,0,26,26.0,0,0

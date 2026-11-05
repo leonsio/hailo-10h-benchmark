@@ -6,5 +6,6 @@
     "run.py imports extracted prompt_rendering.render_prompt; renderer function is unchanged",
     "results/downloads and process-ID/temporary/cache files excluded"
   ],
-  "renderer_sha256": "b45b994d9fab3b328e9c135c99ea6ac2475c7edc259f684c16128486a4fd5ad4"
+  "renderer_sha256": "b45b994d9fab3b328e9c135c99ea6ac2475c7edc259f684c16128486a4fd5ad4",
+  "result_integration": "Qwen3-4B measurements are integrated into runtime55-zoo55; original source data, metadata and the pre-integration snapshot are retained under that run’s provenance directory."
 }

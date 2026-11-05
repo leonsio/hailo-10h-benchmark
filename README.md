@@ -11,9 +11,9 @@ Reproducible text-chat measurements on a Raspberry Pi CM5 with an 8 GB Hailo-10H
 | 5.4.0 | [DE](docs/runs/runtime54-zoo54/README.de.md) / [EN](docs/runs/runtime54-zoo54/README.en.md) | [DE](docs/runs/runtime54-prefetch/README.de.md) / [EN](docs/runs/runtime54-prefetch/README.en.md) |
 | 5.5.0 | [DE](docs/runs/runtime55-zoo54/README.de.md) / [EN](docs/runs/runtime55-zoo54/README.en.md) | [DE](docs/runs/runtime55-zoo55/README.de.md) / [EN](docs/runs/runtime55-zoo55/README.en.md) |
 
-Qwen3-4B required a later successful download/test: **[Nachtest DE](docs/runs/runtime55-zoo55-qwen4b-persistent/README.de.md)** / **[Retry EN](docs/runs/runtime55-zoo55-qwen4b-persistent/README.en.md)**. Its completed measurements are included in the overview; the failed download remains in the original run.
+**Qwen3-4B is included in the final runtime 5.5 / Zoo 5.5 experiment**, including its three repetitions and all 198 answers. Original measurement provenance is retained inside that experiment.
 
-- [Alle 12 Testläufe einschließlich Vorabtests / all 12 experiment pages](docs/runs/index.de.md), [English index](docs/runs/index.en.md). Each experiment also links to its individual repetitions.
+- [Alle Testläufe einschließlich Vorabtests / all experiment pages](docs/runs/index.de.md), [English index](docs/runs/index.en.md). Each experiment also links to its individual repetitions.
 - [Machine-readable comparison CSV](docs/comparison.csv), [JSON](docs/comparison.json).
 - [Raw measurements, answers, logs, scoring histories and original archives](benchmarks/catalog55/results/).
 - [Bilingual questions](benchmarks/catalog55/questions.md), [JSON](benchmarks/catalog55/questions.json), [scoring rubric](benchmarks/catalog55/evaluation_rubric.md).

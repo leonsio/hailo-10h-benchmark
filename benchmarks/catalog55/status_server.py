@@ -9,7 +9,7 @@ from pathlib import Path
 
 HERE=Path(__file__).resolve().parent
 RESULTS=HERE/'results'
-RUNS=['runtime55-zoo55-qwen4b-persistent','runtime55-zoo55','runtime55-zoo54','runtime54-prefetch','runtime54-zoo54']
+RUNS=['runtime55-zoo55','runtime55-zoo54','runtime54-prefetch','runtime54-zoo54']
 
 def read_json(path, default):
     try: return json.loads(path.read_text())
@@ -30,9 +30,6 @@ def snapshot():
     for name in RUNS:
         p=RESULTS/name;meta=read_json(p/'metadata.json',{})
         experiment=next((r for r in matrix if r.get('output','').endswith('/'+name)),{})
-        if name=='runtime55-zoo55-qwen4b-persistent':
-            retry=read_json(RESULTS/'qwen-retry-status.json',{})
-            experiment={'state':retry.get('phase','queued_after_both_catalog_runs')}
         models=meta.get('models',[])
         answers=records(p/'answers.jsonl');events=records(p/'events.jsonl');loads=records(p/'loads.jsonl')
         summary=read_json(p/'live_summary.json',[]);quality=read_json(p/'correctness_summary.json',[])

@@ -1,13 +1,14 @@
 # Ergebnisse des Chat-Benchmarks
 
-Aktualisiert: 2026-11-05 09:22:33 CET.
+Aktualisiert: 2026-11-05 09:49:08 CET.
 Status: abgeschlossen. Start: 2026-11-05T00:14:57+0100.
 Runtime: `HailoRT-CLI version 5.5.0`. Modellartefakte: `v5.5.0`.
 Drei Wiederholungen je Modell; maximal 128 Ausgabetokens. Hintergrunddownload: aktiviert.
+Qwen3-4B ist in diesen Lauf integriert (3 Ladungen, 198 Antworten); seine Messungen erfolgten später ohne Hintergrunddownload. Herkunft und ursprünglicher Downloadfehler: `provenance/`.
 
 | Modell | Datei GiB | Hailo-RAM GiB | Host-RSS GiB | Ladungen | Antworten | Ladezeit s | TTFT DE s | TTFT EN s | Decode DE Token/s | Decode EN Token/s | Status |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|
-| Qwen3-4B-Instruct-2507 | — | — | — | 0 | 0 | — | — | — | — | — | RuntimeError('download exit 92') |
+| Qwen3-4B-Instruct-2507 | 5.27 | 6.13 | 0.12 | 3 | 198 | 18.85 | 3.08 | 1.55 | 2.10 | 2.10 | abgeschlossen |
 | Gemma4-E2B-Instruct | 3.11 | 3.78 | 0.08 | 3 | 198 | 13.48 | 0.52 | 0.45 | 5.68 | 5.66 | abgeschlossen |
 | Qwen3-VL-4B-Instruct | 6.08 | 6.95 | 0.12 | 3 | 198 | 22.87 | 3.28 | 1.65 | 2.29 | 2.29 | abgeschlossen |
 | DeepSeek-R1-Distill-Qwen-1.5B | 2.10 | 2.49 | 0.07 | 3 | 198 | 5.72 | 1.74 | 1.46 | 7.70 | 7.70 | abgeschlossen |
@@ -37,7 +38,7 @@ Automatische Referenzprüfung und gesonderte redaktionelle Sichtung durch Codex.
 
 | Modell | C DE Punkte / Format | C EN Punkte / Format | Sachaufgaben DE Punkte | Sachaufgaben EN Punkte | Redaktionell geprüft | Offen |
 |---|---|---|---|---|---:|---:|
-| Qwen3-4B-Instruct-2507 | — | — | — | — | 0 | 0 |
+| Qwen3-4B-Instruct-2507 | 15.0/18 / 15/18 | 18.0/18 / 18/18 | 48/63 | 50/63 | 72 | 0 |
 | Gemma4-E2B-Instruct | 15.75/18 / 15/18 | 15.75/18 / 15/18 | 34.5/63 | 45/63 | 72 | 0 |
 | Qwen3-VL-4B-Instruct | 18.0/18 / 18/18 | 18.0/18 / 18/18 | 54/63 | 51.5/63 | 72 | 0 |
 | DeepSeek-R1-Distill-Qwen-1.5B | 0/18 / 0/18 | 0.25/18 / 0/18 | 6/63 | 4.25/63 | 72 | 0 |

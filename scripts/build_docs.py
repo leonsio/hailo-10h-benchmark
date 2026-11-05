@@ -10,7 +10,6 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'benchmarks/catalog55/results'
 DOCS=ROOT/'docs'
 MAIN=['runtime54-zoo54','runtime54-prefetch','runtime55-zoo54','runtime55-zoo55']
-RETRY='runtime55-zoo55-qwen4b-persistent'
 
 def js(p,default=None):
     return json.loads(p.read_text()) if p.exists() else (default if default is not None else {})
@@ -45,16 +44,15 @@ def run_pages():
     for p in sorted(BASE.iterdir()):
         if not (p/'metadata.json').exists():continue
         meta=js(p/'metadata.json');data=aggregate(p)
-        main=p.name in MAIN or p.name==RETRY
+        main=p.name in MAIN
         inventory.append(dict(name=p.name,main=main,metadata=meta,models=data))
         for en in (False,True):
             lang='en' if en else 'de';page=DOCS/'runs'/p.name/f'README.{lang}.md';page.parent.mkdir(parents=True,exist_ok=True)
             title=('Run' if en else 'Testlauf')+' · '+p.name
-            text=[f'# {title}','',f"[Deutsch](README.de.md) · [English](README.en.md) · [{'Overview' if en else 'Gesamtübersicht'}]({link(DOCS/('overview.en.md' if en else 'overview.de.md'),page)})",'',f"Runtime: **{meta.get('runtime','unknown')}** · Zoo: **{meta.get('release','not recorded')}** · Start: {meta.get('started','—')}",'',('Main experiment / supplemental full-model retry.' if main else 'Diagnostic, preflight, interrupted or failed attempt. Excluded from headline comparisons. Its original settings may differ and legacy correctness files are not promoted to v1.3.') if en else ('Hauptexperiment / vollständiger Modellnachtest.' if main else 'Diagnose-, Vorab-, abgebrochener oder fehlgeschlagener Lauf. Nicht in die Gesamtvergleichswerte eingemischt. Einstellungen können abweichen; alte Bewertungsdateien werden nicht als v1.3 ausgegeben.'),'']
+            text=[f'# {title}','',f"[Deutsch](README.de.md) · [English](README.en.md) · [{'Overview' if en else 'Gesamtübersicht'}]({link(DOCS/('overview.en.md' if en else 'overview.de.md'),page)})",'',f"Runtime: **{meta.get('runtime','unknown')}** · Zoo: **{meta.get('release','not recorded')}** · Start: {meta.get('started','—')}",'',('Main experiment.' if main else 'Diagnostic, preflight, interrupted or failed attempt. Excluded from headline comparisons. Its original settings may differ and legacy correctness files are not promoted to v1.3.') if en else ('Hauptexperiment.' if main else 'Diagnose-, Vorab-, abgebrochener oder fehlgeschlagener Lauf. Nicht in die Gesamtvergleichswerte eingemischt. Einstellungen können abweichen; alte Bewertungsdateien werden nicht als v1.3 ausgegeben.'),'']
             text+=table(data,en)
             text+=['',('Three means are not controlled cold starts. RAM is measured after loading, not peak inference memory. Missing values are not zeros. Objective and editorial points remain separate; 0 pending does not mean all answers passed.' if en else 'Mittelwerte sind keine kontrollierten Kaltstarts. RAM wird nach dem Laden gemessen, nicht als Inferenzspitze. Fehlende Werte sind keine Nullen. Objektive und redaktionelle Punkte bleiben getrennt; 0 offene Prüfungen bedeutet nicht, dass alle Antworten bestanden haben.'),'']
-            if p.name=='runtime55-zoo55':text += [('The original Qwen3-4B entry failed during download, not loading. The completed retry is reported separately and used in the overview.' if en else 'Der ursprüngliche Qwen3-4B-Eintrag scheiterte beim Download, nicht beim Laden. Der abgeschlossene Nachtest wird getrennt dokumentiert und in der Übersicht verwendet.'),'']
-            if p.name==RETRY:text += [('Supplemental run: HTTP range retries and verified SHA256 download; prefetch disabled. Three repeats, 198 answers; never average its results with the failed download attempt.' if en else 'Ergänzender Lauf: HTTP-Teil-Downloads mit Wiederholungen und SHA256-Prüfung; Vorladen deaktiviert. Drei Wiederholungen, 198 Antworten; nicht mit dem fehlgeschlagenen Downloadversuch mitteln.'),'']
+            if meta.get('integrated_model_measurements'):text += [('Qwen3-4B is included in this experiment: 3 loads and 198 answers. Its measurements were collected later with background prefetch disabled; questions and inference settings match. Source records and the original download failure are retained under provenance/.' if en else 'Qwen3-4B ist in diesen Lauf integriert: 3 Ladungen und 198 Antworten. Die Messungen erfolgten später mit deaktiviertem Vorladen; Fragen und Inferenzparameter stimmen überein. Herkunftsdaten und der ursprüngliche Downloadfehler bleiben unter provenance/ erhalten.'),'']
             errors=[r for r in data if r['errors']]
             if errors:
                 text+=[('## Errors' if en else '## Fehler'),'']
@@ -66,7 +64,7 @@ def run_pages():
                 text += [f'- [Run {repeat}]({rp.name})' if en else f'- [Durchlauf {repeat}]({rp.name})']
                 rp.write_text('\n'.join([f'# {title} · {repeat}','',f'[← {title}]({page.name})','',*table(aggregate(p,repeat),en),'',('Per-repetition measurements; no inferred zeros for missing data.' if en else 'Einzelwerte dieser Wiederholung; fehlende Messungen werden nicht mit Null aufgefüllt.')])+'\n')
             text+=['',('## Original data' if en else '## Originaldaten'),'']
-            for f in ('metadata.json','questions.json','answers.jsonl','loads.jsonl','events.jsonl','answer_checks.jsonl','manual_reviews.json','correctness_summary.csv','evaluation_metadata.json','report.md','evaluation_history'):
+            for f in ('metadata.json','questions.json','answers.jsonl','loads.jsonl','events.jsonl','answer_checks.jsonl','manual_reviews.json','correctness_summary.csv','evaluation_metadata.json','report.md','evaluation_history','provenance'):
                 if (p/f).exists():text += [f'- [{f}]({link(p/f,page)})']
             page.write_text('\n'.join(text)+'\n')
     return inventory
@@ -74,10 +72,9 @@ def run_pages():
 def overview(inventory,en=False):
     lang='en' if en else 'de';page=DOCS/f'overview.{lang}.md'
     items={x['name']:x for x in inventory};runs={name:{r['model']:r for r in items[name]['models']} for name in MAIN}
-    runs['runtime55-zoo55'].update({r['model']:r for r in items[RETRY]['models']})
     names=list(runs['runtime55-zoo55'])
     title='Hailo-10H benchmark: overall assessment' if en else 'Hailo-10H-Benchmark: Gesamtbewertung'
-    text=[f'# {title}','', '[Deutsch](overview.de.md) · [English](overview.en.md) · [Repository](../README.md)','',('Data: 4 runtime/Zoo combinations plus the successful Qwen3-4B retry. Raspberry Pi CM5, about 15 GiB host RAM and an 8 GB Hailo-10H. All headline scores use **reference-checks-v1.3**; previous reports/archives may contain superseded scores.' if en else 'Datengrundlage: 4 Kombinationen aus Runtime und Model Zoo sowie der erfolgreiche Qwen3-4B-Nachtest. Raspberry Pi CM5, etwa 15 GiB Host-RAM und Hailo-10H mit 8 GB. Alle hier dargestellten Hauptbewertungen verwenden **reference-checks-v1.3**; ältere Berichte/Archive können frühere Punktzahlen enthalten.'),'',('## Experiment matrix' if en else '## Versuchsmatrix'),'','| Runtime / firmware / driver | Model Zoo 5.4 | Model Zoo 5.5 |','|---|---|---|',f"| 5.4.0 | [Results](runs/runtime54-zoo54/README.{lang}.md) | [Results](runs/runtime54-prefetch/README.{lang}.md) |",f"| 5.5.0 | [Results](runs/runtime55-zoo54/README.{lang}.md) | [Results](runs/runtime55-zoo55/README.{lang}.md) + [Qwen3-4B retry](runs/{RETRY}/README.{lang}.md) |",'',('Runtime means the entire updated firmware/runtime/driver stack. These experiments do not isolate the PCIe driver alone.' if en else '„Runtime“ bezeichnet hier die gemeinsam aktualisierten Komponenten Firmware, Runtime, Python-Binding und PCIe-Treiber. Der Effekt des Treibers allein wurde nicht isoliert.'),'',('## Quality across all four combinations' if en else '## Antwortbewertung über alle vier Kombinationen'),'','| Model | RT5.4 / Zoo5.4 | RT5.4 / Zoo5.5 | RT5.5 / Zoo5.4 | RT5.5 / Zoo5.5 |','|---|---:|---:|---:|---:|']
+    text=[f'# {title}','', '[Deutsch](overview.de.md) · [English](overview.en.md) · [Repository](../README.md)','',('Data: 4 runtime/Zoo combinations; Qwen3-4B is integrated into the final 5.5/5.5 experiment. Raspberry Pi CM5, about 15 GiB host RAM and an 8 GB Hailo-10H. All headline scores use **reference-checks-v1.3**; previous reports/archives may contain superseded scores.' if en else 'Datengrundlage: 4 Kombinationen aus Runtime und Model Zoo; Qwen3-4B ist in den letzten 5.5/5.5-Lauf integriert. Raspberry Pi CM5, etwa 15 GiB Host-RAM und Hailo-10H mit 8 GB. Alle hier dargestellten Hauptbewertungen verwenden **reference-checks-v1.3**; ältere Berichte/Archive können frühere Punktzahlen enthalten.'),'',('## Experiment matrix' if en else '## Versuchsmatrix'),'','| Runtime / firmware / driver | Model Zoo 5.4 | Model Zoo 5.5 |','|---|---|---|',f"| 5.4.0 | [Results](runs/runtime54-zoo54/README.{lang}.md) | [Results](runs/runtime54-prefetch/README.{lang}.md) |",f"| 5.5.0 | [Results](runs/runtime55-zoo54/README.{lang}.md) | [Results](runs/runtime55-zoo55/README.{lang}.md) |",'',('Runtime means the entire updated firmware/runtime/driver stack. These experiments do not isolate the PCIe driver alone.' if en else '„Runtime“ bezeichnet hier die gemeinsam aktualisierten Komponenten Firmware, Runtime, Python-Binding und PCIe-Treiber. Der Effekt des Treibers allein wurde nicht isoliert.'),'',('## Quality across all four combinations' if en else '## Antwortbewertung über alle vier Kombinationen'),'','| Model | RT5.4 / Zoo5.4 | RT5.4 / Zoo5.5 | RT5.5 / Zoo5.4 | RT5.5 / Zoo5.5 |','|---|---:|---:|---:|---:|']
     for model in names:
         vals=[]
         for name in MAIN:
@@ -88,7 +85,7 @@ def overview(inventory,en=False):
     text+=['',('Token/s, arithmetic means. CPU Gemma uses the same LiteRT artifact in every column; its placement does not make it a Zoo model.' if en else 'Token/s als arithmetische Mittelwerte. CPU-Gemma verwendet in jeder Spalte dasselbe LiteRT-Artefakt; die Zuordnung zu den Läufen macht es nicht zu einem Model-Zoo-Modell.'),'',('## Runtime 5.5 with Zoo 5.5: full picture' if en else '## Runtime 5.5 mit Zoo 5.5: Gesamtbild'),'']+table(list(runs['runtime55-zoo55'].values()),en)
     text+=['',('## Findings' if en else '## Einordnung'),'']
     findings_en=[
-        'Updating the stack mainly improves model compatibility and load times. Gemma4-E2B and Qwen3-VL-4B now run, and Qwen3-4B completed its later retry. Their runtime-5.4 load failures provide no valid model-quality baseline.',
+        'Updating the stack mainly improves model compatibility and load times. Gemma4-E2B and Qwen3-VL-4B now run, and the completed Qwen3-4B measurements are included in the final 5.5 experiment. Their runtime-5.4 load failures provide no valid model-quality baseline.',
         'For the nine shared native models and CPU reference, all 1,980 matched raw answers of the Zoo-5.5 runs are identical across runtime 5.4/5.5. Quality changes therefore come from the Zoo artifacts or revised scoring, not an observed change in answers caused by the runtime update.',
         'Most shared native models gain only about 1–4% decode throughput with runtime 5.5; CPU reference variability is about 1.5%. Treat these small gains cautiously. Larger load-time reductions include Qwen3-VL-2B (16.03 → 7.96 s), Qwen2-VL-2B (12.31 → 8.10 s), and Qwen2.5-1.5B (8.77 → 5.22 s). OS caches and background downloads were not controlled.',
         'Zoo 5.5 notably improves text-chat objective results for Qwen3-VL-2B compared with Zoo 5.4. The 4B VLM is more careful about absent device access and often writes more coherent short stories, but is slower and does not win every factual task.',
@@ -96,7 +93,7 @@ def overview(inventory,en=False):
         'DeepSeek is poorly suited to this 128-output-token short-answer setup: reasoning often consumes the budget. Its low score is not a general assessment of unrestricted reasoning ability.'
     ]
     findings_de=[
-        'Das Upgrade verbessert vor allem Modellkompatibilität und Ladezeiten. Gemma4-E2B und Qwen3-VL-4B laufen jetzt; Qwen3-4B wurde im späteren Nachtest erfolgreich geprüft. Die Ladefehler unter Runtime 5.4 sind keine gültige Grundlage für einen Qualitätsvergleich dieser Modelle.',
+        'Das Upgrade verbessert vor allem Modellkompatibilität und Ladezeiten. Gemma4-E2B und Qwen3-VL-4B laufen jetzt; die erfolgreichen Qwen3-4B-Messungen sind in den letzten 5.5-Lauf integriert. Die Ladefehler unter Runtime 5.4 sind keine gültige Grundlage für einen Qualitätsvergleich dieser Modelle.',
         'Bei den neun gemeinsamen nativen Modellen und der CPU-Referenz sind alle 1.980 zugeordneten Rohantworten der Zoo-5.5-Läufe unter Runtime 5.4/5.5 identisch. Qualitätsänderungen entstehen damit durch Katalogartefakte oder geänderte Bewertungsregeln, nicht durch eine beobachtete Antwortänderung infolge des Runtime-Upgrades.',
         'Die meisten gemeinsamen nativen Modelle gewinnen mit Runtime 5.5 nur etwa 1–4 % Decode-Durchsatz; die CPU-Referenz schwankt selbst um etwa 1,5 %. Diese kleinen Gewinne vorsichtig bewerten. Deutlichere Ladezeitverkürzungen: Qwen3-VL-2B (16,03 → 7,96 s), Qwen2-VL-2B (12,31 → 8,10 s) und Qwen2.5-1.5B (8,77 → 5,22 s). Dateicaches und Hintergrunddownloads waren nicht kontrolliert.',
         'Zoo 5.5 verbessert insbesondere die objektiven Textchat-Ergebnisse von Qwen3-VL-2B gegenüber Zoo 5.4. Das 4B-VLM geht mit fehlendem Gerätezugriff vorsichtiger um und schreibt oft kohärentere Kurzgeschichten, ist aber langsamer und gewinnt nicht jede Sachaufgabe.',
@@ -114,7 +111,7 @@ def overview(inventory,en=False):
         '**Hailo with faster generation: Qwen2.5-Coder-1.5B.** About 8.33 token/s and 98.5/126 objective points. This is a short-answer/JSON result, not a coding benchmark; editorial behavior remains weak (16/72). Qwen2-1.5B gives more balanced editorial behavior (38/72) at similar speed, with lower objective points (90.5/126).',
         '**Hailo conversation with better limitation handling: trial Qwen3-VL-4B.** 105.5/126 objective and 59/72 editorial points; about 2.29 token/s and 6.95 GiB loaded device RAM. Use only if this latency/memory cost is acceptable. Vision quality was not tested.',
         '**Qwen3-VL-2B for lower memory/faster output than 4B, with strong guardrails.** Objective score 107/126 and about 4.88 token/s, but 0/72 editorial points in this catalog make it unsuitable as an unchecked device-control assistant.',
-        '**Do not prefer Qwen3-4B just for size.** The successful retry gives 98/126 objective points and 58/72 editorial points, but only about 2.10 token/s. On this workload it does not justify a default switch from smaller choices.',
+        '**Do not prefer Qwen3-4B just for size.** The final 5.5 run gives 98/126 objective points and 58/72 editorial points, but only about 2.10 token/s. On this workload it does not justify a default switch from smaller choices.',
         '**Gemma on Hailo: investigate output artifacts first.** It starts speaking sooner than the CPU export, but is slower afterwards and scores lower. Prefer the CPU export for current general text chat; no power-efficiency claim is supported.',
         '**Llama and DeepSeek:** Llama is fastest (~10 token/s) but low quality in this catalog (39/126); DeepSeek is constrained by the short output limit. Neither is the default choice for these questions.'
     ]
@@ -124,7 +121,7 @@ def overview(inventory,en=False):
         '**Hailo mit schneller Generierung: Qwen2.5-Coder-1.5B.** Etwa 8,33 Token/s und 98,5/126 objektive Punkte. Das ist ein Kurzantwort-/JSON-Ergebnis, kein Programmierbenchmark; redaktionell bleibt es schwach (16/72). Qwen2-1.5B ist bei ähnlichem Tempo redaktionell ausgewogener (38/72), hat aber weniger objektive Punkte (90,5/126).',
         '**Hailo-Chat mit besserem Umgang mit fehlenden Zugriffsmöglichkeiten: Qwen3-VL-4B erproben.** 105,5/126 objektive und 59/72 redaktionelle Punkte; etwa 2,29 Token/s und 6,95 GiB belegter Gerätespeicher. Nur sinnvoll, wenn Latenz und Speicherbedarf passen. Bildqualität wurde nicht geprüft.',
         '**Qwen3-VL-2B für weniger Speicher und mehr Tempo als 4B, mit strenger Absicherung.** 107/126 objektive Punkte und etwa 4,88 Token/s; 0/72 redaktionelle Punkte in diesem Katalog sprechen gegen einen ungeprüften Einsatz als Gerätesteuerungsassistent.',
-        '**Qwen3-4B nicht allein wegen der Größe bevorzugen.** Der erfolgreiche Nachtest liefert 98/126 objektive und 58/72 redaktionelle Punkte, aber nur etwa 2,10 Token/s. Dieser Test rechtfertigt keinen generellen Wechsel von kleineren Modellen.',
+        '**Qwen3-4B nicht allein wegen der Größe bevorzugen.** Der letzte 5.5-Lauf liefert 98/126 objektive und 58/72 redaktionelle Punkte, aber nur etwa 2,10 Token/s. Dieser Test rechtfertigt keinen generellen Wechsel von kleineren Modellen.',
         '**Gemma auf Hailo: zuerst Ausgabeartefakte untersuchen.** Der erste Text kommt früher als beim CPU-Export, die weitere Generierung ist aber langsamer und die Bewertung niedriger. Für aktuellen allgemeinen Textchat den CPU-Export bevorzugen; eine Energieeffizienzempfehlung ist nicht durch Messungen gedeckt.',
         '**Llama und DeepSeek:** Llama ist am schnellsten (~10 Token/s), aber in diesem Katalog schwach (39/126). DeepSeek wird durch die kurze Ausgabelänge eingeschränkt. Für diese Aufgaben sind beide keine Standardempfehlung.'
     ]
@@ -142,7 +139,7 @@ def main():
         page=DOCS/'runs'/f'index.{lang}.md'
         text=['# '+('All runs' if en else 'Alle Testläufe'),'']
         for item in inventory:
-            text.append(f"- [{item['name']}]({item['name']}/README.{lang}.md)"+(' — main / retry' if item['main'] else ' — diagnostic / historical'))
+            text.append(f"- [{item['name']}]({item['name']}/README.{lang}.md)"+(' — main' if item['main'] else ' — diagnostic / historical'))
         page.write_text('\n'.join(text)+'\n')
     flat=[dict(experiment=name,**r) for name,data in runs.items() for r in data.values()]
     (DOCS/'comparison.json').write_text(json.dumps(flat,ensure_ascii=False,indent=2)+'\n')
