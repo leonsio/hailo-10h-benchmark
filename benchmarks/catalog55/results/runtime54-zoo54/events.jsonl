@@ -1,0 +1,86 @@
+{"model": "DeepSeek-R1-Distill-Qwen-1.5B", "event": "downloaded", "url": "https://dev-public.hailo.ai/v5.4.0/blob/DeepSeek-R1-Distill-Qwen-1.5B.hef", "bytes": 2287685327, "sha256": "76c3a8ff3a65f7775981c81e9f74d735ebdb6bd4ca880730f65162093b32978e"}
+{"model": "DeepSeek-R1-Distill-Qwen-1.5B", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.21799193101469427, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 456660, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2.5-Coder-1.5B-Instruct", "event": "prefetch_started", "while_testing": "DeepSeek-R1-Distill-Qwen-1.5B"}
+{"model": "Qwen2.5-Coder-1.5B-Instruct", "event": "downloaded", "url": "https://dev-public.hailo.ai/v5.4.0/blob/Qwen2.5-Coder-1.5B-Instruct.hef", "bytes": 1673567535, "sha256": "58524fa3bb723aef7084831295b5a2f367dc3ce43c7a26643f1a8d809cb271ac"}
+{"model": "DeepSeek-R1-Distill-Qwen-1.5B", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "DeepSeek-R1-Distill-Qwen-1.5B", "repeat": 2, "event": "device_idle_verified", "wait_s": 0.22382305096834898, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 485124, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "DeepSeek-R1-Distill-Qwen-1.5B", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "DeepSeek-R1-Distill-Qwen-1.5B", "repeat": 3, "event": "device_idle_verified", "wait_s": 0.21255481301341206, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 469268, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "DeepSeek-R1-Distill-Qwen-1.5B", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "DeepSeek-R1-Distill-Qwen-1.5B", "event": "artifact_deleted"}
+{"model": "Qwen2.5-Coder-1.5B-Instruct", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.2300867399899289, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 471868, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2-1.5B-Instruct", "event": "prefetch_started", "while_testing": "Qwen2.5-Coder-1.5B-Instruct"}
+{"model": "Qwen2-1.5B-Instruct", "event": "downloaded", "url": "https://dev-public.hailo.ai/v5.4.0/blob/Qwen2-1.5B-Instruct.hef", "bytes": 1702481199, "sha256": "5ab3537d638090185ae502a60947aebcb9b584b21d973026b75e1a3742cc2d93"}
+{"model": "Qwen2.5-Coder-1.5B-Instruct", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2.5-Coder-1.5B-Instruct", "repeat": 2, "event": "device_idle_verified", "wait_s": 0.23333124292548746, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 494232, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2.5-Coder-1.5B-Instruct", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2.5-Coder-1.5B-Instruct", "repeat": 3, "event": "device_idle_verified", "wait_s": 0.22524936101399362, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 532856, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2.5-Coder-1.5B-Instruct", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2.5-Coder-1.5B-Instruct", "event": "artifact_deleted"}
+{"model": "Qwen2-1.5B-Instruct", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.20884936698712409, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 565888, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2-VL-2B-Instruct", "event": "prefetch_started", "while_testing": "Qwen2-1.5B-Instruct"}
+{"model": "Qwen2-1.5B-Instruct", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2-1.5B-Instruct", "repeat": 2, "event": "device_idle_verified", "wait_s": 0.22897141403518617, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 594748, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2-VL-2B-Instruct", "event": "downloaded", "url": "https://dev-public.hailo.ai/v5.4.0/blob/Qwen2-VL-2B-Instruct.hef", "bytes": 3255444179, "sha256": "7b2a8ee15269172a6b5e63690ac88d3e59ff9eeaacb3d99d6e1049bc59fbc407"}
+{"model": "Qwen2-1.5B-Instruct", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2-1.5B-Instruct", "repeat": 3, "event": "device_idle_verified", "wait_s": 0.23670050699729472, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 579912, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2-1.5B-Instruct", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2-1.5B-Instruct", "event": "artifact_deleted"}
+{"model": "Qwen2-VL-2B-Instruct", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.22103032004088163, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 520256, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2.5-1.5B-Instruct", "event": "prefetch_started", "while_testing": "Qwen2-VL-2B-Instruct"}
+{"model": "Qwen2.5-1.5B-Instruct", "event": "downloaded", "url": "https://dev-public.hailo.ai/v5.4.0/blob/Qwen2.5-1.5B-Instruct.hef", "bytes": 2464582493, "sha256": "0856a10c2b804cfe1590b80aa5e28369eb7169a9b36de836420a0b8cdf5b8d05"}
+{"model": "Qwen2-VL-2B-Instruct", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2-VL-2B-Instruct", "repeat": 2, "event": "device_idle_verified", "wait_s": 0.22542432299815118, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 469504, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2-VL-2B-Instruct", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2-VL-2B-Instruct", "repeat": 3, "event": "device_idle_verified", "wait_s": 0.2106333510018885, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 474540, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2-VL-2B-Instruct", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2-VL-2B-Instruct", "event": "artifact_deleted"}
+{"model": "Qwen2.5-1.5B-Instruct", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.2157230010489002, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 474716, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2-1.5B-Instruct-Function-Calling-v1", "event": "prefetch_started", "while_testing": "Qwen2.5-1.5B-Instruct"}
+{"model": "Qwen2-1.5B-Instruct-Function-Calling-v1", "event": "downloaded", "url": "https://dev-public.hailo.ai/v5.4.0/blob/Qwen2-1.5B-Instruct-Function-Calling-v1.hef", "bytes": 3401357978, "sha256": "daacb9f73ff2b774a034cf0310bafef73711bd3a2c599f0e7aaf425eb974a333"}
+{"model": "Qwen2.5-1.5B-Instruct", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2.5-1.5B-Instruct", "repeat": 2, "event": "device_idle_verified", "wait_s": 0.22212484490592033, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 468572, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2.5-1.5B-Instruct", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2.5-1.5B-Instruct", "repeat": 3, "event": "device_idle_verified", "wait_s": 0.20809692505281419, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 492364, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2.5-1.5B-Instruct", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2.5-1.5B-Instruct", "event": "artifact_deleted"}
+{"model": "Qwen2-1.5B-Instruct-Function-Calling-v1", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.20989194395951927, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 510612, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Llama3.2-1B-Instruct", "event": "prefetch_started", "while_testing": "Qwen2-1.5B-Instruct-Function-Calling-v1"}
+{"model": "Llama3.2-1B-Instruct", "event": "downloaded", "url": "https://dev-public.hailo.ai/v5.4.0/blob/Llama3.2-1B-Instruct.hef", "bytes": 1402376894, "sha256": "0a0d378c530fb120d81ffcd1bde1b367c7bb1ce6e2d8f3fb8166558eee40536e"}
+{"model": "Qwen2-1.5B-Instruct-Function-Calling-v1", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2-1.5B-Instruct-Function-Calling-v1", "repeat": 2, "event": "device_idle_verified", "wait_s": 0.22019204800017178, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 488220, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2-1.5B-Instruct-Function-Calling-v1", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2-1.5B-Instruct-Function-Calling-v1", "repeat": 3, "event": "device_idle_verified", "wait_s": 0.22470503998920321, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 466860, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen2-1.5B-Instruct-Function-Calling-v1", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen2-1.5B-Instruct-Function-Calling-v1", "event": "artifact_deleted"}
+{"model": "Llama3.2-1B-Instruct", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.2110048410249874, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 439208, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen3-1.7B-Instruct", "event": "prefetch_started", "while_testing": "Llama3.2-1B-Instruct"}
+{"model": "Qwen3-1.7B-Instruct", "event": "downloaded", "url": "https://dev-public.hailo.ai/v5.4.0/blob/Qwen3-1.7B-Instruct.hef", "bytes": 2880748478, "sha256": "cc9b9d1c92e35249b5a9b7bc31fbd652f03bba1232e99b9a8271845ad6f17821"}
+{"model": "Llama3.2-1B-Instruct", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "Llama3.2-1B-Instruct", "repeat": 2, "event": "device_idle_verified", "wait_s": 0.2098768699215725, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 441760, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Llama3.2-1B-Instruct", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "Llama3.2-1B-Instruct", "repeat": 3, "event": "device_idle_verified", "wait_s": 0.21015875600278378, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 447876, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Llama3.2-1B-Instruct", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "Llama3.2-1B-Instruct", "event": "artifact_deleted"}
+{"model": "Qwen3-1.7B-Instruct", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.2418027800740674, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 451848, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen3-VL-2B-Instruct", "event": "prefetch_started", "while_testing": "Qwen3-1.7B-Instruct"}
+{"model": "Qwen3-VL-2B-Instruct", "event": "downloaded", "url": "https://dev-public.hailo.ai/v5.4.0/blob/Qwen3-VL-2B-Instruct.hef", "bytes": 3185773502, "sha256": "3e302b1d0bdc4beaf4ff982cb34f18bc957d3acd1e20e275eb0dd3536b3043a7"}
+{"model": "Qwen3-1.7B-Instruct", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen3-1.7B-Instruct", "repeat": 2, "event": "device_idle_verified", "wait_s": 0.21674400696065277, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 453648, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen3-1.7B-Instruct", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen3-1.7B-Instruct", "repeat": 3, "event": "device_idle_verified", "wait_s": 0.2452570489840582, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 468100, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen3-1.7B-Instruct", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen3-1.7B-Instruct", "event": "artifact_deleted"}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.21355969097930938, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 451280, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "gemma-4-E2B-it", "event": "prefetch_started", "while_testing": "Qwen3-VL-2B-Instruct"}
+{"model": "gemma-4-E2B-it", "event": "downloaded", "url": "https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm/resolve/main/gemma-4-E2B-it.litertlm", "bytes": 2588147712, "sha256": "181938105e0eefd105961417e8da75903eacda102c4fce9ce90f50b97139a63c"}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 2, "event": "device_idle_verified", "wait_s": 0.22674614295829087, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 436256, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 3, "event": "device_idle_verified", "wait_s": 0.21180615096818656, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 426468, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen3-VL-2B-Instruct", "event": "artifact_deleted"}
+{"model": "gemma-4-E2B-it", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "gemma-4-E2B-it", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "gemma-4-E2B-it", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "gemma-4-E2B-it", "event": "artifact_deleted"}

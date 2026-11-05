@@ -1,0 +1,200 @@
+INFO: [environment.cc:36] Creating LiteRT environment with options
+WARNING: [npu_registry.cc:34] NPU accelerator could not be loaded and registered: kLiteRtStatusErrorInvalidArgument.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=0x40b54b00, name=GPU WebGPU
+INFO: [gpu_registry.cc:109] Statically linked GPU accelerator registered.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=0x40b54eb0, name=YNNPackAccelerator
+INFO: [cpu_registry.cc:56] YNNPACK CPU accelerator registered.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=0x40b54f10, name=CpuAccelerator
+INFO: [cpu_registry.cc:75] XNNPACK CPU accelerator registered.
+INFO: [environment.cc:36] Creating LiteRT environment with options
+WARNING: [npu_registry.cc:34] NPU accelerator could not be loaded and registered: kLiteRtStatusErrorInvalidArgument.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=0x41b4d330, name=GPU WebGPU
+INFO: [gpu_registry.cc:109] Statically linked GPU accelerator registered.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=0x417e3dd0, name=YNNPackAccelerator
+INFO: [cpu_registry.cc:56] YNNPACK CPU accelerator registered.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=0x417e3e30, name=CpuAccelerator
+INFO: [cpu_registry.cc:75] XNNPACK CPU accelerator registered.
+WARNING: Logging before InitGoogle() is written to STDERR
+W0000 00:00:1793861066.416073  118936 litert_lm_loader.cc:291] Section not found: 	
+W0000 00:00:1793861066.416162  118936 litert_lm_loader.cc:291] Section not found: 	
+INFO: [magic_number_utils.cc:101] Loaded: num_subgraphs=976, num_signatures=4
+INFO: [magic_number_utils.cc:109]   signature=decode, subgraph_index=0, num_tensors=2703, num_inputs=35, num_outputs=32, num_ops=2068
+INFO: [magic_number_utils.cc:109]   signature=prefill_1024, subgraph_index=1, num_tensors=1454, num_inputs=35, num_outputs=30, num_ops=1107
+INFO: [magic_number_utils.cc:109]   signature=prefill_128, subgraph_index=2, num_tensors=1454, num_inputs=35, num_outputs=30, num_ops=1107
+INFO: [magic_number_utils.cc:109]   signature=verify, subgraph_index=3, num_tensors=2887, num_inputs=35, num_outputs=32, num_ops=2243
+INFO: [magic_number_utils.cc:113] Magic number configs: num_configs=1
+INFO: [magic_number_utils.cc:120]   config[0]: magic_number=32003, target_number=2048, signature_prefix=null
+INFO: [magic_number_utils.cc:536] 439 tensors of signature decode have been updated for magic number  32003 to target number 2048
+INFO: [magic_number_utils.cc:536] 271 tensors of signature prefill_1024 have been updated for magic number  32003 to target number 2048
+INFO: [magic_number_utils.cc:536] 270 tensors of signature prefill_128 have been updated for magic number  32003 to target number 2048
+INFO: [magic_number_utils.cc:536] 444 tensors of signature verify have been updated for magic number  32003 to target number 2048
+INFO: [compiled_model.cc:835] Flatbuffer model initialized directly from incoming litert model.
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO: [environment.cc:36] Creating LiteRT environment with options
+WARNING: [npu_registry.cc:34] NPU accelerator could not be loaded and registered: kLiteRtStatusErrorInvalidArgument.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=0x46304b80, name=GPU WebGPU
+INFO: [gpu_registry.cc:109] Statically linked GPU accelerator registered.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=0x4598ab40, name=YNNPackAccelerator
+INFO: [cpu_registry.cc:56] YNNPACK CPU accelerator registered.
+INFO: [accelerator_registry.cc:54] RegisterAccelerator: ptr=0x45eb1a10, name=CpuAccelerator
+INFO: [cpu_registry.cc:75] XNNPACK CPU accelerator registered.
+INFO: [magic_number_utils.cc:101] Loaded: num_subgraphs=1, num_signatures=1
+INFO: [magic_number_utils.cc:109]   signature=embedder, subgraph_index=0, num_tensors=16, num_inputs=1, num_outputs=1, num_ops=8
+INFO: [magic_number_utils.cc:113] Magic number configs: num_configs=1
+INFO: [magic_number_utils.cc:120]   config[0]: magic_number=32003, target_number=2048, signature_prefix=null
+INFO: [compiled_model.cc:835] Flatbuffer model initialized directly from incoming litert model.
+INFO: [magic_number_utils.cc:101] Loaded: num_subgraphs=1, num_signatures=1
+INFO: [magic_number_utils.cc:109]   signature=eoi, subgraph_index=0, num_tensors=1, num_inputs=0, num_outputs=1, num_ops=0
+INFO: [magic_number_utils.cc:113] Magic number configs: num_configs=1
+INFO: [magic_number_utils.cc:120]   config[0]: magic_number=32003, target_number=2048, signature_prefix=null
+INFO: [compiled_model.cc:835] Flatbuffer model initialized directly from incoming litert model.
+INFO: [compiled_model.cc:1775] Tracked constant output tensor eoi_embedding with locked address
+INFO: [magic_number_utils.cc:101] Loaded: num_subgraphs=1, num_signatures=1
+INFO: [magic_number_utils.cc:109]   signature=eoa, subgraph_index=0, num_tensors=1, num_inputs=0, num_outputs=1, num_ops=0
+INFO: [magic_number_utils.cc:113] Magic number configs: num_configs=1
+INFO: [magic_number_utils.cc:120]   config[0]: magic_number=32003, target_number=2048, signature_prefix=null
+INFO: [compiled_model.cc:835] Flatbuffer model initialized directly from incoming litert model.
+INFO: [compiled_model.cc:1775] Tracked constant output tensor eoa_embedding with locked address
+INFO: [magic_number_utils.cc:101] Loaded: num_subgraphs=1, num_signatures=1
+INFO: [magic_number_utils.cc:109]   signature=per_layer_embedder, subgraph_index=0, num_tensors=83, num_inputs=1, num_outputs=1, num_ops=42
+INFO: [magic_number_utils.cc:113] Magic number configs: num_configs=1
+INFO: [magic_number_utils.cc:120]   config[0]: magic_number=32003, target_number=2048, signature_prefix=null
+INFO: [compiled_model.cc:835] Flatbuffer model initialized directly from incoming litert model.
+W0000 00:00:1793861066.712539  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C01 de: ok
+W0000 00:00:1793861068.266734  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C01 en: ok
+W0000 00:00:1793861069.448581  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C02 de: ok
+W0000 00:00:1793861070.576979  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C02 en: ok
+W0000 00:00:1793861071.839091  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C03 de: ok
+W0000 00:00:1793861073.367559  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C03 en: ok
+W0000 00:00:1793861075.060372  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C04 de: ok
+W0000 00:00:1793861076.559925  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C04 en: ok
+W0000 00:00:1793861077.834518  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C05 de: ok
+W0000 00:00:1793861079.463070  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C05 en: ok
+W0000 00:00:1793861080.755553  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C06 de: ok
+W0000 00:00:1793861081.904986  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 C06 en: ok
+W0000 00:00:1793861083.004690  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E01 de: ok
+W0000 00:00:1793861084.308649  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E01 en: ok
+W0000 00:00:1793861085.644596  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E02 de: ok
+W0000 00:00:1793861086.802882  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E02 en: ok
+W0000 00:00:1793861087.918913  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E03 de: ok
+W0000 00:00:1793861089.089929  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E03 en: ok
+W0000 00:00:1793861090.657162  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E04 de: ok
+W0000 00:00:1793861093.080289  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E04 en: ok
+W0000 00:00:1793861094.330722  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E05 de: ok
+W0000 00:00:1793861100.459028  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E05 en: ok
+W0000 00:00:1793861108.066761  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E06 de: ok
+W0000 00:00:1793861119.328740  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E06 en: ok
+W0000 00:00:1793861126.624945  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E07 de: ok
+W0000 00:00:1793861135.071660  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E07 en: ok
+W0000 00:00:1793861144.473103  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E08 de: ok
+W0000 00:00:1793861148.388524  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E08 en: ok
+W0000 00:00:1793861152.210864  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E09 de: ok
+W0000 00:00:1793861160.715951  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E09 en: ok
+W0000 00:00:1793861164.263404  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E10 de: ok
+W0000 00:00:1793861167.711172  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E10 en: ok
+W0000 00:00:1793861171.051927  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E11 de: ok
+W0000 00:00:1793861172.163322  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E11 en: ok
+W0000 00:00:1793861173.551159  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E12 de: ok
+W0000 00:00:1793861174.733946  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E12 en: ok
+W0000 00:00:1793861176.009776  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E13 de: ok
+W0000 00:00:1793861178.036336  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E13 en: ok
+W0000 00:00:1793861179.581326  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E14 de: ok
+W0000 00:00:1793861189.236305  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E14 en: ok
+W0000 00:00:1793861198.880165  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E15 de: ok
+W0000 00:00:1793861200.046948  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E15 en: ok
+W0000 00:00:1793861201.221386  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E16 de: ok
+W0000 00:00:1793861202.678434  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E16 en: ok
+W0000 00:00:1793861203.787783  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E17 de: ok
+W0000 00:00:1793861207.661631  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 E17 en: ok
+W0000 00:00:1793861211.576096  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H01 de: ok
+W0000 00:00:1793861216.334025  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H01 en: ok
+W0000 00:00:1793861218.884370  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H02 de: ok
+W0000 00:00:1793861222.480601  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H02 en: ok
+W0000 00:00:1793861225.761637  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H03 de: ok
+W0000 00:00:1793861230.489199  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H03 en: ok
+W0000 00:00:1793861234.580492  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H04 de: ok
+W0000 00:00:1793861238.028253  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H04 en: ok
+W0000 00:00:1793861241.287571  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H05 de: ok
+W0000 00:00:1793861245.471024  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H05 en: ok
+W0000 00:00:1793861248.559823  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H06 de: ok
+W0000 00:00:1793861254.024034  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H06 en: ok
+W0000 00:00:1793861257.967165  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H07 de: ok
+W0000 00:00:1793861260.513762  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H07 en: ok
+W0000 00:00:1793861264.067344  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H08 de: ok
+W0000 00:00:1793861267.715548  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H08 en: ok
+W0000 00:00:1793861271.493349  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H09 de: ok
+W0000 00:00:1793861275.124981  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H09 en: ok
+W0000 00:00:1793861279.123088  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H10 de: ok
+W0000 00:00:1793861281.874079  118936 mel_filterbank.cc:137] Missing 10 bands  starting at 0 in mel-frequency design. Perhaps too many channels or not enough frequency resolution in spectrum. (fft_length: 257 sample_rate: 16000 mel_channel_count: 128 lower_frequency_limit: 0 upper_frequency_limit: 8000
+gemma-4-E2B-it run=3 H10 en: ok
+INFO: [accelerator_registry.cc:43] DestroyAccelerator: ptr=0x417e3e30, name=CpuAccelerator
+INFO: [accelerator_registry.cc:43] DestroyAccelerator: ptr=0x417e3dd0, name=YNNPackAccelerator
+INFO: [accelerator_registry.cc:43] DestroyAccelerator: ptr=0x41b4d330, name=GPU WebGPU
+INFO: [accelerator_registry.cc:43] DestroyAccelerator: ptr=0x45eb1a10, name=CpuAccelerator
+INFO: [accelerator_registry.cc:43] DestroyAccelerator: ptr=0x4598ab40, name=YNNPackAccelerator
+INFO: [accelerator_registry.cc:43] DestroyAccelerator: ptr=0x46304b80, name=GPU WebGPU

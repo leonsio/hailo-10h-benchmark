@@ -1,0 +1,16 @@
+[2026-11-05 08:11:08.902] [127463] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-11-05 08:11:14.396] [127471] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-11-05 08:11:14.568] [127471] [HailoRT] [info] [vdevice.cpp:228] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-11-05 08:11:14.588] [127471] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-11-05 08:11:14.701] [127471] [HailoRT] [info] [llm.cpp:244] [create_unique] Sending 6 HEF chunks to server
+[2026-11-05 08:11:33.560] [127471] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-11-05 08:29:47.952] [132134] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-11-05 08:29:48.122] [132134] [HailoRT] [info] [vdevice.cpp:228] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-11-05 08:29:48.144] [132134] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-11-05 08:29:48.248] [132134] [HailoRT] [info] [llm.cpp:244] [create_unique] Sending 6 HEF chunks to server
+[2026-11-05 08:30:06.782] [132134] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-11-05 08:47:40.036] [136031] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-11-05 08:47:40.218] [136031] [HailoRT] [info] [vdevice.cpp:228] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: ROUND_ROBIN, multi_process_service: false
+[2026-11-05 08:47:40.238] [136031] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64
+[2026-11-05 08:47:40.343] [136031] [HailoRT] [info] [llm.cpp:244] [create_unique] Sending 6 HEF chunks to server
+[2026-11-05 08:47:59.287] [136031] [HailoRT] [info] [device.cpp:53] [Device] OS Version: Linux 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64

@@ -1,0 +1,3 @@
+model,language,successful_answers,errors,successful_loads,failed_starts,ttft_s_mean,total_s_mean,tokens_per_s_mean,decode_tokens_per_s_mean,load_s_mean
+Qwen3-VL-2B-Instruct,de,18,0,3,0,1.2727421160088852,1.7234563236124814,1.7277324377116539,4.643326997989237,8.239929253002629
+Qwen3-VL-2B-Instruct,en,18,0,3,0,0.6446894987214667,0.9767198201087821,2.5080473308293425,4.6375724235272555,8.239929253002629

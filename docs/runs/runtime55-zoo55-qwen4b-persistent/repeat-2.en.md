@@ -1,0 +1,9 @@
+# Run · runtime55-zoo55-qwen4b-persistent · 2
+
+[← Run · runtime55-zoo55-qwen4b-persistent](README.en.md)
+
+| Model | Answers | Loads | Load s | TTFT DE / EN s | Decode token/s | File GiB | Hailo RAM GiB | Host RSS GiB | Objective points | Editorial points | Pending |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Qwen3-4B-Instruct-2507 | 66 | 1 | 18.60 | 3.08 / 1.55 | 2.11 | 5.27 | 6.10 | 0.12 | 33/42 | 19/24 | 0 |
+
+Per-repetition measurements; no inferred zeros for missing data.

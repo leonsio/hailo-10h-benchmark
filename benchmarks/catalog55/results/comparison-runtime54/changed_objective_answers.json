@@ -1,0 +1,872 @@
+[
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "C01",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "4.0.<|im_end|>",
+    "answer55": "4.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "C05",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "23 ist die größere Zahl.<|im_end|>",
+    "answer55": "23<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "C06",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "\"Villa\"<|im_end|>",
+    "answer55": "Haus<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E01",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2+2 = 4.<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E01",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2+2 equals 4.<|im_end|>",
+    "answer55": "4.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E04",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.5,
+    "answer54": "Die Hauptstadt von Bolivien ist Sucre.<|im_end|>",
+    "answer55": "Die Hauptstadt von Bolivien ist La Paz.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E16",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "3.<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E16",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "4.0.<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "C01",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "4.0.<|im_end|>",
+    "answer55": "4.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "C05",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "23 ist die größere Zahl.<|im_end|>",
+    "answer55": "23<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "C06",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "\"Villa\"<|im_end|>",
+    "answer55": "Haus<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E01",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2+2 = 4.<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E01",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2+2 equals 4.<|im_end|>",
+    "answer55": "4.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E04",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.5,
+    "answer54": "Die Hauptstadt von Bolivien ist Sucre.<|im_end|>",
+    "answer55": "Die Hauptstadt von Bolivien ist La Paz.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E16",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "3.<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E16",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "4.0.<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "C01",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "4.0.<|im_end|>",
+    "answer55": "4.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "C05",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "23 ist die größere Zahl.<|im_end|>",
+    "answer55": "23<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "C06",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "\"Villa\"<|im_end|>",
+    "answer55": "Haus<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E01",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2+2 = 4.<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E01",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2+2 equals 4.<|im_end|>",
+    "answer55": "4.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E04",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.5,
+    "answer54": "Die Hauptstadt von Bolivien ist Sucre.<|im_end|>",
+    "answer55": "Die Hauptstadt von Bolivien ist La Paz.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E16",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "3.<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen2-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E16",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "4.0.<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 1,
+    "question": "E04",
+    "language": "en",
+    "score54": 0.5,
+    "score55": 0.0,
+    "answer54": "La Paz<|im_end|>",
+    "answer55": "Tumacina<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 1,
+    "question": "E07",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "1<|im_end|>",
+    "answer55": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 1,
+    "question": "E09",
+    "language": "de",
+    "score54": 0.5,
+    "score55": 0.0,
+    "answer54": "Es war Montag, 31. Februar 2028.<|im_end|>",
+    "answer55": "Es ist 29. März 2028.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 1,
+    "question": "E10",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.5,
+    "answer54": "Es war Montag und der 28. Februar 2028.<|im_end|>",
+    "answer55": "Es war Montag und der 31. Februar 2028.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 1,
+    "question": "E11",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.0,
+    "answer54": "4<|im_end|>",
+    "answer55": "6<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 1,
+    "question": "E14",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "1<|im_end|>",
+    "answer55": "1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 1,
+    "question": "E15",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "```json```<|im_end|>",
+    "answer55": "Correct answer is 4.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 2,
+    "question": "C04",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "Sunday<|im_end|>",
+    "answer55": "Tuesday<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 2,
+    "question": "E04",
+    "language": "en",
+    "score54": 1.0,
+    "score55": 0.0,
+    "answer54": "Bolivia's capital is Sucre.<|im_end|>",
+    "answer55": "Tumacina<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 2,
+    "question": "E07",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "1<|im_end|>",
+    "answer55": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 2,
+    "question": "E10",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.5,
+    "answer54": "Es war Montag und der 28. Februar 2028.<|im_end|>",
+    "answer55": "Es war Montag und am 31. Februar 2028.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 2,
+    "question": "E14",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "Ich habe die Zahlen von 1 bis 20 gezählt.<|im_end|>",
+    "answer55": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 2,
+    "question": "E16",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "```json```<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 3,
+    "question": "C04",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "Sunday<|im_end|>",
+    "answer55": "Tuesday<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 3,
+    "question": "E04",
+    "language": "en",
+    "score54": 1.0,
+    "score55": 0.0,
+    "answer54": "Bolivia's capital is Sucre.<|im_end|>",
+    "answer55": "Tumacina<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 3,
+    "question": "E07",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "1<|im_end|>",
+    "answer55": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 3,
+    "question": "E10",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.5,
+    "answer54": "Es war Montag und der 28. Februar 2028.<|im_end|>",
+    "answer55": "Es war Montag und am 31. Februar 2028.<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 3,
+    "question": "E14",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "Ich habe die Anweisung `zähle von 5 bis 20` ausgeführt.<|im_end|>",
+    "answer55": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20<|im_end|>"
+  },
+  {
+    "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "repeat": 3,
+    "question": "E16",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "```json```<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "C01",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.0,
+    "answer54": "4<|im_end|>",
+    "answer55": "2 + 2 = 4.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "C03",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "182<|im_end|>",
+    "answer55": "102.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "C03",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "182<|im_end|>",
+    "answer55": "102<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E04",
+    "language": "de",
+    "score54": 0.5,
+    "score55": 1.0,
+    "answer54": "Die Hauptstadt von Bolivien ist La Paz.<|im_end|>",
+    "answer55": "Die Hauptstadt von Bolivien ist Sucre.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E07",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 13, 14, 15, 16, 17, 18, 19, 20<|im_end|>",
+    "answer55": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E08",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "```json\n{\"name\": \"max\", \"alte\": 30}\n```\nDie Antwort ist ein JSON-Objekt mit den Schlüssern `name` und `alter`. Der Wert für `name` ist \"Max\", und der Wert für `alter` ist 30.<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E08",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "```json\n{\"name\": \"max\", \"alternative\": 30}\n```\nNote: The original instruction asks for a JSON object with keys `name` (value: 'max' and `alter` (value: 30), which is correctly represented in the JSON object above. The value for `alter` is 30, as requested.<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E09",
+    "language": "en",
+    "score54": 0.5,
+    "score55": 0.0,
+    "answer54": "Friday, February 28, 2028<|im_end|>",
+    "answer55": "March 1, 2028 was a Wednesday. The day before yesterday was March 1, 2028, which was a Wednesday.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E10",
+    "language": "en",
+    "score54": 0.5,
+    "score55": 0.0,
+    "answer54": "Friday, February 28, 2028<|im_end|>",
+    "answer55": "March 1, 2028 was a Wednesday. The day before yesterday was March 1, 2028, which was a Wednesday.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E13",
+    "language": "de",
+    "score54": 0.5,
+    "score55": 1.0,
+    "answer54": "Die Hauptstadt von Bolivien ist La Paz.<|im_end|>",
+    "answer55": "Die Hauptstadt von Bolivien ist Sucre.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E14",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.0,
+    "answer54": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.<|im_end|>",
+    "answer55": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 111, 12, 13, 14, 15, 16, 17, 18, 19, 20.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E14",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 13, 14, 15, 16, 17, 18, 19, 20<|im_end|>",
+    "answer55": "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E17",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "```json\n{\"name\": \"max\", \"Alter\": 30}\n```\n```json\n{\"name\": \"max\", \"alter\": 30}\n```<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 1,
+    "question": "E17",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "```json\n{\"name\": \"max\", \"alternate\": 30}\n```\nNote: The task requires the output to be a JSON object with the keys 'name' (value: 'Max') and 'alter' (value: 30). The provided answer satisfies this requirement.<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "C01",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.0,
+    "answer54": "4<|im_end|>",
+    "answer55": "2 + 2 = 4.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "C03",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "126<|im_end|>",
+    "answer55": "102.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "C03",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "122<|im_end|>",
+    "answer55": "102<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "C04",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "Dienstags<|im_end|>",
+    "answer55": "Dienstag<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E01",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2 + 2 = 4<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E02",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2 + 3 = 5<|im_end|>",
+    "answer55": "5<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E02",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2 + 3 = 5<|im_end|>",
+    "answer55": "5<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E04",
+    "language": "de",
+    "score54": 0.5,
+    "score55": 1.0,
+    "answer54": "Die Hauptstädte von Bolivien ist auch bekannt als La Paz.<|im_end|>",
+    "answer55": "Die Hauptstadt von Bolivien ist Sucre.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E07",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 13, 14, 15, 16, 17, 18, 19, 20.<|im_end|>",
+    "answer55": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E08",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "{  \n  \"name\": \"Max\", \n  \"alt\": 30  \n}<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E08",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "{ \"name\": \"Max\", \"alternate\": 30 }<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E11",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2 + 2 = 4<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E13",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "The capital of Bolivian is Santa Cruz.<|im_end|>",
+    "answer55": "The capital of Bolivia is Sucre.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E17",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "{ \"name\": \"Max\", \"alte\": 30 }<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 2,
+    "question": "E17",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "{ \"name\": \"Max\", \"alternate\": 30 }<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "C01",
+    "language": "de",
+    "score54": 1.0,
+    "score55": 0.0,
+    "answer54": "4<|im_end|>",
+    "answer55": "2 + 2 = 4.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "C03",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "117<|im_end|>",
+    "answer55": "102.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "C03",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "114<|im_end|>",
+    "answer55": "102<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "C04",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "Dienstags<|im_end|>",
+    "answer55": "Dienstag<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E01",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2 + 2 = 4<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E02",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2 + 2 = 4<|im_end|>",
+    "answer55": "5<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E02",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2 + 3 = 5<|im_end|>",
+    "answer55": "5<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E07",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 13, 14, 15, 16, 17, 18, 19, 20.<|im_end|>",
+    "answer55": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E08",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "{  \n  \"name\": \"max\",  \n  \"alt\": 30  \n}<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E08",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "{ \"name\": \"Max\", \"alt\": \"30\" }<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E09",
+    "language": "de",
+    "score54": 0.5,
+    "score55": 0.0,
+    "answer54": "Vorgestern war 2. März 2028. Es war ein Montag.<|im_end|>",
+    "answer55": "Vorgestern war Mittwoch, 31. Februar 2028.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E11",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "2 + 2 = 4<|im_end|>",
+    "answer55": "4<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E13",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "The capital of Bolivian is Santa Cruz.<|im_end|>",
+    "answer55": "The capital of Bolivia is Sucre.<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E17",
+    "language": "de",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "{ \"name\": \"Max\", \"age\": 30 }<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "repeat": 3,
+    "question": "E17",
+    "language": "en",
+    "score54": 0.0,
+    "score55": 1.0,
+    "answer54": "{ \"name\": \"Max\", \"alt\": \"30\" }<|im_end|>",
+    "answer55": "{\"name\": \"Max\", \"alter\": 30}<|im_end|>"
+  }
+]

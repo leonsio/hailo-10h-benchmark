@@ -1,0 +1,281 @@
+[
+  {
+    "group_id": "a38a038d41db78673777ada958333c6bb28005f58faf040723e5acf765ca5518",
+    "question": "H01",
+    "language": "en",
+    "answer": "```json\n{\"name\": \"request\", \"arguments\": {\"name\": \"living room\", \"parameters\": {\"type\": \"object\", \"properties\": {\"light\": {\"title\": \"Light\", \"type\": \"integer\"}, \"level\": {\"title\": \"Level\", \"type\": \"string\"}}, \"required\": [\"light\", \"level\"]}}}\n ```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "34bc9310e9206ce088bb0e0ee5db601b4fafed3af903ecea76aa0f3112800f5d",
+    "question": "H02",
+    "language": "de",
+    "answer": "Ich kann Ihnen nicht helfen, da ich als Sprachmodell keine Hardware oder Software habe.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f9c65fced16ba5955e6464de6653db712083a7de889d31f3699bdf3cbf60afd9",
+    "question": "H02",
+    "language": "en",
+    "answer": "```json\n{\"function\": {\"name\": \"inform\", \"description\": \"Correctly extracted `infol` with all the required parameters with correct types\", \"parameters\": {\"properties\": {\"rating\": {\"title\": \"Rating\", \"type\": \"string\"}, \"genres\": {\"items\": {\"type\": \"string\"}, \"title\": \"Genres\", \"type\": \"array\"}, \"platforms\": {\"items\": {\"type\": \"string\"}, \"title\": \"Platforms\", \"type\": \"array\"}}, \"required\": [\"rating\", \"platforms\", \"name\"], \"type\": \"object\"}}}\n```\n```json```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "fc5afc204dc347c3606ebdfa422c7cfd753045fd676b091df05be348828f3999",
+    "question": "H04",
+    "language": "en",
+    "answer": "```json\n{\"name\": \"request_lamp\", \"arguments\": {\"name\": \"red\", \"type\": \"light\", \"room\": \"living room\"}}\n```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "5fd2f8856a45e892976864a4d2bb9b35d2e4c9968e56a2aff855fefc941318ea",
+    "question": "H05",
+    "language": "de",
+    "answer": "Ich kann Ihnen nicht helfen, die Temperatur in Ihrem Schlafzimmer zu ändern.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "cab20eb85858b0c9697aa3345df5e4b81acf6fb81bc6716ba4eed435f43e50d9",
+    "question": "H06",
+    "language": "de",
+    "answer": "Ich kann als Sprachmodell nicht die Möglichkeit haben, eine aktuelle Spielzeit für einen bestimmten Rollernladen zu geben. Ich empfehle Ihnen jedoch, sich auf den aktuellen Spielzeitbestand des Rollernlades zu beschränken und die aktuell verfügbare Spielzeit zu verwenden.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "eba16d2711b7989c7f49a732f8a33d36a65d0df9385b3891fdd31b59ea2db18d",
+    "question": "H06",
+    "language": "en",
+    "answer": "```json\n{\"name\": \"inform\", \"arguments\": {\"name\": \"Attic Roller Shutter\", \"release_year\": 2017, \"rating\": \"average\", \"has_multiplayer\": false}}\n\"\"\"```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "3bdc79722ced4d197f251c4c46e5525636ae6b8ced3756b0a673585cc5ef3ee6",
+    "question": "H07",
+    "language": "de",
+    "answer": "Ich kann diese Anweisung nicht ausführen, da ich ein Sprachmodell bin, das nur auf Deutsch ausgeführt wird.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "753895f2ffa301b129519bd28fccb7360a8d94532f08e10d04e11bb2d0fea246",
+    "question": "H07",
+    "language": "en",
+    "answer": "```json\n{\"function\": \"close\", \"arguments\": {\"name\": \"roller shutter\", \"available_on_steam\": false}}\n``",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "48883bcfd81919233c54c7fa65c7a75614f429270919f4fd55875b64e421790b",
+    "question": "H08",
+    "language": "en",
+    "answer": "```json\n{\"name\": \"execute\", \"arguments\": {\"name\": \"Deebot Mini\", \"type\": \"device\", \"available_on_steam\": false}}\n``",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "c52ff8e8e536d0d85009b7acf32a8ee114653e4d117992d2f6d81b1939e5d444",
+    "question": "H09",
+    "language": "en",
+    "answer": "```json\n{\"function\": {\"name\": \"inform\", \"description\": \"Correctly extracted `infolist` with all the required parameters with correct types\", \"parameters\": {\"properties\": {\"rating\": {\"title\": \"Rating\", \"type\": \"string\"}, \"genres\": {\"items\": {\"type\": \"string\"}, \"title\": \"Genres\", \"type\": \"array\"}, \"platforms\": {\"items\": {\"type\": \"string\"}, \"title\": \"Platforms\", \"type\": \"array\"}}, \"required\": [\"rating\", \"platforms\", \"has_multiplayer\"], \"type\": \"object\"}}}\n```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "ff3f146dd2117024938d964b5cb95d703231279c0a45d7d9dbb9ce0ae71d6072",
+    "question": "H10",
+    "language": "en",
+    "answer": "```json\n{\"name\": \"request_explanation\", \"arguments\": {\"rating\": \"average\", \"genres\": [\"simulation\"], \"player_perspective\": [\"third person\"]}}\n```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "06085e6ccef4c26c6cbfb54425748ebfc428aa81e082e6938331d09c865bd1bf",
+    "question": "E05",
+    "language": "en",
+    "answer": "It's currently sunny with a high of 70 degrees and no chance of rain.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 1,
+      "exactly_three_sentences": false
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "39b75e69ac3b76e55a7fef9c434d1f8406d0ab601d41d2c3ae30c897b94f9578",
+    "question": "E06",
+    "language": "de",
+    "answer": "Es war ein alter, lustiger Hund namens Max. Er hatte eine Katze namens Miau und sie fand es immer lustig, dass sie so unbedingt auf ihn gestoßen war.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 28,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "8decd1c3a483267fac1ce14d450e7b44a1167131ad8ae15110c8742b6bf9bd67",
+    "question": "E06",
+    "language": "en",
+    "answer": "Once upon a time, there was a cat named Miau. One day she decided to jump on the bed and sleep with her paws on the windowsill. She woke up one morning and found herself in a very peculiar situation - she had no idea how she got there or why she was on the windowsill of her owner's bedroom!",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 59,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "4174d566833595cb7305740bc3adb91dd7d7dc28a396cd023d4c4cc305c68fe4",
+    "question": "H06",
+    "language": "de",
+    "answer": "Ich kann als Sprachmodell nicht die Möglichkeit haben, eine aktuelle Spielzeit für einen bestimmten Rollernladen zu geben. Ich empfehle Ihnen stattdessen, auf der Website des Dachgeschosses nachzusehen oder sich mit dem Support-Team zu in Touch zu nehmen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  }
+]

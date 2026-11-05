@@ -1,0 +1,52 @@
+[
+  {
+    "run": "runtime54-prefetch",
+    "evaluator_version": "reference-checks-v1.3",
+    "archive": {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.4.0_zoo-v5.5.0_20261105-092259.tar.gz",
+      "sha256": "4a77e711ce86de77e4f8739a851371d98ff75282b539072f7c010e4796ecca9e",
+      "files": 105,
+      "verified": true
+    }
+  },
+  {
+    "run": "runtime54-zoo54",
+    "evaluator_version": "reference-checks-v1.3",
+    "archive": {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.4.0_zoo-v5.4.0_20261105-092300.tar.gz",
+      "sha256": "0669b9f9a4c69d0aa6f43c1633b1a852cb3a1ad0c679292067210d3ad9a319c1",
+      "files": 84,
+      "verified": true
+    }
+  },
+  {
+    "run": "runtime55-zoo55",
+    "evaluator_version": "reference-checks-v1.3",
+    "archive": {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.5.0_20261105-092300.tar.gz",
+      "sha256": "e01c4f4a6ec1403a0db9f1d980c8a097d5ed698820f9256d9f288513bcd31bc7",
+      "files": 86,
+      "verified": true
+    }
+  },
+  {
+    "run": "runtime55-zoo54",
+    "evaluator_version": "reference-checks-v1.3",
+    "archive": {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.4.0_20261105-092300.tar.gz",
+      "sha256": "d1ec6e01dcc98a98d037293c6f381872977e742774adef79ccd33a34218e6820",
+      "files": 79,
+      "verified": true
+    }
+  },
+  {
+    "run": "runtime55-zoo55-qwen4b-persistent",
+    "evaluator_version": "reference-checks-v1.3",
+    "archive": {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.5.0_20261105-092301.tar.gz",
+      "sha256": "ff457d204a36d33eddbddee736acd3ed9c29a89e08e61bf78177a099b8b5c6a1",
+      "files": 53,
+      "verified": true
+    }
+  }
+]

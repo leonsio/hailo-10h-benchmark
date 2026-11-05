@@ -1,0 +1,15 @@
+{
+  "phase": "retry_complete_archived",
+  "output": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/runtime55-zoo55-qwen4b-persistent",
+  "updated": "2026-11-05T09:04:52+0100",
+  "archive": {
+    "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.5.0_20261105-090452.tar.gz",
+    "sha256": "087f3c5ac2962bd7b30aec73b1c7d3cd77e1601cbfc9da070c31b81ea974a3e0",
+    "files": 43,
+    "verified": true
+  },
+  "editorial_review_complete": true,
+  "review_pending": 0,
+  "evaluation_archives": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/evaluation_archives_v1.3.json",
+  "evaluator_version": "reference-checks-v1.3"
+}

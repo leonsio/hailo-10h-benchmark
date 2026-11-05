@@ -1,0 +1,5 @@
+{"model": "Qwen3-VL-2B-Instruct", "event": "existing_artifact", "bytes": 3185773502, "sha256": "3e302b1d0bdc4beaf4ff982cb34f18bc957d3acd1e20e275eb0dd3536b3043a7", "url": "https://dev-public.hailo.ai/v5.5.0/blob/Qwen3-VL-2B-Instruct.hef"}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 1, "event": "worker_exit", "returncode": 1}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 2, "event": "worker_exit", "returncode": 1}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 3, "event": "worker_exit", "returncode": 1}
+{"model": "Qwen3-VL-2B-Instruct", "event": "existing_artifact_preserved"}

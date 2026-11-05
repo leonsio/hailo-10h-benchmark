@@ -1,0 +1,3 @@
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 1, "load_s": 8.072742006974295, "kind": "vlm"}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 2, "load_s": 8.309049456031062, "kind": "vlm"}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 3, "load_s": 8.33799629600253, "kind": "vlm"}

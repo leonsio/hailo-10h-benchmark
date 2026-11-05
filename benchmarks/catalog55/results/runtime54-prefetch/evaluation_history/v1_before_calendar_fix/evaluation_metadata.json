@@ -1,0 +1,11 @@
+{
+  "version": "reference-checks-v1",
+  "evaluator_source_sha256": "c196e5b43f45fa0f9d77c7994c97747ae1535a78621421187cb1186bd615a405",
+  "manual_reviews_sha256": "a4ebdd3c1430185ff75c90a38e3d2ce60e986690b175b0759128505977836c6b",
+  "answer_count": 1615,
+  "raw_answers_sha256": "96523c063147dee58526359250df0956f5a65950b5c5676ce17cc90dfedeb843",
+  "controlled_scoring": "Content and exact requested format reported separately",
+  "partial_credit": "Bolivia: La Paz alone 0.5; calendar: weekday/date each 0.5",
+  "subjective_scoring": "Codex/editorial review is separate from objective accuracy; structural checks alone do not establish quality",
+  "reference_date": "2028-03-01 minus two days = Monday 2028-02-28"
+}

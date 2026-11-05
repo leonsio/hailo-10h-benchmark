@@ -1,0 +1,28 @@
+[
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "language": "de",
+    "successful_answers": 2,
+    "errors": 0,
+    "successful_loads": 1,
+    "failed_starts": 0,
+    "ttft_s_mean": 1.2654975050245412,
+    "total_s_mean": 1.4901365440455265,
+    "tokens_per_s_mean": 1.3421649426692355,
+    "decode_tokens_per_s_mean": 4.639589493493499,
+    "load_s_mean": 8.236211961018853
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "language": "en",
+    "successful_answers": 2,
+    "errors": 0,
+    "successful_loads": 1,
+    "failed_starts": 0,
+    "ttft_s_mean": 0.6400906144408509,
+    "total_s_mean": 0.8655714869382791,
+    "tokens_per_s_mean": 2.3106131199234263,
+    "decode_tokens_per_s_mean": 4.641187690952352,
+    "load_s_mean": 8.236211961018853
+  }
+]

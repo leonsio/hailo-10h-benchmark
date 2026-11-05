@@ -1,0 +1,30 @@
+{
+  "started": "2026-11-04T14:33:48+0100",
+  "runtime": "HailoRT-CLI version 5.4.0",
+  "firmware": "Executing on device: pci/0001:01:00.0\nIdentifying board\nControl Protocol Version: 2\nFirmware Version: 5.4.0 (release,app)\nLogger Version: 0\nDevice Architecture: HAILO10H\n\n",
+  "free_disk_bytes": 34914910208,
+  "meminfo": "MemTotal:       16386808 kB\nMemFree:         5258648 kB\nMemAvailable:    9215160 kB\nBuffers:          214892 kB\nCached:          4002116 kB\nSwapCached:        11572 kB\nActive:          7108064 kB\nInactive:        3411588 kB\nActive(anon):    5796356 kB\nInactive(anon):   924960 kB\nActive(file):    1311708 kB\nInactive(file):  2486628 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:        1888712 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               808 kB\nWriteback:             0 kB\nAnonPages:       6302360 kB\nMapped:           509612 kB\nShmem:            418844 kB\nKReclaimable:     274856 kB\nSlab:             414272 kB\nSReclaimable:     274856 kB\nSUnreclaim:       139416 kB\nKernelStack:        8704 kB\nPageTables:        29548 kB\nSecPageTables:      8184 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    10290552 kB\nCommitted_AS:    9988460 kB\nVmallocTotal:   261087232 kB\nVmallocUsed:       82044 kB\nVmallocChunk:          0 kB\nPercpu:            10416 kB\nCmaTotal:          65536 kB\nCmaFree:           20276 kB\nBalloon:               0 kB\n",
+  "models": [
+    "Gemma4-E2B-Instruct",
+    "Qwen3-4B-Instruct-2507",
+    "Qwen3-VL-4B-Instruct",
+    "DeepSeek-R1-Distill-Qwen-1.5B",
+    "Qwen2.5-Coder-1.5B-Instruct",
+    "Qwen2-1.5B-Instruct",
+    "Qwen2-VL-2B-Instruct",
+    "Qwen2.5-1.5B-Instruct",
+    "Qwen2-1.5B-Instruct-Function-Calling-v1",
+    "Llama3.2-1B-Instruct",
+    "Qwen3-1.7B-Instruct",
+    "Qwen3-VL-2B-Instruct",
+    "gemma-4-E2B-it"
+  ],
+  "repeats": 3,
+  "max_tokens": 128,
+  "release": "v5.5.0",
+  "temperature": 0.1,
+  "context_tokens": 2048,
+  "service_state": "inactive",
+  "questions_sha256": "e34a5f9f7ae4e364e5a6a4bd33413a98d797b71468c5c7d7030423a8b1f456f1",
+  "measurements": "TTFT includes fresh context setup; throughput=retokenized output / total generation wall time; decode throughput excludes first chunk tokens. Loads are fresh process loads with OS file cache uncontrolled. Text-only VLM chat."
+}

@@ -1,0 +1,662 @@
+[
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C01",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0845654673333534,
+    "total_s_mean": 3.5803284000006292,
+    "tokens_per_s_mean": 0.5586102482616754,
+    "decode_tokens_per_s_mean": 2.0918929369205252
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C01",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.555423756667248,
+    "total_s_mean": 2.0513229976665266,
+    "tokens_per_s_mean": 0.9749909239424002,
+    "decode_tokens_per_s_mean": 2.091279703446308
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C02",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0830983686658633,
+    "total_s_mean": 3.578076243332665,
+    "tokens_per_s_mean": 0.558961591489504,
+    "decode_tokens_per_s_mean": 2.0952831878096054
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C02",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5543986673328618,
+    "total_s_mean": 2.050118905665537,
+    "tokens_per_s_mean": 0.975561633355033,
+    "decode_tokens_per_s_mean": 2.091991911330982
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C03",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0818929083349453,
+    "total_s_mean": 4.5270307736670174,
+    "tokens_per_s_mean": 0.8835856291948349,
+    "decode_tokens_per_s_mean": 2.1017314638218805
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C03",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5543955370000428,
+    "total_s_mean": 3.000700548000168,
+    "tokens_per_s_mean": 1.3330316621370488,
+    "decode_tokens_per_s_mean": 2.100142551755429
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C04",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0833512589997554,
+    "total_s_mean": 4.52908545733347,
+    "tokens_per_s_mean": 0.8831853820601178,
+    "decode_tokens_per_s_mean": 2.100786511661378
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C04",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.55412516933211,
+    "total_s_mean": 2.050142075666372,
+    "tokens_per_s_mean": 0.9755479475218175,
+    "decode_tokens_per_s_mean": 2.090842761096894
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C05",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082878762665738,
+    "total_s_mean": 4.0534971603325785,
+    "tokens_per_s_mean": 0.7401047229817646,
+    "decode_tokens_per_s_mean": 2.0987806103499196
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C05",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5543563216657883,
+    "total_s_mean": 2.5243012766671504,
+    "tokens_per_s_mean": 1.188455910604821,
+    "decode_tokens_per_s_mean": 2.1002845803101775
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C06",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0826576716669174,
+    "total_s_mean": 4.052915588665201,
+    "tokens_per_s_mean": 0.7402111469302692,
+    "decode_tokens_per_s_mean": 2.0996221895300264
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "C06",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.553835128332139,
+    "total_s_mean": 2.524133039999773,
+    "tokens_per_s_mean": 1.188536348084639,
+    "decode_tokens_per_s_mean": 2.0994204529581326
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E01",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0828790883327506,
+    "total_s_mean": 3.5780655810000703,
+    "tokens_per_s_mean": 0.5589636445768978,
+    "decode_tokens_per_s_mean": 2.0947772625234222
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E01",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5543808933337762,
+    "total_s_mean": 2.0500406226662258,
+    "tokens_per_s_mean": 0.9755983846800416,
+    "decode_tokens_per_s_mean": 2.091965328195756
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E02",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0826023349994407,
+    "total_s_mean": 3.577691528000287,
+    "tokens_per_s_mean": 0.5590221671844583,
+    "decode_tokens_per_s_mean": 2.094766432678253
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E02",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5541639743338844,
+    "total_s_mean": 2.0497104406664826,
+    "tokens_per_s_mean": 0.9757551415524658,
+    "decode_tokens_per_s_mean": 2.092929533246063
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E03",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0822769586678382,
+    "total_s_mean": 7.378317021000839,
+    "tokens_per_s_mean": 1.3553295311070053,
+    "decode_tokens_per_s_mean": 2.1036314164043
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E03",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.553748745332996,
+    "total_s_mean": 4.899906632999773,
+    "tokens_per_s_mean": 1.6326959568606074,
+    "decode_tokens_per_s_mean": 2.1031700122391372
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E04",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082719166335058,
+    "total_s_mean": 8.327399022001677,
+    "tokens_per_s_mean": 1.441033749578201,
+    "decode_tokens_per_s_mean": 2.1044774104365915
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E04",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.554082845999801,
+    "total_s_mean": 5.376067677999042,
+    "tokens_per_s_mean": 1.6740971568077427,
+    "decode_tokens_per_s_mean": 2.102869134847406
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E05",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082950679000836,
+    "total_s_mean": 24.954735673333442,
+    "tokens_per_s_mean": 1.8834224624509406,
+    "decode_tokens_per_s_mean": 2.104894057908721
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E05",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5543614406669803,
+    "total_s_mean": 28.177997879666993,
+    "tokens_per_s_mean": 2.0228779745475443,
+    "decode_tokens_per_s_mean": 2.1048750178529194
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E06",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082676290334348,
+    "total_s_mean": 41.11910154566673,
+    "tokens_per_s_mean": 1.958262376485916,
+    "decode_tokens_per_s_mean": 2.1107326917357967
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E06",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5551470786679904,
+    "total_s_mean": 52.38643693333506,
+    "tokens_per_s_mean": 2.067833524126891,
+    "decode_tokens_per_s_mean": 2.1160394789834487
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E07",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0830095186659796,
+    "total_s_mean": 35.878546421999395,
+    "tokens_per_s_mean": 1.951039695785548,
+    "decode_tokens_per_s_mean": 2.1050986500120707
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E07",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5544568569991195,
+    "total_s_mean": 32.44985834666537,
+    "tokens_per_s_mean": 2.03392094708313,
+    "decode_tokens_per_s_mean": 2.1050919315289356
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E08",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082662854667433,
+    "total_s_mean": 11.17883319533333,
+    "tokens_per_s_mean": 1.6101957970102718,
+    "decode_tokens_per_s_mean": 2.104384344413734
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E08",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5543399940009597,
+    "total_s_mean": 9.651484630333774,
+    "tokens_per_s_mean": 1.865011877786695,
+    "decode_tokens_per_s_mean": 2.104125845025506
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E09",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0827404073327975,
+    "total_s_mean": 14.029541403665158,
+    "tokens_per_s_mean": 1.7106862316541214,
+    "decode_tokens_per_s_mean": 2.1044891535850003
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E09",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5541061139992962,
+    "total_s_mean": 11.233189740333424,
+    "tokens_per_s_mean": 1.8987228187953475,
+    "decode_tokens_per_s_mean": 2.1044963536451053
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E10",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0826158540003235,
+    "total_s_mean": 60.10229449666682,
+    "tokens_per_s_mean": 2.0229567915449973,
+    "decode_tokens_per_s_mean": 2.1160160577727543
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E10",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5543813003326552,
+    "total_s_mean": 11.234945723332203,
+    "tokens_per_s_mean": 1.8984246391013202,
+    "decode_tokens_per_s_mean": 2.1041536332376993
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E11",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082745392332678,
+    "total_s_mean": 3.578340103331963,
+    "tokens_per_s_mean": 0.5589207442426338,
+    "decode_tokens_per_s_mean": 2.0926172458476784
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E11",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.553592489666092,
+    "total_s_mean": 2.0491318326664136,
+    "tokens_per_s_mean": 0.9760293671343867,
+    "decode_tokens_per_s_mean": 2.092824981497739
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E12",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0827699706678686,
+    "total_s_mean": 7.378719397333043,
+    "tokens_per_s_mean": 1.3552557624966224,
+    "decode_tokens_per_s_mean": 2.103681253191283
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E12",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5539570143337187,
+    "total_s_mean": 4.900395615667851,
+    "tokens_per_s_mean": 1.632533851029335,
+    "decode_tokens_per_s_mean": 2.102969619871898
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E13",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082453568999578,
+    "total_s_mean": 8.327857333001399,
+    "tokens_per_s_mean": 1.4409544526049076,
+    "decode_tokens_per_s_mean": 2.104195989016396
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E13",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5540125799986224,
+    "total_s_mean": 2.5249867606653424,
+    "tokens_per_s_mean": 1.1881326360322273,
+    "decode_tokens_per_s_mean": 2.098055224870175
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E14",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0816408726677764,
+    "total_s_mean": 35.88197439333453,
+    "tokens_per_s_mean": 1.9508526574287264,
+    "decode_tokens_per_s_mean": 2.1047896474265135
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E14",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5545524613335147,
+    "total_s_mean": 32.45255506866548,
+    "tokens_per_s_mean": 2.0337521626971093,
+    "decode_tokens_per_s_mean": 2.104913806983341
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E15",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0819729993333262,
+    "total_s_mean": 63.43257845499951,
+    "tokens_per_s_mean": 2.0336691061022174,
+    "decode_tokens_per_s_mean": 2.1215759214386423
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E15",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5542404136661692,
+    "total_s_mean": 2.0499943100003293,
+    "tokens_per_s_mean": 0.9756193937990103,
+    "decode_tokens_per_s_mean": 2.0925179507084017
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E16",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082641513334238,
+    "total_s_mean": 3.5779742623344646,
+    "tokens_per_s_mean": 0.5589778521153576,
+    "decode_tokens_per_s_mean": 2.0936661468576188
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E16",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5540890856658127,
+    "total_s_mean": 2.051558996667154,
+    "tokens_per_s_mean": 0.9748844347979779,
+    "decode_tokens_per_s_mean": 2.0849348227190756
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E17",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0830825456663056,
+    "total_s_mean": 11.179911621001034,
+    "tokens_per_s_mean": 1.6100417305115535,
+    "decode_tokens_per_s_mean": 2.1042029272651166
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "E17",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5543364573325864,
+    "total_s_mean": 9.650095401998746,
+    "tokens_per_s_mean": 1.8652788588298208,
+    "decode_tokens_per_s_mean": 2.1044736982483707
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H01",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082278744333356,
+    "total_s_mean": 37.304120238334384,
+    "tokens_per_s_mean": 1.9569010958156579,
+    "decode_tokens_per_s_mean": 2.1050239181885124
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H01",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.55376431099891,
+    "total_s_mean": 18.67979461699967,
+    "tokens_per_s_mean": 1.980316500415064,
+    "decode_tokens_per_s_mean": 2.1044514140117587
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H02",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0812418929987566,
+    "total_s_mean": 23.05120747566616,
+    "tokens_per_s_mean": 1.865422527401076,
+    "decode_tokens_per_s_mean": 2.1050473223090074
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H02",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.554174295667811,
+    "total_s_mean": 19.472291721667716,
+    "tokens_per_s_mean": 1.9857391715600736,
+    "decode_tokens_per_s_mean": 2.104324261857501
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H03",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0817328473325083,
+    "total_s_mean": 22.10263747599917,
+    "tokens_per_s_mean": 1.8549942489285178,
+    "decode_tokens_per_s_mean": 2.104925369982943
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H03",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5538466173323588,
+    "total_s_mean": 17.890627241999027,
+    "tokens_per_s_mean": 1.970683611380298,
+    "decode_tokens_per_s_mean": 2.1043847176091774
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H04",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0825161116675495,
+    "total_s_mean": 26.539236087332636,
+    "tokens_per_s_mean": 1.895315178555996,
+    "decode_tokens_per_s_mean": 2.1049842888915857
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H04",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.554516461333454,
+    "total_s_mean": 27.996072240999638,
+    "tokens_per_s_mean": 2.0141263486069523,
+    "decode_tokens_per_s_mean": 2.1048171839424894
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H05",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0832023403333246,
+    "total_s_mean": 26.382136039000518,
+    "tokens_per_s_mean": 1.8952349739969312,
+    "decode_tokens_per_s_mean": 2.1047667829690537
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H05",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5547445136665676,
+    "total_s_mean": 17.09848107133318,
+    "tokens_per_s_mean": 1.9689850423810151,
+    "decode_tokens_per_s_mean": 2.1041127471920085
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H06",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082299686000624,
+    "total_s_mean": 36.8291345230003,
+    "tokens_per_s_mean": 1.9546607865313133,
+    "decode_tokens_per_s_mean": 2.1051577391145084
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H06",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5542955340000237,
+    "total_s_mean": 22.955550605000706,
+    "tokens_per_s_mean": 2.003884714444729,
+    "decode_tokens_per_s_mean": 2.1044336450094345
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H07",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082644366667713,
+    "total_s_mean": 23.53025380866772,
+    "tokens_per_s_mean": 1.8699460579645695,
+    "decode_tokens_per_s_mean": 2.1047748885191497
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H07",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5538763643344282,
+    "total_s_mean": 21.530306031000993,
+    "tokens_per_s_mean": 1.9971990944969862,
+    "decode_tokens_per_s_mean": 2.1043584794026375
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H08",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0818553076654402,
+    "total_s_mean": 6.901701219998358,
+    "tokens_per_s_mean": 1.3040333938909654,
+    "decode_tokens_per_s_mean": 2.1041054621280195
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H08",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5541267710007862,
+    "total_s_mean": 22.31952570033415,
+    "tokens_per_s_mean": 2.001123143516518,
+    "decode_tokens_per_s_mean": 2.1048172742365523
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H09",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.082560928999252,
+    "total_s_mean": 22.105337496665015,
+    "tokens_per_s_mean": 1.8547674301867325,
+    "decode_tokens_per_s_mean": 2.1047301428652405
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H09",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.5537416939987452,
+    "total_s_mean": 12.97660972399899,
+    "tokens_per_s_mean": 1.926558773514465,
+    "decode_tokens_per_s_mean": 2.1043294887630526
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H10",
+    "language": "de",
+    "successful_repeats": 3,
+    "ttft_s_mean": 3.0831855926650555,
+    "total_s_mean": 26.8578683396651,
+    "tokens_per_s_mean": 1.8988964341701233,
+    "decode_tokens_per_s_mean": 2.104653799371373
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "question": "H10",
+    "language": "en",
+    "successful_repeats": 3,
+    "ttft_s_mean": 1.554878696999367,
+    "total_s_mean": 12.97988658233468,
+    "tokens_per_s_mean": 1.926071114718229,
+    "decode_tokens_per_s_mean": 2.1039338967654087
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "run": "runtime54-prefetch",
+    "previous_points": 884.5,
+    "updated_points": 790.75,
+    "artifact_quarter_cases": 1,
+    "strict_violations": 265,
+    "review_pending": 0,
+    "raw_answers_sha256": "bb1d1950273f59d9fa3cd3cd1663adb41e63e91ec330aa68fb19bb49941134be"
+  },
+  {
+    "run": "runtime54-zoo54",
+    "previous_points": 847.5,
+    "updated_points": 735.75,
+    "artifact_quarter_cases": 1,
+    "strict_violations": 314,
+    "review_pending": 0,
+    "raw_answers_sha256": "5011602c4fced6911032e94d75ed72eaf3e45e4a07be2dcd3e987afdd22f674b"
+  },
+  {
+    "run": "runtime55-zoo55",
+    "previous_points": 1089.0,
+    "updated_points": 975.75,
+    "artifact_quarter_cases": 40,
+    "strict_violations": 271,
+    "review_pending": 0,
+    "raw_answers_sha256": "7c26fb97e46416e0e56941acaf89f195d9511671b91ee23126c161541e65c01e"
+  },
+  {
+    "run": "runtime55-zoo54",
+    "previous_points": 847.5,
+    "updated_points": 735.75,
+    "artifact_quarter_cases": 1,
+    "strict_violations": 314,
+    "review_pending": 0,
+    "raw_answers_sha256": "16d1d32ee85efe282481d2afd893d54c3b62ce0a45e13899e66944bea5085b9a"
+  },
+  {
+    "run": "runtime55-zoo55-qwen4b-persistent",
+    "previous_points": 98.0,
+    "updated_points": 98.0,
+    "artifact_quarter_cases": 0,
+    "strict_violations": 3,
+    "review_pending": 0,
+    "raw_answers_sha256": "e3b56a683465756f7fccd5ac16cd24f382e785f90bb7cf9d42b8b3e9557838a2"
+  }
+]

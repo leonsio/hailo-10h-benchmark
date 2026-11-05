@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "source": "doc/model-benchmark-evaluation.md",
+  "questions": [
+    {
+      "id": "C01",
+      "category": "controlled",
+      "de": "Was ist 2 + 2? Antworte ausschließlich mit der Zahl.",
+      "en": "What is 2 + 2? Answer with the number only.",
+      "original": "Was ist 2 + 2? Antworte ausschließlich mit der Zahl.",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "C02",
+      "category": "controlled",
+      "de": "Was ist die Hauptstadt von Frankreich? Antworte nur mit dem Stadtnamen.",
+      "en": "What is the capital of France? Answer with the city name only.",
+      "original": "Was ist die Hauptstadt von Frankreich? Antworte nur mit dem Stadtnamen.",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "C03",
+      "category": "controlled",
+      "de": "Was ist 17 mal 6? Antworte ausschließlich mit der Zahl.",
+      "en": "What is 17 times 6? Answer with the number only.",
+      "original": "Was ist 17 mal 6? Antworte ausschließlich mit der Zahl.",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "C04",
+      "category": "controlled",
+      "de": "Welcher Wochentag kommt nach Montag? Antworte nur mit dem Wochentag.",
+      "en": "Which day of the week comes after Monday? Answer with the weekday only.",
+      "original": "Welcher Wochentag kommt nach Montag? Antworte nur mit dem Wochentag.",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "C05",
+      "category": "controlled",
+      "de": "Welche Zahl ist größer: 17 oder 23? Antworte nur mit der Zahl.",
+      "en": "Which number is greater: 17 or 23? Answer with the number only.",
+      "original": "Welche Zahl ist größer: 17 oder 23? Antworte nur mit der Zahl.",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "C06",
+      "category": "controlled",
+      "de": "Übersetze das englische Wort house ins Deutsche. Antworte nur mit einem Wort.",
+      "en": "Translate the English word house into German. Answer with one word only.",
+      "original": "Übersetze das englische Wort house ins Deutsche. Antworte nur mit einem Wort.",
+      "original_language": "de",
+      "note": "Translation into German is intentional in both languages."
+    },
+    {
+      "id": "E01",
+      "category": "exploratory",
+      "de": "Berechne 2+2 gib nur die Antwort aus",
+      "en": "Calculate 2+2 and output only the answer",
+      "original": "Berechne 2+2 gib nur die Antwort aus",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "E02",
+      "category": "exploratory",
+      "de": "Berechne 2+3 gib nur die Antwort aus",
+      "en": "Calculate 2+3 and output only the answer",
+      "original": "Berechne 2+3 gib nur die Antwort aus",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "E03",
+      "category": "exploratory",
+      "de": "Was ist die Hauptstadt von Frankreich?",
+      "en": "What is the capital of France?",
+      "original": "Was ist die Hauptstadt von Frankreich?",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "E04",
+      "category": "exploratory",
+      "de": "Was ist die Hauptstadt von Bolivien",
+      "en": "What is the capital of Bolivia",
+      "original": "Was ist die Hauptstadt von Bolivien",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "E05",
+      "category": "exploratory",
+      "de": "Schreibe genau drei Sätze über das Wetter heute.",
+      "en": "Write exactly three sentences about the weather today.",
+      "original": "Schreibe genau drei Sätze über das Wetter heute.",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    },
+    {
+      "id": "E06",
+      "category": "exploratory",
+      "de": "Erzähle eine sehr kurze, lustige Geschichte über eine Katze namens Miau (maximal 50 Wörter).",
+      "en": "Tell a very short, funny story about a cat named Miau (at most 50 words).",
+      "original": "Erzähle eine sehr kurze, lustige Geschichte über eine Katze namens Miau (maximal 50 Wörter).",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "E07",
+      "category": "exploratory",
+      "de": "Zähle von 1 bis 20 auf.",
+      "en": "Count from 1 to 20.",
+      "original": "Zähle von 1 bis 20 auf.",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "E08",
+      "category": "exploratory",
+      "de": "Gib mir ein JSON-Objekt mit den Schlüsseln 'name' (Wert: 'Max') und 'alter' (Wert: 30). Keine Erklärung drumherum.",
+      "en": "Give me a JSON object with the keys 'name' (value: 'Max') and 'alter' (value: 30). No explanation around it.",
+      "original": "Gib mir ein JSON-Objekt mit den Schlüsseln 'name' (Wert: 'Max') und 'alter' (Wert: 30). Keine Erklärung drumherum.",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "E09",
+      "category": "exploratory",
+      "de": "Heute ist 1. März 2028. Welches Wochentag und Datum waren vorgestern.",
+      "en": "Today is March 1, 2028. What day of the week and date was the day before yesterday?",
+      "original": "Heute ist 1. März 2028. Welches Wochentag und Datum waren vorgestern.",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "E10",
+      "category": "exploratory",
+      "de": "Heute ist der 1. März 2028. Welcher Wochentag und welches Datum waren vorgestern?",
+      "en": "Today is March 1, 2028. What day of the week and date was the day before yesterday?",
+      "original": "Today is March 1, 2028. What day of the week and date was the day before yesterday?",
+      "original_language": "en",
+      "note": ""
+    },
+    {
+      "id": "E11",
+      "category": "exploratory",
+      "de": "Berechne 2+2 und gib nur die Antwort aus.",
+      "en": "Calculate 2+2 and just give the answer.",
+      "original": "Calculate 2+2 and just give the answer.",
+      "original_language": "en",
+      "note": ""
+    },
+    {
+      "id": "E12",
+      "category": "exploratory",
+      "de": "Was ist die Hauptstadt von Frankreich?",
+      "en": "What is the capital of France?",
+      "original": "What is the capital of France?",
+      "original_language": "en",
+      "note": ""
+    },
+    {
+      "id": "E13",
+      "category": "exploratory",
+      "de": "Was ist die Hauptstadt von Bolivien?",
+      "en": "What is the capital of Bolivia?",
+      "original": "What is the capital of Bolivia?",
+      "original_language": "en",
+      "note": ""
+    },
+    {
+      "id": "E14",
+      "category": "exploratory",
+      "de": "Zähle von 1 bis 20.",
+      "en": "Count from 1 to 20.",
+      "original": "Count from 1 to 20.",
+      "original_language": "en",
+      "note": ""
+    },
+    {
+      "id": "E15",
+      "category": "exploratory",
+      "de": "Rechte 2+2",
+      "en": "Calclate 2+2",
+      "original": "Rechte 2+2",
+      "original_language": "de",
+      "note": "Preserves typo; English typo is an analogous translation."
+    },
+    {
+      "id": "E16",
+      "category": "exploratory",
+      "de": "Addiere 2+2 .gib nur das Ergebnis aus",
+      "en": "Add 2+2 .give only the result",
+      "original": "Addiere 2+2 .gib nur das Ergebnis aus",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "E17",
+      "category": "exploratory",
+      "de": "Gib mir ein JSON-Objekt mit den Schlüsseln 'name' (Wert: 'Max') und 'alter' (Wert: 30). Keine Erklärung drumherum. Gib nur eine Antwort aus",
+      "en": "Give me a JSON object with the keys 'name' (value: 'Max') and 'alter' (value: 30). No explanation around it. Output only one answer",
+      "original": "Gib mir ein JSON-Objekt mit den Schlüsseln 'name' (Wert: 'Max') und 'alter' (Wert: 30). Keine Erklärung drumherum. Gib nur eine Antwort aus",
+      "original_language": "de",
+      "note": ""
+    },
+    {
+      "id": "H01",
+      "category": "intent",
+      "de": "Schalte das Licht im Wohnzimmer auf 70 Prozent.",
+      "en": "Set the living room light to 70 percent.",
+      "original": "Schalte das Licht im Wohnzimmer auf 70 Prozent.",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    },
+    {
+      "id": "H02",
+      "category": "intent",
+      "de": "Schalte das Licht in der Küche an.",
+      "en": "Turn on the kitchen light.",
+      "original": "Schalte das Licht in der Küche an.",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    },
+    {
+      "id": "H03",
+      "category": "intent",
+      "de": "Schalte die Nachttischlampe aus.",
+      "en": "Turn off the bedside lamp.",
+      "original": "Schalte die Nachttischlampe aus.",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    },
+    {
+      "id": "H04",
+      "category": "intent",
+      "de": "Stelle das Licht im Wohnzimmer auf rot.",
+      "en": "Set the living room light to red.",
+      "original": "Stelle das Licht im Wohnzimmer auf rot.",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    },
+    {
+      "id": "H05",
+      "category": "intent",
+      "de": "Stelle die Temperatur im Schlafzimmer auf 19,5 Grad.",
+      "en": "Set the bedroom temperature to 19.5 degrees.",
+      "original": "Stelle die Temperatur im Schlafzimmer auf 19,5 Grad.",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    },
+    {
+      "id": "H06",
+      "category": "intent",
+      "de": "Fahre den Rollladen im Dachgeschoss auf 40 Prozent.",
+      "en": "Set the attic roller shutter to 40 percent.",
+      "original": "Fahre den Rollladen im Dachgeschoss auf 40 Prozent.",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    },
+    {
+      "id": "H07",
+      "category": "intent",
+      "de": "Schließe den Rollladen.",
+      "en": "Close the roller shutter.",
+      "original": "Schließe den Rollladen.",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    },
+    {
+      "id": "H08",
+      "category": "intent",
+      "de": "Starte Deebot mini.",
+      "en": "Start Deebot mini.",
+      "original": "Starte Deebot mini.",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    },
+    {
+      "id": "H09",
+      "category": "intent",
+      "de": "Schalte die Kaffeemaschine an.",
+      "en": "Turn on the coffee machine.",
+      "original": "Schalte die Kaffeemaschine an.",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    },
+    {
+      "id": "H10",
+      "category": "intent",
+      "de": "Wie warm ist es im Wohnzimmer?",
+      "en": "How warm is it in the living room?",
+      "original": "Wie warm ist es im Wohnzimmer?",
+      "original_language": "de",
+      "note": "No weather data or device tools supplied."
+    }
+  ]
+}

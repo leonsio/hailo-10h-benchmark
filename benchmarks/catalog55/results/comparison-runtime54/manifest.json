@@ -1,0 +1,18 @@
+{
+  "provenance.json": "ef538f3e754e79c918d8172ba7fccc7d9bb92eae972cc70da1196b46868bd7a6",
+  "report.md": "cfd67a7628febaaff11fc3f9515641bf30c39ed08181efbbb6b4135442eaeffb",
+  "evaluation_rubric.md": "af70307f3c125459586b9e7b41d3a80f69753dbfb0b6c4c6832c654f5734c270",
+  "comparison.csv": "3506131dde57f3533dfc580ffe11d975134176e772c2f534a1ccf9979a658da9",
+  "compare_releases.py": "e94389be1a3d2e6a967349291ee47d05b0303fa5e89b1fcd0a9d86a597f1cd35",
+  "evaluate.py": "04616bc9d403004189d6bb891da8c6a89f77a39e6092120951bcac9dae2ab508",
+  "comparison.json": "429d343cb559a82c31b3511defb565ab72a70004ba1d50c14c419fc79642bfe4",
+  "changed_objective_answers.json": "62976d6703f7f570d3a8673f733d3e9bf716b75b14f2445106130cd057b75de3",
+  "runtime54-prefetch/answer_checks.jsonl": "35700a819c3956ec9ce972143a62dc1fc3a562def6ca91ad7c106c7acc620c60",
+  "runtime54-prefetch/report.md": "62cd18911bc37bccbf1aa0e425af008a94f5f0491dfdb450e36d8b38a0ba2cd6",
+  "runtime54-prefetch/evaluation_metadata.json": "4d0ab0e627c7c937a12b7b3d9f2da9e1e6d3d99f2addc84d8c7c8dce94797278",
+  "runtime54-prefetch/correctness_summary.json": "2fcf7a3bb9adfcb2c02b90e2f323596341641ed8678066ab4caebaa9d540c753",
+  "runtime54-zoo54/answer_checks.jsonl": "84b85ad5f14e2e2373d312c1db8a2edc1567155ac4db71a592148cd00b74a198",
+  "runtime54-zoo54/report.md": "a3346ed62643033643f457840d13c6ab148733bcbc5e03b165d2efe3fb69a306",
+  "runtime54-zoo54/evaluation_metadata.json": "e264690bfccd288ffc27e049b642fa567016c00b2390753de982fb9b6a5b6910",
+  "runtime54-zoo54/correctness_summary.json": "4e1f47d3fc132fd825ed7e92123c876eae6e9fcc859a99d50a3ac4f0408c97a9"
+}

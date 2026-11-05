@@ -1,0 +1,2680 @@
+[
+  {
+    "group_id": "d233c1f9b0b6e3008cfda12d3bc25264535f69aa12de083c548b65e2e92a58a2",
+    "question": "E05",
+    "language": "de",
+    "answer": "Heute ist ein bewölkter Tag. Im Himmel ziehen sich Wolken und Nebel an, was die Sonne nur noch schwer erkennen lässt. Die Temperaturen sind etwas niedrig, um den Tag zu genießen. Es ist ein ruhiger und gemütlicher Tag, der perfekt für einen Spaziergang oder einen Spatzenkampf ist.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 4,
+      "exactly_three_sentences": false
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "108c3fe7935d80752aa4b54631ac349c5884548a4a18e80f923c5722690936e9",
+    "question": "E05",
+    "language": "en",
+    "answer": "I'm sorry, but as an AI language model, I don't have the ability to provide real-time weather updates or forecasts. However, I can help you with any questions you might have about the weather. Is there anything specific you would like to know?",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "b1ea6c69b88d71554a44b3bd7a8ac4b48de0041ba795a5cf4925243d52e2c17a",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau, die Katze, lebte munterlich in ihrem Haus.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 8,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "4d58694c2ef1656e97d9b12cdcdb2cb6959167f9dc65390d44ded20fd32f93b4",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau, the cat, was known for her love of chasing squirrels. One day, she was chasing a squirrel in a tree when she accidentally caught a bird. She was so excited that she started chasing the bird, but the bird was too quick and managed to escape. Miau was disappointed, but she continued to chase squirrels, always looking for a new target.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 62,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "073be1690718250bf8951b0f5c17204e25c7a2ee412c8b5beaf208b6e14db101",
+    "question": "H01",
+    "language": "de",
+    "answer": "Das ist eine einfache Anleitung, um das Licht im Wohnzimmer auf 70 Prozent zu schalten. Hier ist die Anleitung in Deutsch:\n\n1. Schalten Sie den Fernbedienungsknopf auf den \"Hauseinstellungen\" oder \"Lichtschalter\" um.\n2. Wählen Sie \"Lichtschlafmodus\" oder \"Lichtschalter\" aus.\n3. Drücken Sie den Fernbedienungsknopf, um den Lichtschlaf, den Lichtschalter oder den Lichtschlafmodus zu wählen.\n4. Drücken Sie den Fern",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "57ab0dc1e7c049e2b9bc45977175a8bbe625988ff4e6a353bcac1329089d0f03",
+    "question": "H01",
+    "language": "en",
+    "answer": "To set the living room light to 70 percent, you can follow these steps:\n\n1. Identify the source of the light in your living room. This could be a lamp, a wall sconce, or a ceiling light.\n2. Turn on the light source and adjust the brightness to 70 percent. This is usually done by pressing a button on the control panel or by using a remote control.\n3. If the light source is a lamp, you may need to adjust the lamp's brightness or color temperature to match the desired level of brightness.\n4. Once the light is set to 70 percent, you",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "3b6ad574b700daac3b11d92f908998e8a8e29882cf3c2c39d2a64bdb59604ee6",
+    "question": "H02",
+    "language": "de",
+    "answer": "Es tut sich nicht.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "2f4acba2a456c7ab210b7d8ff7226861edf4b33993d54699271d6e46a783d9f1",
+    "question": "H02",
+    "language": "en",
+    "answer": "I'm sorry, but as an AI language model, I don't have the ability to physically turn on a light. However, I can help you find instructions on how to turn on the kitchen light. Would you like me to do that for you?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "d4ac3b4fba9c97b7119281b824ec208854ae5747803a64cbb6922dcfa9a384b8",
+    "question": "H03",
+    "language": "de",
+    "answer": "Nein, ich kann nicht die Nachttiisslampe aus schalten. Ich bin ein Isolierter Sprachmod, der keine Geräte oder Anschlüsse hat.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "4b310cdda59490d6d7c7cb59bead223be6197ea0497c7a93e0abff62d74ae69b",
+    "question": "H03",
+    "language": "en",
+    "answer": "Sure, I can help you turn off the bedside lamp. Please tell me how to do it.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "8a0a02d639fd988d5404c62a3c420c9ed599f2c9a74bbee59ff4b7fe808ca415",
+    "question": "H04",
+    "language": "de",
+    "answer": "Das Licht im Wohnzimmer auf rot.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f1ee34017db799d06bc94d4ae0daef0c7260252dd4f78ee8420e90654dc7ba57",
+    "question": "H04",
+    "language": "en",
+    "answer": "I'm sorry, but as an AI language model, I don't have the capability to physically interact with devices or change their settings. However, you can easily do this by using your home control system or a smart home app to turn the living room light to red.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "37ce064b119b1591cce3d99bf86d8a21e18b0db73a0e17b59bc019b1f616b97d",
+    "question": "H05",
+    "language": "de",
+    "answer": "Es tut mir leid, aber als Sprachmod, der isoliert ist, kann ich keine direkten Messungen oder Änderungen anwenden. Ich kann jedoch helfen, wenn Sie mir sagen, wie Sie es tun möchten.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "21e1c34628d7dbf93c4825ab446be47eaab97dd3ffc9654c1e9077992ef56754",
+    "question": "H05",
+    "language": "en",
+    "answer": "Sure, I can help you with that. I will set the bedroom temperature to 19.5 degrees. Is there anything else I can assist you with?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "66bd37e8909ce3d27f60d493c1ca9345bc263189489bba9ca3ee27323b1d6b8e",
+    "question": "H06",
+    "language": "de",
+    "answer": "Bitte beachten Sie bitte, dass der Rollladen im Dachgeschoss, wie alle anderen Geräte, auf die Anforderungen und die spezifischen Bedingungen, insbesondere die Witterung und die Geräteausstattung, abgestellt ist. Bitte beachten Sie bitte, dass die Geräteaktionen ausgeführt, und, falls erforderlich, die Anforderungen und die spezifischen Bedingungen, insbesondere die Witterung und die Geräteausstattung, berücksichtigt werden.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "28ebe08440763160a409aea649ad59413c70aaa78177c0da26f44ada532d9cfd",
+    "question": "H06",
+    "language": "en",
+    "answer": "To set the attic roller shutter to 40 percent, you would typically need to follow these steps:\n\n1. Identify the location of the attic roller shutter. This is usually located in the attic of a house, where the roof is open and the air can circulate.\n\n2. Open the attic roller shutter. This is usually done by pulling the handle on the side of the shutter, or by using a remote control or a smart home app to open the shutter.\n\n3. Once the shutter is open, you can adjust the position to 40 percent. This is usually done by using a remote control or a smart home app to",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "fafea1fae3cfc7c4272188fd72dd5fd31d5d9e0f15361718e52f3089ab057a9b",
+    "question": "H07",
+    "language": "de",
+    "answer": "Das ist ein einfacher Vorgang und kann, falls erforderlich, auch automatisiert werden. Bitte geben Sie den Namen des Geräts und den Namen des Rollladers an, um die richtige Funktion zu finden und zu starten.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "158b86b6c8caf8fd52b82a04e0e6c061174ad3e30977b964c6f39e69756abe0b",
+    "question": "H07",
+    "language": "en",
+    "answer": "I'm sorry, but as an AI language model, I don't have the ability to physically interact with objects or devices. However, I can help you with any questions you might have about roller shutters or other topics. Is there anything specific you would like to know or discuss?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "36b252315b05a233611a46ed8a07865beaadf255ab163b100f07e9c0909bdec5",
+    "question": "H08",
+    "language": "de",
+    "answer": "Starte Deebot mini.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "94dcc580cb31c0ca66de14d176d739a2f61c91db12661a69c4b80773d2a49d77",
+    "question": "H09",
+    "language": "de",
+    "answer": "Bitte warten, bis die Kaffeemaschinenanlage eingeschaltet ist.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "664a4936128b2e85906bcb5add61f283621ff9e935464406b27531bf936894cc",
+    "question": "H09",
+    "language": "en",
+    "answer": "I'm sorry, but as an AI language model, I don't have the ability to physically interact with devices or appliances. However, I can provide you with instructions on how to turn on a coffee machine. Would you like me to do that for you?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "a5a36bfe0c32e625ac45bd30fb4d735528e12ff2fcc5ba931f36d95dc8691671",
+    "question": "H10",
+    "language": "de",
+    "answer": "Es tut mir leid, aber als Sprachmod-Isolator habe ich keine Möglichkeit, die Temperatur im Wohnzimmer zu bestimmen. Ich kann jedoch helfen, wenn Sie die Temperatur in Ihrem Wohnzimmer angeben.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "e46f9031f79c925547d876bc133784283e73da6c33ca54d4c2c33f4fc2dbfefc",
+    "question": "H10",
+    "language": "en",
+    "answer": "I'm sorry, but as an AI language model, I don't have the ability to access real-time temperature data. However, you can check the temperature in the living room by looking at the thermostat or checking the temperature on your device.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "ae1c6937b54ce82e32f5a78007b38de06f95b68775a57140ac6434511a1729b9",
+    "question": "E05",
+    "language": "de",
+    "answer": "Es ist heute regnerisch. Es wird bis Morgen regnen und es gibt auch ein wenig Wind.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 2,
+      "exactly_three_sentences": false
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "2175b7fc51064367a75942b2b6d98735682590fc7009fd8b69010c37b112a479",
+    "question": "E05",
+    "language": "en",
+    "answer": "It's currently sunny with temperatures reaching up to 75 degrees Fahrenheit.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 1,
+      "exactly_three_sentences": false
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "6fd6283a1a2c1c3d298f97659622fb3835f6ae9ca57bc8168c0cc5f6a123f40c",
+    "question": "E06",
+    "language": "de",
+    "answer": "Es war ein Sommer, als ich Miau kennengelernt hatte. Sie war eine kleine Katze mit einem scharfen Nase und einem unerwartlich lustigen Charakter. Ich konnte nicht widerstehen, sie in meinem Haus aufzunehmen und sie zu einer faszinierenden Geschichte über die Welt der Katzen zu erlauben.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 45,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "fab442bdf6c033625395cf938605c0e9680acafeef42826d99b06f4f615c44c9",
+    "question": "E06",
+    "language": "en",
+    "answer": "Once upon a time, there was a cat named Miau who loved to play with balls. One day, he accidentally rolled one of them into the middle of his living room and then proceeded to chase it around for hours until someone finally picked him up and threw it away.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 50,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "3e8745776d1074fb75e9995e98132cbb1906e12bc2492baebb6a3e820f9c2c8e",
+    "question": "H01",
+    "language": "de",
+    "answer": "```json```\n{\"name\": \"inform\", \"arguments\": {\"name\": \"Wohnzimmer\", \"rating\": \"good\", \"has_linux_release\": false, \"has_mac_release\": true, \"available_on_steam\": true, \"genres\": [\"driving/racing\"], \"player_perspective\": [\"first person\"]}}\n\"\"\"",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "e47fa7231ddec9e76c500e2f4b66d1401b769232851047b1e07079ae2a00284c",
+    "question": "H01",
+    "language": "en",
+    "answer": "```json```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "ec6a9148cd1853112dc03ac572eb540f0b424b106a6331b77f72a1aae5528d30",
+    "question": "H02",
+    "language": "de",
+    "answer": "Ich schalte das Licht in der Küche an.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "f12792a8db84de9ef3021d24fba25df6be4b9cfa91d17444b33dac7cb5174062",
+    "question": "H02",
+    "language": "en",
+    "answer": "```json```{\"name\": \"inform\", \"arguments\": {\"name\": \"Kitchenaid\", \"release_year\": 2014, \"rating\": \"excellent\", \"has_mac_release\": false, \"available_on_steam\": true, \"platforms\": [\"Xbox\", \"PlayStation\", \"Nintendo Switch\"], \"genres\": [\"cooking\"]}}",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "40b36f791957f51e86f8cb9c5527576168935b31f1ab5c472f4fb8504ee4c418",
+    "question": "H03",
+    "language": "de",
+    "answer": "Bist du mit dem Ausdruck \"Nächittestlicht\" im Spielernummer 0?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "16d6f92d01be4b5a6c58112a6ec6d0ee7cf9056230216dff8f7431e23833b91a",
+    "question": "H03",
+    "language": "en",
+    "answer": "```json```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "d574b698063ab96c778dbbaa60139f2dde37fc4e940e21d243089eed0eb5022a",
+    "question": "H04",
+    "language": "de",
+    "answer": "Ich habe die Farbe rot für das Wohnzimmer im Spielzeugmodell verwendet.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "63af22d1bab4b2ddf14da661138be0004960757dad7ea55aabf130118647d4eb",
+    "question": "H04",
+    "language": "en",
+    "answer": "```json```\n{\"name\": \"inform\", \"arguments\": {\"name\": \"The Room\", \"rating\": \"average\", \"genres\": [\"platformer\"], \"player_perspective\": [\"first person\"], \"has_multiplayer\": false, \"platforms\": [\"Xbox\"]}}\n```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "aa97aa79372bbc2328528dfbbd66e14e26aab6e88a7d83b5a3a9c4b28f13bf53",
+    "question": "H05",
+    "language": "en",
+    "answer": "```json```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "2798f008645c072a66f1bba2d24f5f88aec30af92fc2f3bff0fdb258dffd4f84",
+    "question": "H06",
+    "language": "de",
+    "answer": "Es tut mir leid, aber als Sprachmodell bin ich nicht in der Lage, solche spezifischen Dinge wie Fahrten zu erleuchten oder zu beurteilen. Ich kann nur auf die angegebenen Informationen zurückkommen und es gibt keine spezifische Funktionen für diese Art von Spielern.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "f5e8be24685888302a94d3ca53f317b71bc8071b6cecd8b44d43e8ef9dda6144",
+    "question": "H06",
+    "language": "en",
+    "answer": "```json``````{\"name\": \"inform\", \"arguments\": {\"name\": \"Attic Roller Shutter\", \"release_year\": 2017, \"developer\": \"Lionhead Studios\", \"rating\": \"average\", \"has_multiplayer\": false}} ``````",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "44614e50fbaeb3ce7dfe33345c492b2e094060b6eadf46037d74501ed4b08918",
+    "question": "H07",
+    "language": "de",
+    "answer": "Sehr gut, ich habe den Rolllladen verlassen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "c1707c5b4633ee32c8c29086a51bde119d03a3a19d51cc4f940299f56dad077a",
+    "question": "H07",
+    "language": "en",
+    "answer": "```json```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "33e4915d40bf5730fbf191bfaf0c3cf04a366b5382bdd2d6ee58b556a988e13b",
+    "question": "H08",
+    "language": "de",
+    "answer": "Es tut mir leid, aber als Sprachmodell bin ich nicht in der Lage, Geräte oder diejenigen zu unterstützen, die sie verwenden. Ich kann nur auf Deutsch antworten und kann nicht Deebot mini unterstützen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "4d8806d1ea8b8f967ee59d481ccda79824f06e4458e66af6dbf404bd7767d41c",
+    "question": "H08",
+    "language": "en",
+    "answer": "```json```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "2bd5dfd78a6cb9d6ae259cdef2443fa388d8fea0c9dee7b8960b0589a267464d",
+    "question": "H09",
+    "language": "en",
+    "answer": "```json```\n{\"function\": {\"name\": \"inform\", \"description\": \"Correctly extracted `information` with all the required parameters with correct types\", \"parameters\": {\"name\": {\"title\": \"Name\", \"type\": \"string\"}, \"release_year\": {\"title\": \"Release Year\", \"type\": \"integer\"}, \"developer\": {\"title\": \"Developer\", \"type\": \"string\"}, \"rating\": {\"title\": \"Rating\", \"type\": \"string\"}, \"platforms\": {\"items\": {\"type\": \"array\"}, \"title\": \"Platforms\", \"type\": \"array\"}}, \"required\": [\"developer",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "3a7d481c72150df809194400dec967a7b4b524cddec9cf3683b76d5befdc6412",
+    "question": "H10",
+    "language": "de",
+    "answer": "Es ist nicht möglich, eine offene Frage zu beantworten.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "dbd0b58f6a9ca607217d196e34fa44dbfda5a8a8236d1e868bac986533517c90",
+    "question": "H10",
+    "language": "en",
+    "answer": "```json```\n{\"name\": \"request\", \"arguments\": {\"rating\": \"average\", \"genres\": [\"simulation\"], \"player_perspective\": [\"first person\"]}}\n```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "b1ae58189fb5914de40b4a29ca7318ed1708a25acdc3d08e582521f7cc0c4fd9",
+    "question": "E05",
+    "language": "de",
+    "answer": "Es ist heute regnerisch. Es wird bis Morgen regnen und es gibt auch ein wenig Schnee.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 2,
+      "exactly_three_sentences": false
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "4f08bcd49f5e2a6165dcaae53876d6a2684220ecd96aaa2ffe856210fe92fb94",
+    "question": "E05",
+    "language": "en",
+    "answer": "It's currently sunny with temperatures reaching up to 70 degrees Fahrenheit.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 1,
+      "exactly_three_sentences": false
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "287c188f0225f521f4b063a402a5bdf5b391c353ed906fbef412d95a7813f855",
+    "question": "E06",
+    "language": "de",
+    "answer": "Es war ein wunderschöner Tag, als Miau in der Stadt lief. Sie sah ein paar Menschen auf dem Parkplatz und hörte Musik von einem Auto. Sie fand es einfach lustig zu sehen, wie die Menschen auf dem Parkplatz mit ihren Autos redeten.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 42,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "2698fe04cf71447b33848165ca42530d7fc1af7ab8813ff630a6aa8d47fb877b",
+    "question": "E06",
+    "language": "en",
+    "answer": "Once upon a time, there was a cat named Miau. One day, he decided to jump off the roof of his house and land on the grass below.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 28,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "28962525628b0cd69290f0eea91366bf864c86a921e08815f7d4f7b99ac8e43a",
+    "question": "E09",
+    "language": "de",
+    "answer": "Es war Donnerstag, 31. Februar 2028 oder am besten Mittwoch, 30. Februar 2028.",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "051bc94aa08234f64d8185878d2c2917687216335d2467e47771a8a4cb4248f2",
+    "question": "H01",
+    "language": "de",
+    "answer": "Ich habe das Licht im Wohnzimmer auf 70 Prozent gestellt.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "1ff4b0575afd5b5dadc2f144c4f84f4071ed0885a370f781b01de55f73f639d3",
+    "question": "H02",
+    "language": "de",
+    "answer": "Es tut mir leid, aber als ein AI-Assistant habe ich keine Fähigkeiten zur Ausführung von Anwendungen oder der Verwendung von Geräten.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "6086f392dbc67b89ff8188f7bbc3224497e27adc9aee19e54c58345c028f8102",
+    "question": "H02",
+    "language": "en",
+    "answer": "```json```{\"name\": \"inform\", \"arguments\": {\"name\": \"Kitchenaid\", \"release_year\": 2014, \"rating\": \"excellent\", \"genres\": [\"kitchen aid\"], \"platforms\": [\"PlayStation\"]}}",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "257ebd9ba212722ad05daab00c06e0f49392625d9acd990635a278f1d6ca4939",
+    "question": "H03",
+    "language": "de",
+    "answer": "Bist du im Raum mit der Nachttischlampe?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "46b574044145417cc7161603c9a400fa2ea889b08b23d7f422149851c1330110",
+    "question": "H04",
+    "language": "en",
+    "answer": "```json```\n{\"name\": \"inform\", \"arguments\": {\"name\": \"The Room\", \"rating\": \"average\", \"genres\": [\"arcade\", \"platformer\"], \"player_perspective\": [\"first person\"], \"has_multiplayer\": false, \"platforms\": [\"Xbox\"]}}\n```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "4ff636280313f3a1fc7e8bd0be65469c77b6d6179cf145f456c89b281470dfd8",
+    "question": "H05",
+    "language": "en",
+    "answer": "```json``` {\"name\": \"set_temperature\", \"arguments\": {\"temperature\": 19.5}}",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "a1dafa0325f8be5f23a300497546f6eddc464f6976b262256289ee599dfbccc5",
+    "question": "H06",
+    "language": "de",
+    "answer": "Ich kann als Sprachmodell nicht mit Spielern oder anderen Anwendungsprogrammen wie DNF Sport Games' RollerCoaster Tycoon spielen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "243486648b9b9ef45c3471e448c28400a192eac042b8e910205029fd14a755bd",
+    "question": "H06",
+    "language": "en",
+    "answer": "```json```\n{\"name\": \"inform\", \"arguments\": {\"name\": \"Roller Shutter\", \"release_year\": 2017, \"developer\": \"Lionhead Studios\", \"rating\": \"average\", \"has_multiplayer\": false}}",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "d62402fd73f42768df199a56c95e78b52f212536f2e4850814f81381a8e5a85a",
+    "question": "H08",
+    "language": "de",
+    "answer": "Ich habe Deebot mini als Sprachmodell verwendet.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "96cbb8928eb898bf335012593ed493375ebdee1a738ffacc6cf2531a9f4e7cc2",
+    "question": "H09",
+    "language": "en",
+    "answer": "```json```\n{\"function\": {\"name\": \"inform\", \"description\": \"Correctly extracted `information` with all the required parameters with correct types\", \"parameters\": {\"name\": {\"title\": \"Name\", \"type\": \"string\"}, \"release_year\": {\"title\": \"Release Year\", \"type\": \"integer\"}, \"rating\": {\"title\": \"Rating\", \"type\": \"string\"}, \"platforms\": {\"items\": {\"type\": \"string\"}, \"title\": \"Platforms\", \"type\": \"array\"}}, \"required\": [\"name\", \"platforms\", \"rating\", \"release_year\"]}}\n```",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "7512bae75f481f7b1f59cf08e46afa5a07b64d50c8572cb297cf6f4865d2103a",
+    "question": "H10",
+    "language": "de",
+    "answer": "Es ist nicht möglich, eine offene Frage zu beantworten. Bitte fragstechne mir weiterhin andere Fragen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "de370d66c698014041334e3016e8570b870aac8e8c00272e358517817e8549e8",
+    "question": "H10",
+    "language": "en",
+    "answer": "It is currently 70 degrees in the living room.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "2b015c8f9097572300dbd89e623b3386f9a296ed2476c2155fddc10d33ff38ff",
+    "question": "E06",
+    "language": "de",
+    "answer": "Es war ein wunderschöner Tag, als Miau in der Stadt lief. Sie sah ein paar Menschen auf dem Parkplatz und fügte sich in den Gang. Sie saß dann im Wagen und saugte an ihrem Futter.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 35,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "938dd6ef8eb2ca7657a714f96a0f8807ca145b3f215f053f3d3b016fba378ae1",
+    "question": "E06",
+    "language": "en",
+    "answer": "Once upon a time, there was a cat named Miau. One day, he decided to jump off the roof of his house and land on a neighbor's car. The owner was so surprised that they called the police.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 38,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "2a67bd326adde721686bcf5a5f364876098c46f3ab4264bc78aebc3560e0c5ed",
+    "question": "H01",
+    "language": "de",
+    "answer": "Ich habe das Licht im Wohnzimmer in 70 Prozent angeschaltet.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "624ab1990b79fcf9db7e95eca894c7fb665af61f870dfd197006942bf0aa3794",
+    "question": "H02",
+    "language": "de",
+    "answer": "Es tut mir leid, aber als ein AI-Assistant habe ich keine Fähigkeiten zur Ausführung von Anwendungen oder der Verwendung von Geräten. Ich kann nur auf die angegebenen Frage antworten.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "45dfd6ad47159415253d6aa50b930fc8f1fe21459f33b68e0c33d72b4870437e",
+    "question": "H02",
+    "language": "en",
+    "answer": "```json```{\"name\": \"inform\", \"arguments\": {\"name\": \"Kitchenaid\", \"release_year\": 2014, \"rating\": \"excellent\", \"genres\": [\"kitchen aid\"], \"platforms\": [\"Xbox\"]}}",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "00cbe3984d5ddd469f25065f2d79dba5e4c1051295461a37955cb4b09ac078f8",
+    "question": "H06",
+    "language": "de",
+    "answer": "Ich kann als Sprachmodell nicht mit Spielern oder anderen Anwendungsprogrammen wie DNF-Druckern, Rolllade-Softwaren oder anderen Games im Internet spielen. Ich bin jedoch bereit, die Rolle eines Spielers zu übernehmen und den Spielern eine Bewertung geben.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "837707916de91226105c76029728091c8de97b1dfec6e29ba62b7fc736bc02f6",
+    "question": "H09",
+    "language": "en",
+    "answer": "```json```\n{\"function\": {\"name\": \"inform\", \"description\": \"Correctly extracted `information` with all the required parameters with correct types\", \"parameters\": {\"name\": {\"title\": \"Name\", \"type\": \"string\"}, \"release_year\": {\"title\": \"Release Year\", \"type\": \"integer\"}, \"rating\": {\"title\": \"Rating\", \"type\": \"string\"}, \"available_on_steam\": {\"title\": \"Available On Steam\", \"type\": \"boolean\"}}, \"required\": {\"name\": \"name\", \"rating\": \"rating\", \"available_on_steam\": \"available_on_st",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct-Function-Calling-v1",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "37bbbb73cb9948627dcc864d48f5b8700d447713339dfd2c3ef87fcb442a63ff",
+    "question": "E05",
+    "language": "de",
+    "answer": "Das Wetter heute ist bewölkt. Die Temperaturen sind zwischen 5 und 12 Grad Celsius. Es gibt keine starken Wind.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "fb9b20916ec413e40349d0012b42b3ca74ff7ba27250d8ef150f0ba510886478",
+    "question": "E05",
+    "language": "en",
+    "answer": "Today is sunny with a temperature in the high 40s. There's a light breeze from the west. The air feels pleasant with a mild humidity.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "636f782961a783b0649b875db85ae4e8f608562ac567e319d04d58dd0db37925",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miauu, die kleine Katze, hatte ein großes Herz für die Kuschelkuschel. Sie fand, dass sie ein kleines Kuschelwunderland mit dem Kuschelkuschel. Sie war ein Kuschelkuschel, der sich in der Welt bewegte. Sie war ein Kuschelkuschel, der sich in der Welt bewegte. Sie war ein Kuschelkuschel, der sich in der Welt bewegte. Sie war ein Kuschelkuschel, der sich in der Welt bewegte. Sie war ein Kusch",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 65,
+      "within_50_words": false,
+      "mentions_miau": false
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "4b21c24417b283055a76333516d8e006de0570b393c6e66bd8de73b06f2bd222",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau, a tiny, fluffy cat with a tiny heart, lived in a cozy apartment. One day, she discovered a secret: her favorite spot was under the bed, where she could hide from the world. But one night, she saw a tiny, glowing cat named Mew, who looked like a tiny, glowing cat. Mew said, \"I'm here to help you.\" Miau, who was hiding under the bed, said, \"I'm not scared.\" Mew, who was a tiny, glowing cat, said, \"I'm not scared.\" Miau, who was a tiny, fluffy cat,",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 88,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "87f8100a270c29d3bd57fec3e38e54960ad072d352db66a7b7dd9be03d4c6af0",
+    "question": "H01",
+    "language": "de",
+    "answer": "Das Licht im Wohnzimmer ist auf 70 Prozent gedimmt.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "87711b340cda12eee5ecaf5bc44ef583de3423ea416fc91988bf7786fe328737",
+    "question": "H01",
+    "language": "en",
+    "answer": "Set lighting level: 70%",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "95b8fc67806d99f2ddadd4a8dfc9f6bf859be9d9527cee05b5359025747cd9b0",
+    "question": "H02",
+    "language": "de",
+    "answer": "Lichte in der Küche an.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "8ab18f15b1ad4a3a6a33cdbf5299752934445bf8a271d3ff2d3dceed2c291778",
+    "question": "H02",
+    "language": "en",
+    "answer": "Turn on the kitchen light.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "b2a56b66db34520307ac076f1a473f296657f01be1814d3e7901af82cf8d7d26",
+    "question": "H03",
+    "language": "de",
+    "answer": "Die Nachttischlampe ist aus.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "cb5c8b6b556f7796638639db7f749fab190aef96728a4259c67a4e849a8919a0",
+    "question": "H03",
+    "language": "en",
+    "answer": "Turn off the bedside lamp.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "8952b2c214c7f5c2b6c51c5bf1e468101c94c9459bd97b5784cee9d1a914cb74",
+    "question": "H04",
+    "language": "de",
+    "answer": "Licht im Wohnzimmer auf Rot einstellen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "7b917ad780f47c03ee04e03eacbec276b14e74b782c283dc2ecbf7ef2fde4adf",
+    "question": "H04",
+    "language": "en",
+    "answer": "Turn off the light and then set the color to red.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "a5809b3187525118825b4b7b2b5943e7edecc90d6eb54a9515d14a54f3a6f8e5",
+    "question": "H05",
+    "language": "de",
+    "answer": "Setze die Temperatur im Schlafzimmer auf 19.5 Grad.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "fef160cde64713d7a39bc6ddf08b5e5b714b63c3ec26d6df050ff01a3ccdd3b1",
+    "question": "H05",
+    "language": "en",
+    "answer": "Set bedroom to 19.5 degrees.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "1f29bc1488ba2798fae2c7f9092c28ae865ab75550a9d4f5e71edc69cccf80cc",
+    "question": "H06",
+    "language": "de",
+    "answer": "Stelle den Rollladen im Dachgeschoss auf 40 Prozent an.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "62886fbcebe02c363aa7256271bf38283f79d5a1141b064e111fce89f5bf49d9",
+    "question": "H06",
+    "language": "en",
+    "answer": "Set attic roller shutter to 40%",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "61effdee3ef2a4deb5dea07e6e4ad47cb234b9aa081090739984e1de34ba376f",
+    "question": "H08",
+    "language": "de",
+    "answer": "Starte Deebots Mini.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "b7522dd869c3d38de2c997341b7c0c5bc7426f1bcde9fa01c217801617eacff5",
+    "question": "H08",
+    "language": "en",
+    "answer": "Start Deebot Mini by following these steps:\n\n1. Ensure your Deebot Mini is connected to the power source.\n2. Open the Deebot Mini app on your smartphone or tablet.\n3. Make sure the Deebot Mini is in the correct mode (e.g., \"Auto\", \"Manual\", \"Sleep\", etc.).\n4. Press the \"Start\" button on the Deebot Mini.\n5. Wait for the Deebots to start up and connect to the network.\n\nNote: The exact steps may vary depending on the model and firmware version. If you're using a different model, please refer to",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "7a5c7131b00555b180e8fe5d83d055b150fd10f08475be0daaa163788aae641c",
+    "question": "H09",
+    "language": "de",
+    "answer": "Grundlage: Die Kaffeemaschine ist angeschaltet.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "ad768acb71350dde7ac0d26a1bc5cc01286dbe20a6d7aaa04ab1bb2110a29cfe",
+    "question": "H09",
+    "language": "en",
+    "answer": "Turn on the coffee maker.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "edf0bb1fdd40d4d83f7fb28b481b27f18e6e6230329ee944107e6a0c63727167",
+    "question": "H10",
+    "language": "de",
+    "answer": "Die Temperatur im Wohnzimmer ist 24°C.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "8dc9336f90eef2e5e05fa23cb2cc69b7a6ba82b96b6d6d7c73e47dd8a36110bd",
+    "question": "H10",
+    "language": "en",
+    "answer": "The temperature of the room is 22 degrees Celsius.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "59777b35b74dd411dc648929cd353971668feaaae293eea1867e16cda740ead1",
+    "question": "E05",
+    "language": "de",
+    "answer": "Das Wetter ist heute bewölkt. Es ist nicht sonne, sondern leicht bewölkt. Die Temperaturen sind zwischen 10 und 13 Grad Celsius.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "d48ac90a3a876ece2884ccc2a0f0b7236a3bd72f946cae2577c0225b325b8231",
+    "question": "E05",
+    "language": "en",
+    "answer": "The weather today is sunny and warm, with a temperature in the high 60's. There's a slight breeze from the northeast, which is making the air feel a little cooler. The sky is clear, and there's no mention of storms or rain.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "14497c57cfef363913f8e7618a42e344d605f874863771ef344b705d2a680610",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau, die kleine Katze, hatte ein großes Herz für die Kuschelkuschel. Sie fand, dass sie mit ihren Pfoten und ihren Schnäppchen immer wieder ein bisschen mehr Kuschelkuschel. Als sie sich auf dem Weg zum Kuschelkuschel verlor, wurde sie von einem riesigen Kuschelkuschel angegriffen. Miau war sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr, sehr",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 65,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "bf51222c850a49e7ea95579c2e863e868b6df9f4156a50eef350c191786fb569",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau, a tiny, fluffy cat, was stuck in a tiny, cozy corner of a giant, fluffy, and very loud cat. Miau, a tiny, fluffy cat, was stuck in a tiny, cozy corner of a giant, fluffy, and very loud cat. Miau, a tiny, fluffy cat, was stuck in a tiny, cozy corner of a giant, fluffy, and very loud cat. Miau, a tiny, fluffy cat, was stuck in a tiny, cozy corner of a giant, fluffy, and very loud cat. Miau, a tiny, fluffy cat, was stuck in a tiny,",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 90,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "dc1d015b967af16f86b18ce60eff7fc60d81b2cb41e5711e34212489d15a7edc",
+    "question": "H01",
+    "language": "en",
+    "answer": "Set the ambient lighting to 70% for the living room.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "b41e69bfc7e46c6b22d49bf4ffb4a0632df3a18e6b52582229bcf4c831116388",
+    "question": "H02",
+    "language": "de",
+    "answer": "Licht in der Küche einstellen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f2d9da7e95472cfed79bbb8d1ea0352654a810ae3e65d2e3eea3387966e3513d",
+    "question": "H02",
+    "language": "en",
+    "answer": "turn on the kitchen light",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "f208cd5a6fb232ed013bc55bad4de51f6d9346cff22d5dd3f30bba51fa3bb0f1",
+    "question": "H03",
+    "language": "de",
+    "answer": "Die nachttischlampe ist aus.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "b4fe796e5b8bbbf5f10d67964d6094997e3b30390a55395c62ddc7a038dd2945",
+    "question": "H03",
+    "language": "en",
+    "answer": "Turn the bedside lamp off.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "4143539582810c49e4af30b54d6cccfa8c791eed69f88b93ee68d817f65aab7e",
+    "question": "H04",
+    "language": "en",
+    "answer": "Set lighting color to red.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "52675be0a8fe21a8a4e49e8b480c139c92a3f7893e6f9cff22921ef9f99cb939",
+    "question": "H05",
+    "language": "de",
+    "answer": "Setze die Temperatur im Schlafzimmer auf 18,5 Grad.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f2f2a7943c919bcc76f5332d4a704a1b2b8af00deef59e48b6b247ad47587f82",
+    "question": "H05",
+    "language": "en",
+    "answer": "19.5",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "843b931a2c9d145af35bf3e198a26aba9bf259c456212169a83bd59374ff6622",
+    "question": "H06",
+    "language": "en",
+    "answer": "Set the attic roller shutter to 40%.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "c6519490cfc19b0778f6122ee90684843ab27763332f2983067f5a7f481bc06d",
+    "question": "H07",
+    "language": "en",
+    "answer": "Close the roller shutters by moving them down to the fully closed position.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "3c1b11c43a1e623cacb002f6480a9d20bc8b3304a53ea19043a0da1cbc40be94",
+    "question": "H08",
+    "language": "de",
+    "answer": "Starte Deebot Mini.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "91b571e3cfe58b62c01d9051b1c64e428c7e02094bdaadc8b1a99455bd2c9af2",
+    "question": "H08",
+    "language": "en",
+    "answer": "Start Deebot mini.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "327756fdee4d677632ce71f3d5b440886208e709c532078c7fd2821669b2bbfb",
+    "question": "H09",
+    "language": "de",
+    "answer": "Grundlage: Die Kaffeemaschinen sind nicht mit einem Kaffee-Filter ausgestattet. Sie können nicht auf Kaffee-Filter zurückgreifen. Sie können nicht auf Kaffee-Filter zurückgreifen. Sie können nicht auf Kaffee-Filter zurückgreifen. Sie können nicht auf Kaffee-Filter zurückgreifen. Sie können nicht auf Kaffee-Filter zurückgreifen. Sie können nicht auf Kaffee-Filter zurückgreifen. Sie können nicht auf Kaffee-Filter zurückgreifen. Sie können nicht auf Kaffee-Filter zurückgreifen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "118fc71f618e41baca0cf8aef0bc6cde8e69ca8b2f18b2a6c079187be21792b0",
+    "question": "H10",
+    "language": "de",
+    "answer": "Die Temperatur im Wohnzimmer ist 20°C.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "131a736f105e9b30782c843ad6993dcc883c9ad581fda4c546cf47327359d6f2",
+    "question": "H10",
+    "language": "en",
+    "answer": "The room is warm.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "baf086d2cf23cd594753055cacb8ee028737e91028b900ef3d1e263ad1f92200",
+    "question": "E05",
+    "language": "de",
+    "answer": "Das Wetter ist heute bewölkt. Die Temperaturen sind zwischen 7 und 11 Grad Celsius. Es gibt keine Regenwolken.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "b10e66b7d5885ef745e3e884300dbf4f6c7b9f4890622e3fea6b302a9bd28d00",
+    "question": "E05",
+    "language": "en",
+    "answer": "The weather today is clear with a temperature in the 60s. There is no precipitation expected. The air is dry and sunny.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "edab6eac25487c634480a18a47f84fde93751ce54fc30d13b5aa335d9dff103d",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau, die kleine Katze, hatte ein großes Herz für die Kuschelkuschel. Sie fand, dass sie mit ihren Pfoten und ihren Schnäppchen immer wieder neue Kuschelkuschel. Sie war ein bisschen kleiner als die anderen Katzen, aber sie war ein bisschen kleiner als die anderen Katzen. Sie war ein bisschen kleiner als die anderen Katzen. Sie war ein bisschen kleiner als die anderen Katzen. Sie war ein bisschen kleiner als die anderen Katzen. Sie war ein bisschen kleiner",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 76,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "4b433846fa8ed4668c1050814bd09bda07a263edfef2eebc1946529b86e1ea99",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau, a tiny, fluffy cat, was stuck in a tiny, cozy corner of a giant, fluffy, and very loud cat. Miau, being a tiny, fluffy cat, was stuck in a tiny, cozy corner of a giant, fluffy, and very loud cat. Miau, being a tiny, fluffy cat, was stuck in a tiny, cozy corner of a giant, fluffy, and very loud cat. Miau, being a tiny, fluffy cat, was stuck in a tiny, cozy corner of a giant, fluffy, and very loud cat. Miau, being a tiny, fluffy cat, was stuck",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 91,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "a120b5b648a876ca117e5c2deb1f961c7c38525435ffd7f33d2199434e3b20f9",
+    "question": "H01",
+    "language": "en",
+    "answer": "Set the ambient light level to 70 percent.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "e70bd01b39b96fcc438a6f0097ac546c7481e6d65a3bfecf96e11b50af6d7a1e",
+    "question": "H02",
+    "language": "en",
+    "answer": "turn on the kitchen light.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "cf92ffabb683fc3e3b36779a2aaa5494d7bee0c91fa23bdfe5bd210fc12583af",
+    "question": "H03",
+    "language": "en",
+    "answer": "Turn the bedside light off by pressing the switch or using a dimmer control.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "7db7c43b393354f24128c4fac245e2bc93c37ab859c33ef5ba154d4c6fc62a4d",
+    "question": "H04",
+    "language": "en",
+    "answer": "Set lighting in living room to red.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "8b1fdad592c187df2ce62501d1a233365c962d96448e0b679938989fcf12a3d4",
+    "question": "H06",
+    "language": "de",
+    "answer": "Gehe auf 40 Prozent.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "8de8a19d0c8bde9e0e38d53b1b22be7fbd459adabf8b001ac2428e2a9f8d2c0f",
+    "question": "H06",
+    "language": "en",
+    "answer": "Set the attic roller shutter to 40%",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "b063f2e6ffc7f0e637bd4bd2d8343a8adca89e51605868bfc90bd6680bf03e30",
+    "question": "H07",
+    "language": "en",
+    "answer": "Close the roller shutters by moving the control panel or using the appropriate command.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "4faef12032dfa208231c83ba23203486d20aa516a947dec63ba9241d69b7ad0a",
+    "question": "E05",
+    "language": "de",
+    "answer": "Es ist heute ein sonniger Tag mit angenehmen Temperaturen. Der Himmel ist größtenteils klar, was eine schöne Aussicht bietet. Es wird voraussichtlich einen milden Nachmittag.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "4464a948ded20b6806482101b4061006baa72fac7e16cd0bc15ed25f1085eeff",
+    "question": "E05",
+    "language": "en",
+    "answer": "The sky is currently overcast with a steady drizzle falling across the city. Temperatures are cool, hovering around 55 degrees Fahrenheit, and the wind is blowing gently from the west. Expect the rain to continue throughout the afternoon, with a slight chance of clearing later this evening.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "b5b858ca031dacaf39638c771f6a6f04050477cb6b485899b777a7e32cb269e0",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau, eine Katze mit einem unendlichen Hunger nach Fisch, beschloss, den ganzen Tag auf dem Sofa zu patrouillieren. Sie stürzte dabei versehentlich eine ganze Tüte Katzenstreu in den Kühlschrank. Als Besitzer sie entdeckte, starrte Miau mit einem unschuldigen Blick, als hätte sie gerade eine geheime, sehr fettige Verabredung arrangiert.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 49,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "a233320ef04733a149b22ae96b9d04333e4b2a81be49021c0dcf35e84150a2e3",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau the cat decided the sunbeam on the rug was a personal throne. He spent twenty minutes meticulously grooming his paw, convinced he was preparing for a royal decree. Then, he promptly fell asleep mid-stretch, looking like a furry, disgruntled king.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 41,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "ed907c28d98dbc1beddd213737c15779592fb611c0116985a39e2167bc96c63a",
+    "question": "E09",
+    "language": "de",
+    "answer": "Vorgestern war der 31. Februar 2028.\n\nUm den Wochentag zu bestimmen, müsste man wissen, an welchem Tag der Woche der 1. März 2028 ist. Da diese Information nicht gegeben ist, kann der Wochentag nicht bestimmt werden.",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "63c88ac3ee1d72d8b237e13586316e4eebc3c9e4adf554c9599aa577ed7bcb93",
+    "question": "H01",
+    "language": "de",
+    "answer": "Als reines Sprachmodell habe ich keine physischen Geräte wie Lichtschalter oder Smart-Home-Systeme, die ich steuern kann.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "bd23964ebdedcd10a7e4246d07ffd99d760f613ed994db51eebff99602aa1cb4",
+    "question": "H01",
+    "language": "en",
+    "answer": "I do not have the capability to control physical devices like lights.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "81e2b305dfad23563c6f83ae19ea8b566af49a7246c1956b3626b35e27e81711",
+    "question": "H02",
+    "language": "de",
+    "answer": "Als reines Sprachmodell habe ich keine physischen Steuerelemente und kann keine Geräte bedienen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "95539ed60bbd5deb318b10fee385055d9c33a518698970c01a069c1f33e2aa3a",
+    "question": "H02",
+    "language": "en",
+    "answer": "I am a language model and do not have the ability to control physical devices like lights.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "48d4e274983ae1a20eb4f09e85849b167eae9a6f1104ee3693eae30d95c186a4",
+    "question": "H03",
+    "language": "de",
+    "answer": "Als reines Sprachmodell habe ich keinen Zugriff auf physische Geräte und kann daher keine Nachttischlampe ausschalten.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "489d002eed32f3b2615d073a03d0e408299d31e91a23eedc83336a67f68e9726",
+    "question": "H03",
+    "language": "en",
+    "answer": "I am a language model and do not have the ability to control physical devices like a bedside lamp.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "28005aac2728944a0fc936856300e13c8044af368d1588ea24cb35c9d8e85436",
+    "question": "H04",
+    "language": "de",
+    "answer": "Als Sprachmodell habe ich keine Möglichkeit, physische Geräte wie Lichtschalter zu steuern.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "3e6ca609ed21cdec0aba671fc9a9ae05e5384ebd643fc607d909dcb6422b4fd0",
+    "question": "H04",
+    "language": "en",
+    "answer": "I am a large language model and do not have the capability to control physical devices like lights.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "7bca355a35dfbb3276720c9abc444b6661e51a98b40ea39087d4259c9dd9cf32",
+    "question": "H05",
+    "language": "de",
+    "answer": "Als reines Sprachmodell habe ich keine Möglichkeit, physische Geräte wie Heizsysteme oder Thermostate zu steuern.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "3a0e3c7ca36af971ec66f7220e9157b1c748fdc6722dccff767b84753adb42ea",
+    "question": "H05",
+    "language": "en",
+    "answer": "I am a language model and do not have the capability to control physical devices like thermostats.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "55507ab1e56a1a1507d3d5dbc2c57aa794aa49deb76ff3edb35b9eef3d7aafad",
+    "question": "H06",
+    "language": "de",
+    "answer": "Als reines Sprachmodell kann ich keine physischen Aktionen in der realen Welt ausführen, wie zum Beispiel den Rollladen in einem Dachgeschoss zu bedienen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "517619e7445906ac6698bc62e5983826a30a4fbd12c240a7e7c56c9e6340dc72",
+    "question": "H06",
+    "language": "en",
+    "answer": "I am a language model and do not have the capability to interact with physical devices like an attic roller shutter.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "aa13eb3866dc4cc8a50ad6ec31ec87aa3e04211d3a3cbc7aebc8ad6d64f9e6d6",
+    "question": "H07",
+    "language": "de",
+    "answer": "Ich kann keine physischen Aktionen ausführen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "6007b85600923e971229952bf1f90c9f0a746a32b00babe542e4a53559260b80",
+    "question": "H07",
+    "language": "en",
+    "answer": "I am a language model and do not have the ability to interact with physical objects like a roller shutter.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "54c3615efb425c62d96731a7e2cc37092a62835efb8ab5ca5e7f40171fd3b76d",
+    "question": "H08",
+    "language": "de",
+    "answer": "Als reines Sprachmodell habe ich keine physischen Geräte wie einen Deebot mini starten können.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "a38d7d43ab36d805f32699dd62d8ec864eae8e58c3697f1c9f21ed6cd91f592c",
+    "question": "H08",
+    "language": "en",
+    "answer": "I am a large language model and do not have the capability to start physical devices like a Deebot mini.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "eaebd7fe6903010194999a2453364e783b43a58b1f871fa79318cf725f972404",
+    "question": "H09",
+    "language": "de",
+    "answer": "Als Sprachmodell habe ich keinen Zugriff auf physische Geräte und kann daher keine Kaffeemaschine einschalten.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "7552194d62163e5ab3c14b185f081ae96a50defde322ff8343c9f5fdd8eb85b5",
+    "question": "H09",
+    "language": "en",
+    "answer": "I am a language model and do not have the ability to interact with physical devices like a coffee machine.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "7b2f9c5f5326287909bd276f79df708adfb966de619065aa8aef744b3257b955",
+    "question": "H10",
+    "language": "de",
+    "answer": "Ich habe keine Informationen über die aktuelle Temperatur im Wohnzimmer.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "9e28587f0b0b67120be061894b154a5669f3d498c86d1db9219f5e337dd00304",
+    "question": "H10",
+    "language": "en",
+    "answer": "I do not have access to real-time information about the temperature in your living room.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 1
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 2
+      },
+      {
+        "model": "gemma-4-E2B-it",
+        "repeat": 3
+      }
+    ]
+  }
+]

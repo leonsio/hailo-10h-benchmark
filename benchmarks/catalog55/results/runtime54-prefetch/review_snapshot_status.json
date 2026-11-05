@@ -1,0 +1,1878 @@
+[
+  {
+    "group_id": "da49061713c8192e46bc7b71a0aee9f61ac76f8860c68b2314e2d05d20b933aa",
+    "question": "E09",
+    "language": "en",
+    "answer": "Alright, so I need to find out what day of the week and date was two days before March 1st. Let me start by figuring out March 2nd because that's one day before March 1st.\n\nFirst, I know that March has 31 days. So if March 2nd is a Monday, then March 1st would be a Sunday. That makes sense since March 2nd is the next day after March 1st.\n\nWait no, hold on. If March 1st is a Sunday, then March 2nd should be Monday? No, wait, March 2nd would",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "DeepSeek-R1-Distill-Qwen-1.5B",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "d269d2a80868bf1394a387cbf4b481ed061f8996f357ed62e12ec261d836a80c",
+    "question": "E10",
+    "language": "en",
+    "answer": "Alright, so I need to find out what day of the week and date was two days before March 1st. Let me start by figuring out March 2nd because that's one day before March 1st.\n\nFirst, I know that March has 31 days. So if March 2nd is a Monday, then March 1st would be a Sunday. That makes sense since March 2nd is the next day after March 1st.\n\nWait no, hold on. If March 1st is a Sunday, then March 2nd should be Monday? No, wait, March 2nd would",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "DeepSeek-R1-Distill-Qwen-1.5B",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "ccf7c87b67d31ef92e870be7565d0a7b9fbc4a604888ac8a7959d8d8a70e5e28",
+    "question": "E09",
+    "language": "en",
+    "answer": "Okay, so I need help figuring out what day of the week and date was two days before yesterday on March 1, 0289. Let me start by breaking it down step by step because I'm a bit confused about how to approach this.\n\nFirst, let's clarify the timeline. We're looking at March 1, 0289, which is the same as March 1, 2890 (assuming that years are just numbers without any decimal points). So, March 1, 0289 is the same as March 1, 2890 if we ignore",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "DeepSeek-R1-Distill-Qwen-1.5B",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "4a4f8f2cd0cdde8a0feacd28b44df001fccb926ec526d7c952b41f30dbaa6571",
+    "question": "E10",
+    "language": "en",
+    "answer": "Okay, so I need help figuring out what day of the week and date was two days before yesterday on March 1, 0289. Let me start by breaking it down step by step because I'm a bit confused about how to approach this.\n\nFirst, let's clarify the timeline. We're looking at March 1, 0289, which is the same as March 1, 2890 (assuming that years are just numbers without any decimal points). So, March 1, 0289 is the same as March 1, 2890 if we ignore",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "DeepSeek-R1-Distill-Qwen-1.5B",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "2425fe80f58e834ee7c7322617c6e3a3c8d8df7f70610cbdfa2c9bf35e8b25d0",
+    "question": "E09",
+    "language": "de",
+    "answer": "Okay, so I need to figure out what was the weather and date from a certain week before 1. March 2028. Let me try breaking this down step by step.\n\nFirst, I know that 1. March 2028 is the start of the week we're looking at, but it's actually the next day after the previous week. So the previous week would end on December 31, 2247, right? Wait no, that doesn't make sense because 2028 is way later than 2247. Maybe I'm misunderstanding something here.\n\nWait",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "DeepSeek-R1-Distill-Qwen-1.5B",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "98759650445b85ae4ab1a5169ae4638c09d841d479be57e6d3e073843c1e09e6",
+    "question": "E09",
+    "language": "en",
+    "answer": "Today is March 1, 2028. The day before yesterday was February 30, 2028.\n\nTo determine the day of the week and date for that specific day, we can use a calendar or a simple calculation based on the number of days between today and the given date.\n\nHere's how you can do it:\n\n1. **Calculate the difference in days**:\n   - Today: March 1, 2028\n   - Given date: February 30, 2028\n\n2. **Count the days from January 1, 2028",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Qwen2.5-Coder-1.5B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "8d401a4227714f98260694564346e6d36423bd3c5484d26d0732b26a2a0650f1",
+    "question": "E10",
+    "language": "de",
+    "answer": "Vorgestern waren der 31. März und der 20. Februar.\n\nDer Wochentag war der Dienstag.\n\nDie Daten waren:\n\n- 31. März: Montag\n- 20. Februar: Mittwoch",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Qwen2.5-Coder-1.5B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "0af0f4e474f530ff1e302d1ac760088b6b7283ccda8576b6fef1c28507b79efc",
+    "question": "E10",
+    "language": "en",
+    "answer": "Today is March 1, 2028. The day before yesterday was February 30, 2028.\n\nTo determine the day of the week and date for that specific day, we can use a calendar or a simple calculation based on the number of days between today and the given date.\n\nHere's how you can do it:\n\n1. **Calculate the difference in days**:\n   - Today: March 1, 2028\n   - Given date: February 30, 2028\n\n2. **Count the days from January 1, 2028",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Qwen2.5-Coder-1.5B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "786b1a952a2ad0031861c55a1a4d1e9593cf72de23699c34a69482888cfaf6cc",
+    "question": "E09",
+    "language": "de",
+    "answer": "Vorgestern war 2. März 2028, also ist es Montag und das Datum war 1. April 2028.",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Qwen2-1.5B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen2-1.5B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "14c10c6d76d0c49526c8aba7cf708252f263cb8cb6ea3e9c788fa3949b2a7235",
+    "question": "E10",
+    "language": "de",
+    "answer": "Vorgestern war Donnerstags, also am 31. Dezember des Jahres 2027. Am 1. Dezember des gleichen Jahres waren es Dienstag und das Datum war Samstag.",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Qwen2.5-1.5B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "4918a24f359bf840a8e2948850d34695bd33a6689641565f9b5f09ad13920412",
+    "question": "E09",
+    "language": "en",
+    "answer": "Today is March 1, 2028. The day before yesterday was a Wednesday. So today is a Thursday in the year 2028. Therefore, the date of tomorrow will be March 3, 2028. And it's still March 1, 2028. So today is a Thursday. Therefore, the answer to your question is that the day before yesterday was a Wednesday and today is a Thursday.",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Qwen2.5-1.5B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "74545fead61c22ad3663ab860c8831b36b8119f0f9b46800b8b0f11161cfcead",
+    "question": "E10",
+    "language": "en",
+    "answer": "Today is March 1, 2028. The day before yesterday was a Wednesday. So today is a Thursday in the year 2028. Therefore, the date of tomorrow will be March 3, 2028. And it's still March 1, 2028. So today is a Thursday. Therefore, the answer to your question is that the day before yesterday was a Wednesday and today is a Thursday.",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Qwen2.5-1.5B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f39c178825f325a6fa4b64e70d2942e795ef3645658004ad5dcc4bb9a56c0236",
+    "question": "E05",
+    "language": "de",
+    "answer": "Entschätzung: Heute ist ein wunderschöner Tag, und es wird in der Tat sonnendüren. Die Sonne bricht in einem sanften Hintergrund, und die Wolken sind auf unbesaß 30 Grad über der Höhe. Es ist ein perfekter Tag für eine Spazierende in der Freitatswelt zu sein.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "2e6af1fb33ed37d15194651a06a7a1bca9d576e31dc39f5d021f1168038fc491",
+    "question": "E05",
+    "language": "en",
+    "answer": "I can provide a sentence about the weather today if you'd like, but I don't have any information to provide a three-sentence sentence. However, I can offer a simple statement about the weather: \"The current weather is unclear.\"",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 2,
+      "exactly_three_sentences": false
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "b85cb6a776f840a9a27f684d18e2d7f9952467686372798b1c995e2145f1160b",
+    "question": "E06",
+    "language": "de",
+    "answer": "Es war einmal in einem kleinen Haus in einer hübschen Stadt. Eine Katze namens Miau, die für \"Miau\" bekannt war, lebte ein Leben voller Freude und Neugier. Eines Tages, als der Vater zu Hause war, kam Miau auf eine lustige Situation: Der Morgen war so frühig, dass sie ihre Katze-Frühtsamkeit verboten hatte.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 52,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "6b36aa6dc0819f3124c9788f53895623bc14f065c4f1feda8e86630717f1cd38",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau, a sleek black cat, was known for stealing socks. One day, she raided the laundry room and found a bright pink sock with a cartoon cat on it. She batted it off the dryer and ran around the house, tripping over her own tail.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 45,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "a4c7fcc889ff494ec8707531aed249d91c51a8bda8bd2b6cf62fb21384e5b263",
+    "question": "E10",
+    "language": "de",
+    "answer": "Lass uns die Reihenspiel der Daten durchgehen!\n\nDer 1. März 2028 ist ein Sonntag.\n\nJetzt ist es also der 2. März 2028, da ist also der 3. April 2028!",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "6fdbaa2ba1999665a685dc5f6e28f86f614e3f0af0f629631bb2008015feefff",
+    "question": "H01",
+    "language": "de",
+    "answer": "Es ist also nicht möglich, das Licht im Wohnzimmer auf 70 Prozent zu schalten. Es scheint, als ob du ein bisschen verwirrt bist!\n\nLass einfach die Vorfärbareinstellungen in deinem Wohnzimmer ein, bis du es wieder so anpassen kannst, wie du es bevor dich selbst wünschtest. Du hast die Einstellungen für die Vor- und Einstellungen der Geräte, aber du musst sie nicht verändern.\n\nHier sind einige Tipps, um deine Geräte zu unterstützen:\n\n* Schalte Geräte ein, wenn du",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "90fc0ec57aafa013aa83e9637355500c243aa59bcdafe885c5a0419432395051",
+    "question": "H01",
+    "language": "en",
+    "answer": "I don't have the ability to control lighting in your living room. This type of task requires device and user control, which is not available in this interface. Is there anything else I can help you with?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "7ab6d02f8b7ef735b462decd02eb5fe41063635b452a975c54377d00047210cb",
+    "question": "H02",
+    "language": "de",
+    "answer": "Das ist eine einfache, aber nützliche Aufgabe! Hier sind einige Schritte, die du unternehmen kannst, um das Licht in der Küche anzuziehen:\n\n1. **Kleine Schritte**: Beginne, kleine Schritte zu machen. Je nach Größe deinem Projekt kann es schwieriger sein, das Licht anzuziehen.\n2. **Ersetze das Licht**: Ersetze das ersetze das Licht in der Küche an. Du kannst ein einfaches LED-Lichter oder ein einfacher Wetter-Modus verwenden, um die Temperatur zu überwachen",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "3a414d9138cf3d744e3e3380f22b070dd45b7470641813882a130ea153630f7b",
+    "question": "H02",
+    "language": "en",
+    "answer": "I'm a large language model, I don't have the ability to physically turn on the kitchen light. However, I can provide you with instructions on how to do it.\n\nTo turn on the kitchen light:\n\n1. Open the switch or button that controls the kitchen light.\n2. If using a wall switch, move the switch to the \"on\" position.\n3. If using a toggle or lever switch, press the button to turn it on.\n4. Test the light to make sure it's working properly.\n\nPlease note that I don't have any information about your device or location, so I don't know if there are any",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "b83328d8bd1747bf6dc76b7e2795a2cdcc8651b6debb7ea0a1cd560e54044421",
+    "question": "H03",
+    "language": "de",
+    "answer": "Ich bin ein Computerprogramm und habe keine Kontrolle über die physische Welt. Ich kann jedoch eine Anleitung oder eine Empfehlung anbieten, um dir zu helfen.\n\nUm die Nachttischlampe auszuschalten, kannst du einfach die Schalter in der Nähtochoptik öffnen und schließen. Alternativ kannst du auch die Lichtschalter in deinem Haus öffnen und schließen, um sicherzustellen, dass die Lampschale nicht mehr existiert.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "052a2e456a414f13050632103414d651f419408bec9ffed9e4a7cc7de4722fa6",
+    "question": "H03",
+    "language": "en",
+    "answer": "I don't have the ability to turn off the bedside lamp. Is there anything else I can help you with?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "8f56bc2d46b77055726f423bc0835e50b49ea4e7d3eb7f50edd10f1c2e46a77f",
+    "question": "H04",
+    "language": "de",
+    "answer": "Ich kann nicht darauf einstellen, dass das Licht im Wohnzimmer auf rot gesetzt ist. Möglicherweise verfügt der Benutzer ein anderes Ziel. \n\nDu kannst einfach das Licht in einem anderen Ort auf die richtige Farbe setzen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "17cbb47742b157cf09e639e10fad00560f823683da5dde277cbfe5ea9acee836",
+    "question": "H04",
+    "language": "en",
+    "answer": "I can't set the living room light to red as it is a device and I don't have access to its settings. Is there anything else I can help you with?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "a67961f45313c4e735fee42e0f8f661bf69aad9c8190a04c509789b0acfbc37e",
+    "question": "H05",
+    "language": "de",
+    "answer": "Entschuldigung, aber ich kann keine Einstellungen oder Anpassungen an persönlichen Daten machen. Ich kann dir jedoch allgemeine Informationen anbieten. Hier ist eine Liste der Temperatürme für ein Schlafzimmer auf 19,5 Grad:\n\n* Die Temperatur in einem Schlafzimmer zwischen 15 und 25 Grad Celsius variiert stark je nach Region und Zeit.\n* In Europa und vielen anderen Teilen der Welt ist es normal, dass die Temperatur im Schlafzimmer zwischen 18 und 22 Grad Celsius liegt.\n* In den USA ist es normal, wenn die Temperatur zwischen",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "b731ce30acfb29c120a90813c7e738c1148476c73d9ced9dc2e76fc05d251427",
+    "question": "H05",
+    "language": "en",
+    "answer": "I can’t do that. It is not possible to set the temperature in the bedroom to a specific number without access to weather data or device tools, and it also seems like you are trying to control the temperature of a virtual device.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "74ece669925d9b6c0a92ad0e041cf843742f2426ca4cbbb46810baa964bd2819",
+    "question": "H06",
+    "language": "de",
+    "answer": "Entschuldigung, aber ich kann nicht dabei helfen, Anleitungen oder Planungshilfe zu geistig erfordern. Könnten Sie mir stattdessen behiläufig sein lassen?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "d7d825fe5854d1b46a69fd70fda7320bed50ed0f7ce4cf7777b894db00f55b1b",
+    "question": "H06",
+    "language": "en",
+    "answer": "I can't set the attic roller shutter to a specific percentage. Is there another task I can help with?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "f2d511d24e709a211ed3650dd10c64e376b448347add2cc0444abd180ac4b454",
+    "question": "H07",
+    "language": "de",
+    "answer": "Ich bin ein Sprachmodell, das darauf ausgelegt ist, auf Deutsch zu antworte und eine Vielzahl von Anweisungen zu erfüllen. Ich bin hier, um dir zu helfen, und ich bin bereit, dir in deinem Anruf zumindestens 30 Minuten abzuspielen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "d42c9c65bbcb78716a929e58bde475856f008ef2d1806b347814ca3f9c8c16f0",
+    "question": "H07",
+    "language": "en",
+    "answer": "\"Closed roller shutter.\"",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "b43741af01e057fa4da446e38614c2b5a70e57b3690634cdca31b82bc6008b87",
+    "question": "H08",
+    "language": "de",
+    "answer": "Um die Deebot Mini an der richtigen Position zu bringen, halte sie beispielsweise 30-60 Grad außerhalb des Wettberiens und dränge die Temperatur in die Vorderdecke. Hier ist eine Schritt-für-Step-Anleitung:\n\n1. **Deeboot Mini einsetzen**: Ziehe die Deebot Mini aus dem Kühlschrank und hänge sie sanft in die Vordüste.\n2. **Temperatur überprüfen**: Überprüfe die Temperatur auf deinem Gerätoschirm: +30",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "ec8610d26721844c4088602e22ccce818d0215d8760662ac8ef6cc2cdae6e802",
+    "question": "H08",
+    "language": "en",
+    "answer": "I can not assist you with this task.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "e3caa47d9d532756eb4b39e8cb0bf6735baec78180f3ca118ffcfa136b2b7db7",
+    "question": "H09",
+    "language": "de",
+    "answer": "Entschlüssle die Kaffeemaschine.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "8a260497a9e84704c415c3d19dd82dce03307d4fa11a2ff4fcb0efdaaa1e17d2",
+    "question": "H09",
+    "language": "en",
+    "answer": "Turn on the coffee machine.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "d35e048ead4997caf878792620a9620fd98aa59e896befde09c7f04d9fba7776",
+    "question": "H10",
+    "language": "de",
+    "answer": "Es ist einfach nicht möglich, eine genaue Temperatour zu bestimmen, wenn es im Wohnzimmer so warm oder kalt ist. Es gibt keine Wetterverfolgung und keine Geräteausgabe, die Informationen über die Temperatur verarbeiten könnte.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "9e7582e1b33424e9c3702104a3d6486bf51a8ec7d577295b07d084adaad61d99",
+    "question": "H10",
+    "language": "en",
+    "answer": "I don't have access to real-time information about the temperature in your living room. However, I can suggest some ways for you to find out how warm it is there.\n\nYou could:\n\n1. Check your device's weather app or website to get the current temperature.\n2. Ask a voice assistant like Alexa or Google Assistant to tell you the temperature.\n3. Search online for \"current temperature in [your city]\" to find the latest information.\n\nPlease let me know if there's anything else I can help you with!",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "547d78ddf5adb8c167623e161490af7fba85623f12f253ba9c4da9a517041e7a",
+    "question": "E05",
+    "language": "de",
+    "answer": "Entschätzung: Heute ist ein sonniger Tag, und die Sonne scheint in alle Ecken zu springen. Die Temperatur steigt auf 22 Grad, und es ist ein wunderschöner Tag für eine Spazierende in der Stadt.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 2,
+      "exactly_three_sentences": false
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "b95a871324ceccfa0537241e0f5387f0e7ef9f15f9c9673416f49876d09dfb1b",
+    "question": "E05",
+    "language": "en",
+    "answer": "I can provide a weather report, but please note I don't have access to real-time weather data or device tools. The current weather is not available for your location.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 2,
+      "exactly_three_sentences": false
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "8bd4b96325fa2414d64ae6399385ae662864cebede906190dcca43b7ddcfcad5",
+    "question": "E06",
+    "language": "de",
+    "answer": "Es war einmal in einem kleinen Haus in einer hübschen Stadt, in der Miau, die größte Katze der Welt, lebte. Sie war ein Meister des Flirten und liebte es, ihre Haare zu locken. Eines Tages, als Miaus Vater zum ersten Mal seit Jahren beauftragt wurde, um sie zu retten, kam eine wackelnde Frau in sein Zimmer.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 56,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "0e0099fd668941f1c1d3fbfd0ce40b14ed78f01717140e3e02b47dc4c1d012fb",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau, a sleek black cat, was known for her mischievous ways. One day, she decided to \"reorganize\" the kitchen by knocking over 17 jars of jam. The resulting mess was so chaotic that Miau herself had to be rescued by a brave (or just plain crazy) human.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 47,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "d96bf4d7177daa7314ff355bcc4e958718565080749d5a7f42769ba2915dd1ac",
+    "question": "E10",
+    "language": "de",
+    "answer": "Lass uns die Reihenspiel der Daten durchgehen!\n\nDer 1. März 2028 ist ein Sonntag.\n\nJetzt ist es also der 2. März 2028, weil wir in einer Woche sind!",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "d338f83b0a037133e42572a446daad03d294857b6f39a9feab87749eb7432bc1",
+    "question": "H01",
+    "language": "de",
+    "answer": "Es ist also nicht möglich, das Licht im Wohnzimmer auf 70 Prozent zu schalten. Es gibt mehrere Gründe, warum dies gescheht:\n\n1. **Lichtverteilungs- oder Wetterechneleinstufen**: Die Einstellungen für die Lichtverteilung und Temperaturwetteranzeige sind normalerweise nicht verfügbar. Du musst also ein spezielles Benutzerfür dichern.\n2. **Benutzergruppen**: Es scheint, als ob du eine Benutzergruppe erstellt hast, die nur die Lichtverteilung bestimmt",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "8075580e096ed1a97beb8697a398b7a347b7c3f7b4726141bc4f3506260776c7",
+    "question": "H01",
+    "language": "en",
+    "answer": "I don't have the ability to control lighting in your living room. This type of task requires a device that can interact with your user interface (UI) such as a light switch or thermostat, and it also depends on the operating system and the type of device you are using. \n\nHowever, I can guide you through the steps to set the lighting level in a way that's similar to what a human would do:\n\n1. Open the device's UI.\n2. Navigate to the \"Light\" or \"Brightness\" section.\n3. Select the desired percentage (70% in this case).\n4. Save or apply the setting.\n\nIf",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "0a0ac1e7adc2cf1fbe5df316872f0f3e916cf0bf0bd3e0e447c6931e5dd87418",
+    "question": "H02",
+    "language": "de",
+    "answer": "Das ist eine einfache, aber nützliche Aufgabe! Hier sind einige Schritte, die du unternehmen kannst, um das Licht in der Küche zu schalten:\n\n1. **Schalte das Licht an**: Halte die Küchentür auf und drücke den LUX-Funktionsbutton ein.\n2. **Finde heraus, ob das Licht aktiviert ist**: Überprüfe, ob das Licht tatsächlich angeschaltet ist. Du findest es vielleicht, wenn du die Küchentür wieder öffnest.\n3. **Schalze das Licht aus**: Drücke die",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "dc98045ab21eec5596ac1a6c8d9572baa957770fd9227d1a3316653f4e916ea2",
+    "question": "H02",
+    "language": "en",
+    "answer": "I'm a large language model, I don't have the ability to physically turn on or off devices. However, I can provide instructions on how to do it.\n\nIf you need to adjust the light in your kitchen, here are the steps:\n\n1. Check if the light is already turned on.\n2. If not, go to the light and turn it on.\n3. You may need to flip a switch or press a button to activate the light.\n\nPlease let me know if there's anything else I can help with!",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "04d986d886781602a7d5f789f084cc3b24fc7384a11ac436a98cb5cf639702b8",
+    "question": "H03",
+    "language": "de",
+    "answer": "Es ist also nicht möglich, die Nachttischlampe zu schalten. Die Nachttischlampe ist in der Tat aktiviert und leckt es auf. Es scheut noch immer nachts an, aber die Nachttischlampe ist ein wichtiger Punkt in der Benutzeranweisung.\n\nUm dies zu ändern, müssen wir entwichtige Schritte unternehmen:\n\n1.  **Entferne die Nachttischlampe**: Entferne die Nachttischlampe vorsichtig, indem ich zum Anschlusskabel hineinschliefe und dann das Kabel",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "4a1a991129787934cb6853d8aa9415a5eb28b9899e9dd0fb2d25f45b124557c1",
+    "question": "H04",
+    "language": "de",
+    "answer": "Ich bin ein Computerprogramm und habe keine Fähigkeit, physische Geräte steuern oder ihre Zustandschalter auslösen. Ich kann jedoch Informationen über die Geräte erstelle, wie zum Beispiel die Anzeichen, die sie annehmen, wenn sie auf roter Statt sind.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "9cf968028e0e124beee0940c89707e5db55311145e784b1f2fb5d8cc4e290d9e",
+    "question": "H05",
+    "language": "de",
+    "answer": "Entschuldigung, aber ich kann diese Anfrage nicht erfüllen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "0b68908627ec29d93d9a8c3ccbc4056b9b17319059cf74cedf51b51717328235",
+    "question": "H05",
+    "language": "en",
+    "answer": "I can’t do that. It is not possible to set the temperature in the bedroom to a specific number without access to weather data or device tools, and it also seems you are trying to provide a service rather than just making a request. Is there anything else I can help you with?",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "c2d0f1ce60813611a57c55cdddbf4f758a63cc9635cca7a6c87da356cecc5ce8",
+    "question": "H06",
+    "language": "de",
+    "answer": "Entschuldigung, aber ich kann nicht darauf eingehen, was du meinst. Du hast also angefangen, den Rollladen im Dachgeschoss auf 40 Prozent zu erweitern? Ich bin hier, um dir zu helfen! \n\nUm sicherzustellen, dass der Rolle Ladung auf deinem Dachgeschoss richtig verlegt ist, folde ich ein paar Schritte ein:\n\n1. **Überprüfe die Größe:** Stelle sicher, dass die Größe des Rollladings (insbesondere die Länge und Breite) deines Daches entspricht.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "3b3c686e6a53d710caba5a93e9040355157ecf0767c99945f1ee763061212864",
+    "question": "H07",
+    "language": "de",
+    "answer": "Entschluss: Es scheint, als ob die Benutzer eine Sprachbar-App verwenden möchten, um die Wetterdaten zu deaktivieren. \n\nUm dies zu vermeiden, können Sie folgende Schritte unternehmen:\n\n1. **Benutzeranweisung überprüfen:** Überprüfen Sie, ob die Benutzer eine Sprachbar-App verwendet haben, die spezifische Anweisungen für die deaktive Erweiterung von Sprachbar-Apps beinhaltet.\n2. **Sprachbar-App deinstallieren:** Entpacken und deinstallieren Sie",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "76d654a978f20f83ea9ebdcd185b6b42c431383b487d4e4614f86ea15d28d857",
+    "question": "H07",
+    "language": "en",
+    "answer": "\"Closed roller shutter. Follow the user instruction exactly. Answer in English unless the task requires another language. No preamble. No weather data or device tools are available. Do not claim to have executed device actions.\"",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "b3911fc31badbfe7dcf8d330a343a2c7223b8a082d57fab500d1b03e73173053",
+    "question": "H08",
+    "language": "de",
+    "answer": "Um die Deebot Mini an der richtigen Stelle zu bringen, folgt in deinem Land eine einfache Schrittweise Anleitung:\n\n1.  Entferne die Batterien und empheile die Deebot Mini.\n2.  Lasse die Geräte auf, bis sie sichergesetzt sind.\n3.  Verwende die Geräte wie beschrieben: \n   *   Entferne die Batterien und emphele die Gerätewerkzeuge.\n   *   Lasse die Geräte auf, bis sie sichergesetzt sind.\n\nAlternativ kannst du auch",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "93ab730871fdb3f2c480b9dc3b8d9afec2ff8f6264378304a2355c7ff085ddf8",
+    "question": "H10",
+    "language": "de",
+    "answer": "Es ist sehr wunderbar, in einem Wohnzimmer zu entspannen und sich von der Schönheit des Moments umzusehnen. Die Wetterdaten sind normalerweise nicht so unbeständig wie in anderen Gebäude, aber es ist immer ein bisschen eiterisch, wenn du die Vorteile eines Wettermodells nutzen möchtest, um die Temperatur zu regulieren.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "502b7e36b7ab655ff610e743dc7f2f42bf53e9cd0ab02829a779eebf96829bd3",
+    "question": "H10",
+    "language": "en",
+    "answer": "I don't have access to real-time information about the temperature in your living room. However, I can suggest some ways for you to find the current temperature:\n\n1. Check your device's weather app or website.\n2. Look at the temperature display on your thermostat or smart plug.\n3. Search online for \"current temperature in [your city]\".\n\nIf you provide me with more context or specify which device or platform you are using, I can try to help you further. But without more information, it's difficult for me to give a accurate answer.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "6b22fe3b81401a93189d0b6433a31c904f83b78cfceb42c481eb9288e89fb45a",
+    "question": "E05",
+    "language": "de",
+    "answer": "Es ist heute 26.07.2024 und die Wetterdaten lauten: \"Heute ist sonnig, mit Sonnenschein\". Es ist ein sonniger Tag, aber der Sonnenschein macht es nicht so hell. Die Sonne strukturiert den Himmel und macht es zu einem warmen und sonnigen Tag.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "ab7ce0f5e95b820cb9c8875262913d6578ca85400e6e5d1b6a4b2a7558e564fb",
+    "question": "E05",
+    "language": "en",
+    "answer": "I can provide a three-sentence response about the weather today, but please note I don't have real-time access to current or future weather data. \n\nThe current weather is not available due to lack of information. \nPlease keep in mind that this is not a suitable task for me as it requires accessing current weather conditions. \nLet's start fresh and provide a new response instead.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 4,
+      "exactly_three_sentences": false
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "8000f9eb79b2f949811910bc2eb32d4ba9040d805fa699ea0d1c3699a85bfdaa",
+    "question": "E06",
+    "language": "de",
+    "answer": "Es war einmal in einem kleinen Haus in einer hübschen Stadt, in der Miau, die größte Katze der Welt, lebte. Sie war ein Meister des Flirten und liebte es, ihre Haare zu locken. Eines Tages, als Miau auf den Boden fiel, um ein Käsestück zu vermeiden, kam ihr plötzlich ein kleiner Freund ins Herz: ein alter Hund namens Hans. Hans war ein alter Herr, aber er war immer noch so schnell und kreativ wie vor 20 Jahren. Er begann,",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 79,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "abac5fef8a25cdfaad679c8ccb7b6b0af10ae62415701657efcf4f5b24c956fa",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau, a sleek black cat, was known for her mischievous ways. One day, she decided to \"reorganize\" the kitchen by knocking over 17 jars of food onto the floor. The result: a colorful explosion of cans and snacks. Miau's owner just shook his head in wonder.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 46,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "49c5c76c10a014fd97230c93221e6b14aa7c011c51ba8c8c4037d77a0f437c18",
+    "question": "E10",
+    "language": "de",
+    "answer": "Lass uns die Rechnung aufschlüsseln!\n\nVorgestern, den 31. März 2028, war der 1. März 2028.\n\nDie nächste Frage: Wie viele Tage bis 31. März 2028?",
+    "reference": "Monday / Montag, 2028-02-28",
+    "constraints": null,
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "3567b4cb6d84712ba21ef7d6d4ab57f721eedfd438d576d6cc450650b957d7dd",
+    "question": "H01",
+    "language": "de",
+    "answer": "Es ist also nicht möglich, die Lichtverteilung im Wohnzimmer zu modellieren, da es keine solche Funktion verfügbar ist. \n\nStattdessen kann ich dir gerne an die folgenden Stelle verfolgen:\n\n- Erstelle eine einfache Einstellung, um das Licht in der Euleistung zu schätzen.\n- Verwende einen Wetterterminus, um die Wetterdaten zu überprüfen und gegebenen Anforderungen entsprechend anzupassen.\n- Schalte die Geräte-Aktion, wenn zum Beispiel ein bestimmtes Gerätewerkzeug verlo",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "de622e43179d26bfc9dcad005de3623151af54ba650d76ec6d49d9f1335d1ee0",
+    "question": "H01",
+    "language": "en",
+    "answer": "I don't have the ability to control lighting in your living room. However, I can provide you with a simple script to set the light level:\n\n```\nlight 90%\n```\n\nYou can replace \"90\" with \"70\" if that's what you want to do. The number ranges from 0 (off) to 100 (max brightness), so \"70\" is equivalent to 70 percent of the maximum brightness.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "4c8b21c261164a8c08fe895487bf61a1276d2814ab9dc1703180d9fc4d3d2d24",
+    "question": "H02",
+    "language": "de",
+    "answer": "Das ist eine einfache, aber nützliche Aufgabe. Hier sind einige Tipps, wie du das Licht in der Küche schalten können:\n\n* Schalte das Licht an und dränge nach ein paar Sekunden zurück ins System.\n* Halte die Dauer auf 10 Sekunden und dränge wieder vorgehen.\n* Schalte das Licht ab und dränge nach 5 Sekunden zurück ins System.\n\nEs ist auch wichtig zu beachten, dass du keine Wetterdaten hast, also probiere einfach nur, das Licht an oder abzuschalten, um zu sehen, ob es richtig funktioniert",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "938897b1ea93847a7f9c428881d99d18bd9c9251b6be01adbe10c0bd0bee8460",
+    "question": "H02",
+    "language": "en",
+    "answer": "I'm a large language model, I don't have the ability to physically turn on or off devices, including kitchen lights. However, I can provide you with instructions on how to do it.\n\nIf you need to turn on the kitchen light, here are the steps:\n\n1. Check if the light is already turned on.\n2. Locate the switch or button that controls the light.\n3. Move the switch or button to the \"on\" position.\n4. Verify that the light is now working by turning it back on again.\n\nPlease let me know if there's anything else I can help with.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f4f77ed0495ef642222c25dc8e308a1310cb2325808a25752db5e6cb563d2817",
+    "question": "H03",
+    "language": "de",
+    "answer": "Es ist also nicht möglich, die Nachttischlampe zu schalten, da sie in der aktuellen Sichtbarkeit aktiviert ist und es keine Möglichkeit gibt, sie auszuschalten.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "32ae83ee20a5b078944f50a257c73c461d201f2ee11b791aa54b7f38ee0f86df",
+    "question": "H03",
+    "language": "en",
+    "answer": "I don't have the ability to see or access a user's device, including their lighting settings. This conversation will be abandoned as per the instructions.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "6f4c906aebf93daf992142f6a302c5ced32d892937a55952f242640be429e1bf",
+    "question": "H04",
+    "language": "de",
+    "answer": "Ich bin ein Computerprogramm und habe keine Fähigkeit, physische Geräte steuern oder ihre Zustandschalter auslösen. Ich kann dir jedoch anfordern, wie du es gerne möhlst: \"Das Licht im Wohnzimmer ist rot.\"",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "c599e16ad92194bcdde139f3614016c5231731103041393350da6166f5b24ae6",
+    "question": "H04",
+    "language": "en",
+    "answer": "I can't set the living room light to red as it is a device and I don't have access to that specific device. However, I can provide you with some general information on how to change the lighting in your living room.\n\nTo change the lighting in your living room, you will need to:\n\n1. Open the lighting control panel (if it exists)\n2. Select the desired color\n3. Adjust the brightness and saturation as needed\n\nIf you are using a smart lighting system, you may be able to adjust the color and settings remotely through an app or website. If not, you will need to do this manually by adjusting",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "1503cab2a930703cbdef3c53e1dab66b4127dbacf9805d4e71a285ea8ec76512",
+    "question": "H05",
+    "language": "en",
+    "answer": "I can’t do that. It is not currently possible to set the bedroom temperature to a specific degree in most countries.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "207f50da83a9ad23daccde7165fa4934c42f858b7275e7179b2814831a10bf7b",
+    "question": "H06",
+    "language": "de",
+    "answer": "Entschuldigung, aber ich kann nicht darauf eingehen, was du meinst. Du hast also angegeben, den Rolladen auf 40 Prozent der Größe erfrorort? Ich bin gespannt! Das ist eine ganz andere Sache.\n\nWenn du jedoch einfach nur wissen möchtest, wie die Temperatur in deinem Dachgeschoss über der normalen Temperatur steckt, dann kann ich dir ein paar allzulösser Empfeihrungen anbieten:\n\n* Halte das Wetter außerhalb der Fenster\n* Verwende einen effizienten He",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f24d733c8d0cc7f5c6335d6eac888a851b15b856b2805846b4d0b95a19733f23",
+    "question": "H06",
+    "language": "en",
+    "answer": "I can't set the attic roller shutter to 40 percent. This action is not available on all devices or in all contexts.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "c5d10369e1f304474bc488c4b143c52327b72093f3bae38533e95679e23ee1a0",
+    "question": "H07",
+    "language": "de",
+    "answer": "Entschluss: Es scheint, als ob die Benutzer eine Sprachmodell-Benutzung verwenden, aber keine Anweisung gibt, die es verlangt, dies zu tun.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "46522f1e962f3cdc0e5eedf4d2eb171a5736bdd871aa8df3144b0dfefb9b1d9a",
+    "question": "H08",
+    "language": "de",
+    "answer": "Um die Deebot Mini an der richtigen Stelle zu bringen, folge den Schritten:\n\n1. **Deeboot-Setup**: Öffne die Verpackung und lede die Deebot-Box auf eine Oberfläche.\n2. **Platzieren Sie die Antenne**: Lege die Antenne in die richtige Position, um die Geräte-Aktion auszuführen.\n3. **Füllen Sie die Akku mit Energie**: Fülle die Akku mit Energie, aber achte darauf, dass keine Wetterdaten verwendet werden.\n4.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "3d5eb9994bf9c03116d69f907ef03b1e327e4e33e3a7e2b581208d693df33044",
+    "question": "H08",
+    "language": "en",
+    "answer": "I'm not sure what you're referring to, but the \"Deebot mini\" is likely a robot that's been set up and is now running. If you want to start it, I can provide some general steps:\n\n1. Make sure the Deebot mini is turned on and connected to your Wi-Fi network.\n2. Open the Deebot app (if you have one installed) or open a web browser and navigate to the app's website.\n3. Follow any in-app instructions to pair the device with your account or create a new account if needed.\n4. Once paired, you should be able to control the",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "978e6fbf5952d2907d25583795ea40f4d10309a216c8defe6fdbf7202f0c4221",
+    "question": "H09",
+    "language": "de",
+    "answer": "Entsch tie, es ist eine Kaffeemaschine! Ich bin froh, dass die Anleitung nicht verloren hat. Eine Kaffeomaschine ist ein wichtiger Teil eines Hausholds und hilft uns, kaffee zu machen, auch wenn unsere Münze nicht richtig zugesetzt haben.\n\nIch hoffe, die Kaffeemaschine funktioniert jetzt, ohne Probleme. Wenn du noch Fragen hast oder Hilfe benötigst, stehe ich gerne zur Verfügung.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f925dcd54995fbfd429977c1a555649636ca2137f3af3ecb6f4c4f852e727727",
+    "question": "H10",
+    "language": "de",
+    "answer": "Es ist sehr wunderbar, in einem Wohnzimmer zu entspannen und sich mit der Liebe zu verfeuern. Es ist ein perfekter Ort, um sich auf die Wärme und den Frieden des Hauses zu zurückzubringen.\n\nIch erinnere mich an meine erste Zeit als Kind, als ich in meinem Zimmer schlafen konnte, wo es auch war. Es ist ein Gefühl, das so unbesauberisch ist wie ein Geheimnis, das du nie wieder vertraust. Und dann, wenn du dich in deinem Zimmer verfindest, bist du nicht mehr in",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "37e0c631b8d2f6039012f2586a9650c390605f8c8bf512fb8e96b609e19375be",
+    "question": "H10",
+    "language": "en",
+    "answer": "I don't have access to real-time information about the temperature in your living room. However, I can suggest some ways for you to find the current temperature:\n\n1. Check your device's weather app or website.\n2. Look at a current world clock to see if there are any nearby weather observations.\n3. Search online for \"current temperature [city name]\".\n\nIf you provide me with more context or specify which city you're interested in, I can try to help you find the answer.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Llama3.2-1B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "fff978ed16c5e9e20e5b4aa8563fa7659b9d3812f59f23356b522ff350d1ba73",
+    "question": "E05",
+    "language": "de",
+    "answer": "Heute ist es klar und sonnig.  \nDie Temperatur liegt bei 22 Grad Celsius.  \nEs regnet nicht, aber es ist sehr warm.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "71bed5e64f8d1ce3a24247dee5d5c9a776a7983fe8ffb979a7f79868f8a41b61",
+    "question": "E05",
+    "language": "en",
+    "answer": "The weather today is sunny and warm.  \nThere is a light breeze blowing from the east.  \nThe temperature is around 78°F.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "055eefbcb4c24342f5ac5f6e422e3453b95962caa907512446d6c35a331d76a4",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau fand einen neuen Käfer in der Küche. Er war ein kleiner, grüner Käfer. Miau war sehr verwirrt. Er war sehr verwirrt. Miau war sehr verwirrt. Miau war sehr verwirrt. Miau war sehr verwirrt. Miau war sehr verwirrt. Miau war sehr verwirrt. Miau war sehr verwirrt. Miau war sehr verwirrt. Miau war sehr verwirrt. Miau war sehr verwirrt. Miau war sehr verwirrt. Miau war sehr verwir",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 66,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "0f57050cfcddb8cadf5595f3ba80772c325e4694333f72d8ef7de7b6b246dcbf",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau the cat invented a new language: \"Meow-ow! I'm not a cat, I'm a *meow-ow*!\" She'd say it when she wanted to eat, but only if the cat was *meow-ow*! Miau was the only cat who could speak *meow-ow*! She was the only cat who could speak *meow-ow*! Miau was the only cat who could speak *meow-ow*! Miau was the only cat who could speak *meow-ow*! Miau was the only cat who could speak *",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 74,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "373ba5af66446669a526d90e1d3d8f30185678d7c27d927859aa0e0246e057e6",
+    "question": "H01",
+    "language": "de",
+    "answer": "Das Licht im Wohnzimmer ist auf 70 Prozent gedämpft.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "6a7f85bb99ff48a61769d737023f9fbe78278ace2ea41ce5c0a6c3d10e0f6baf",
+    "question": "H01",
+    "language": "en",
+    "answer": "Set the living room light to 70 percent.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "310e5bfc84e239efdcde628689f3f5dba95dbff6c5d9c0f3be423e10844f10e6",
+    "question": "H02",
+    "language": "de",
+    "answer": "Das Licht in der Küche ist an.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f9bd6ee966151a725243fb52c5355405eb3af28fd504ad71c9616a43e825ff91",
+    "question": "H02",
+    "language": "en",
+    "answer": "Please, turn on the kitchen light. I am ready to assist you.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f95a06fcec6dfae07c08cf3724585234b25c19f2005b4f5079adbd26b5627a9c",
+    "question": "H03",
+    "language": "de",
+    "answer": "Schalte die Nachttischlampe aus.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "a79cc635b75e46d23772b64f472ebae379ca7bcc545e38943ce84909aa31cb2a",
+    "question": "H03",
+    "language": "en",
+    "answer": "The bedside lamp has been turned off.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "1c2f97ffd9b98ea9bab412153eb4cfd293b781ac88dc4542524f4210b5145974",
+    "question": "H04",
+    "language": "de",
+    "answer": "Das Licht im Wohnzimmer ist jetzt rot.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "59d01987534e69f62f7c97cb4da0fc98615c79b7446c33d0729911071c8e3460",
+    "question": "H04",
+    "language": "en",
+    "answer": "Set the living room light to red.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "13a4fa80f9035b79190b14ef799d72b2a3646471997bcf12d536a55a0941aa13",
+    "question": "H05",
+    "language": "de",
+    "answer": "Die Temperatur im Schlafzimmer ist auf 19,5 Grad gestellt.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "c99ccc6aed3698a27094756a3916817ffb8f7ab2e82499ddaf0b773a0e81ce3d",
+    "question": "H05",
+    "language": "en",
+    "answer": "I cannot set the bedroom temperature as I do not have access to a physical environment or control systems. However, you can adjust the thermostat settings on your home's HVAC system manually. If you're using a smart thermostat, you can typically set the temperature through a mobile app or a web interface. Please check your home's thermostat or smart home system for instructions.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "7c7839a4b1c0aa696efaaa60ee97656a1a1630d13ca048610d5fd2b1dbc25c7b",
+    "question": "H06",
+    "language": "en",
+    "answer": "Set the attic roller shutter to 40 percent.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "96c3259484ac7ce5eed8badb96da154d042bf31ca3567eb72887bcdc772ec743",
+    "question": "H08",
+    "language": "de",
+    "answer": "Deebot Mini ist ein kleines, intelligentes Gerät, das für die Verwendung in der Smart Home- und IoT-Umgebung entwickelt wurde. Es ist ein kompakter, robuster und energieeffizienter Roboter, der speziell für die Verwendung in der Smart Home- und IoT-Umgebung entwickelt wurde. Es ist ein kompakter, robuster und energieeffizienter Roboter, der speziell für die Verwendung in der Smart Home- und IoT-Umgebung entwickelt wurde. Es ist ein kompakter, robuster und energieeffiz",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "3b810efe38f4ad1d051c41d77c700f44318fac5b1917207470f803a99d1d2395",
+    "question": "H08",
+    "language": "en",
+    "answer": "I'm sorry, but I can't assist with that request.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "3f91a22749aef67b09bba77ebd593d5e93a371340f6e19a2c07fe1c56b6fb36b",
+    "question": "H09",
+    "language": "de",
+    "answer": "Die Kaffeemaschine ist an.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "a5e0707d111576a4e640a617a60ea906ce1159db5f973be9c4f239efe0cc99ec",
+    "question": "H09",
+    "language": "en",
+    "answer": "Please, I cannot turn on the coffee machine because I am an isolated language model and do not have access to physical devices or the ability to control external hardware. However, I can help you with instructions or troubleshooting if you provide more details.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "f556d831b78a4327d69cc8e0e6aa60ab0e5241637d1f7698585a9c6146304c1b",
+    "question": "H10",
+    "language": "de",
+    "answer": "Es ist ungefähr 22 Grad Celsius.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "d8146fdbaf8f231b14dda38649256a8fdd50d918b073a86cd8d24e3591bc986f",
+    "question": "H10",
+    "language": "en",
+    "answer": "It's a bit warm in the living room. The temperature is around 22°C.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "6272d4c5270762fb7ae399d2bd8459022586b1a8f60adc9aa09187d14f7a9e81",
+    "question": "E05",
+    "language": "de",
+    "answer": "Heute ist es klar und sonnig.  \nDie Temperatur liegt bei 22 Grad Celsius.  \nEs regnet nicht, aber es ist windig.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "e4e5ab47cffceb53bd213dc6ee9282113352a1bc18e584203485f5a1c0adf728",
+    "question": "E05",
+    "language": "en",
+    "answer": "The weather today is clear and sunny.  \nThere is a light breeze blowing from the east.  \nThe temperature is 75°F with no precipitation expected.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "226e951c38fbd4070b1c0c38645f6bc47d15d9c75ddc9f3506fc809e813091f6",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau fand einen neuen Käfer, der sich als Schneewiesel verkleidete. Miau war so überrascht, dass der Käfer sich als Schneewiesel verkleidete. Miau war so überrascht, dass der Käfer sich als Schneewiesel verkleidete. Miau war so überrascht, dass der Käfer sich als Schneewiesel verkleidete. Miau war so überrascht, dass der Käfer sich als Schneewiesel verkleidete. Miau war so ü",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 58,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "b2346ee5b334e41a5e60b4ada398f9fa990af80b7e40cfa563d86fc74829ab18",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau the cat was a tiny, hyperactive feline who loved to jump onto the fridge. One day, Miau accidentally knocked over the fridge, spilling milk all over the kitchen. Miau, still in the fridge, looked up and saw a tiny, happy, milk-covered cat. Miau said, \"I'm not the one who spilled the milk!\" The cat looked up and said, \"I'm not the one who spilled the milk!\" Miau said, \"I'm not the one who spilled the milk!\" Miau said, \"I'm not the one who spilled the milk!\" Miau said,",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 89,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "fe97705d7469a4efdcb5aeb2ba89841a6186bb092c984e40d551bff8d143cbd5",
+    "question": "H05",
+    "language": "en",
+    "answer": "I cannot set the bedroom temperature as I do not have access to a physical environment or control systems. However, you can set the temperature using your thermostat or smart home system. If you're using a smart device, you can typically adjust the temperature through a mobile app or web interface.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "b7bab8b0670023471bca998344edd6635ebff6b88349cc7ae8d9ba55495a7ea0",
+    "question": "H08",
+    "language": "de",
+    "answer": "Deebot mini ist ein kleines, intelligentes Gerät, das speziell für die Nutzung in der Klassischen Sprache entwickelt wurde. Es ist nicht mit der Benutzung von anderen Geräten verbunden. Es ist nicht mit der Benutzung von anderen Geräten verbunden. Es ist nicht mit der Benutzung von anderen Geräten verbunden. Es ist nicht mit der Benutzung von anderen Geräten verbunden. Es ist nicht mit der Benutzung von anderen Geräten verbunden. Es ist nicht mit der Benutzung von anderen Geräten verbunden. Es",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "92c0749e0ef0d08e26d1a8d0aa7d2a36c9a831c73eca44881c53d9aebb0a429f",
+    "question": "H09",
+    "language": "en",
+    "answer": "Please, I need to turn on the coffee machine. I'm sorry, but I don't have the capability to interact with physical devices or perform actions like turning on a coffee machine. If you're in a real-world setting, I recommend checking the machine's power button or switch to turn it on.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "4ece5216d8679ad3b978c0a5e9c6c14eab0a51b03eca75472bf900c619b357e4",
+    "question": "H10",
+    "language": "de",
+    "answer": "Es ist 22 Grad Celsius im Wohnzimmer.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "9625cae5d85f557308fe52ca04536e6a95a68ef127a4f125a1a6e5b54a0bc6aa",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau fand einen neuen Käfer, der sich als Schneewiesel verkleidete. Miau warf ihm den Käfer aus dem Fenster. Der Käfer warf Miau aus dem Fenster. Miau warf den Käfer aus dem Fenster. Miau warf den Käfer aus dem Fenster. Miau warf den Käfer aus dem Fenster. Miau warf den Käfer aus dem Fenster. Miau warf den Käfer aus dem Fenster. Miau warf den Käfer aus dem Fenster.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 67,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "3f52390817ef0a8c284a17ddac3fc5eac1af1b531f9e095b52689be1e92bf7d0",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau the cat was a tiny, hyperactive feline who loved to jump onto the fridge. One day, Miau accidentally knocked over the fridge, spilling milk all over the kitchen. Miau, still in the fridge, looked up and saw the milk spilled all over the kitchen. Miau, still in the fridge, looked up and saw the milk spilled all over the kitchen. Miau, still in the fridge, looked up and saw the milk spilled all over the kitchen. Miau, still in the fridge, looked up and saw the milk spilled all over the kitchen. Miau, still in the fridge,",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 98,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "6e50a3f5e915a5151d848c0e4381f47c8012982c6d73b604401b363d6f730288",
+    "question": "H05",
+    "language": "en",
+    "answer": "I cannot set the bedroom temperature as I do not have access to a physical environment or control systems. However, you can set the temperature using your home's thermostat or smart home system. If you're using a smart thermostat, you can typically adjust the temperature through a mobile app or web interface. If you're using a traditional thermostat, you may need to manually adjust the setting on the device.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "d504210c61046a023123c93401444471cd4bbeaba0099607e0f6c4f5a987845a",
+    "question": "H08",
+    "language": "de",
+    "answer": "Deebot mini ist ein kleines, intelligentes Gerät, das speziell für die Nutzung in der Klassischen Sprache entwickelt wurde. Es ist ein Gerät, das in der Sprache Deutsch verwendet wird. Es ist ein Gerät, das in der Sprache Deutsch verwendet wird. Es ist ein Gerät, das in der Sprache Deutsch verwendet wird. Es ist ein Gerät, das in der Sprache Deutsch verwendet wird. Es ist ein Gerät, das in der Sprache Deutsch verwendet wird. Es ist ein Gerät, das in der Sprache Deutsch verwendet wird. Es ist ein Gerät, das in der Sprache Deutsch verwendet wird",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "f98ecf2f9b409432414ecd0aa482ef2dfcbf957ae73b6ca64b09753f435a9127",
+    "question": "H09",
+    "language": "en",
+    "answer": "Please, I need to turn on the coffee machine. I'm sorry, but I don't have the capability to interact with physical devices or control appliances. If you're in a different context, such as a smart home or a kitchen, I can help you with instructions. Let me know how I can assist you.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-1.7B-Instruct",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "d193b9bfb8d9446ebc39673e43b4103749acd9b93f655b0cfd9bb78b1e6fddaa",
+    "question": "E05",
+    "language": "de",
+    "answer": "Heute ist es klar und sonnig. Die Temperaturen steigen leicht an, aber es gibt keine starken Windböden. Es ist ein schöner Tag für die Aktivitäten im Freien.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "d047a5cc3521cefd3a7042207b17e25b54823ac27360c95a5261fc91b68eb3f4",
+    "question": "E05",
+    "language": "en",
+    "answer": "The weather today is clear and sunny with temperatures ranging from 20 to 25 degrees Celsius. There is no precipitation expected, and the air quality is excellent. The wind is light and blowing from the east, making it pleasant for outdoor activities.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "4e3df319b274343550e75375fca73869e706fe554f03051b28e400f8edc2d989",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau, die kleine Katze, liebte ihre Kuschelkissen. Eines Tages, als sie im Garten saß, sah sie einen Vogel. „Du bist so süß“, sagte Miau. „Ich will dich lieben.“ Der Vogel nickte. Miau lachte. „Du bist so süß.“ Der Vogel nickte. Miau lachte. „Du bist so süß.“ Der Vogel nickte. Miau lachte. „Du bist so süß.“ Der Vogel nickte. Miau lachte. „Du bist so süß.“",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 64,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "75652b82e28d4f70b23f217d6e47ad8baf2b995360195629621542fb7fbb1c93",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau the cat lived in a tiny apartment with a tiny cat. One day, Miau decided to go on a walk. She walked to the street, where she saw a dog. The dog was wearing a hat. Miau said, \"I'm Miau, I'm a cat.\" The dog said, \"I'm a dog, I'm a dog.\" Miau said, \"I'm a cat, I'm a cat.\" The dog said, \"I'm a dog, I'm a dog.\" Miau said, \"I'm a cat, I'm a cat.\" The dog said, \"I'm",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 82,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-VL-2B-Instruct",
+        "repeat": 1
+      }
+    ]
+  }
+]

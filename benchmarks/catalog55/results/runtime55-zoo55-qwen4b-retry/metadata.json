@@ -1,0 +1,22 @@
+{
+  "started": "2026-11-05T07:48:17+0100",
+  "runtime": "HailoRT-CLI version 5.5.0",
+  "firmware": "Executing on device: pci/0001:01:00.0\nIdentifying board\nControl Protocol Version: 2\nFirmware Version: 5.5.0 (release,app)\nLogger Version: 0\nDevice Architecture: HAILO10H\n\n",
+  "free_disk_bytes": 30742118400,
+  "meminfo": "MemTotal:       16386808 kB\nMemFree:         7147304 kB\nMemAvailable:   10040032 kB\nBuffers:           83944 kB\nCached:          2852032 kB\nSwapCached:          312 kB\nActive:          5319996 kB\nInactive:        3431724 kB\nActive(anon):    4911872 kB\nInactive(anon):   986140 kB\nActive(file):     408124 kB\nInactive(file):  2445584 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:        1952024 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:               940 kB\nWriteback:             0 kB\nAnonPages:       5815708 kB\nMapped:           484468 kB\nShmem:             82432 kB\nKReclaimable:     155700 kB\nSlab:             274912 kB\nSReclaimable:     155700 kB\nSUnreclaim:       119212 kB\nKernelStack:        8336 kB\nPageTables:        28748 kB\nSecPageTables:      7444 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    10290552 kB\nCommitted_AS:    9425232 kB\nVmallocTotal:   261087232 kB\nVmallocUsed:       79704 kB\nVmallocChunk:          0 kB\nPercpu:             5856 kB\nCmaTotal:          65536 kB\nCmaFree:           52352 kB\nBalloon:               0 kB\n",
+  "models": [
+    "Qwen3-4B-Instruct-2507"
+  ],
+  "repeats": 3,
+  "max_tokens": 128,
+  "release": "v5.5.0",
+  "temperature": 0.1,
+  "context_tokens": 2048,
+  "service_state": "inactive",
+  "optimize_memory_on_device": false,
+  "native_request_timeout_s": 300,
+  "stall_timeout_s": 600,
+  "prefetch": false,
+  "questions_sha256": "e34a5f9f7ae4e364e5a6a4bd33413a98d797b71468c5c7d7030423a8b1f456f1",
+  "measurements": "TTFT includes context setup; tokens/s uses retokenized output. Native loads exclude download/import/VDevice creation. OS cache uncontrolled. VLM chat is text-only. One next artifact may download and hash in background during inference and later reloads."
+}

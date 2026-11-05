@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+**/downloads/
+*.hef
+*.litertlm
+*.xnnpack_cache
+*.pid
+*.lock
+*.tmp

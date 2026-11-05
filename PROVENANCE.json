@@ -1,0 +1,10 @@
+{
+  "source_repository": "https://github.com/leonsio/hailo-10h-services",
+  "source_commit": "570b3a83682e0d3bfc300396c83f97b85e94e276",
+  "benchmark_files_were_uncommitted": true,
+  "packaging_changes": [
+    "run.py imports extracted prompt_rendering.render_prompt; renderer function is unchanged",
+    "results/downloads and process-ID/temporary/cache files excluded"
+  ],
+  "renderer_sha256": "b45b994d9fab3b328e9c135c99ea6ac2475c7edc259f684c16128486a4fd5ad4"
+}

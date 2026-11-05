@@ -1,0 +1,4 @@
+{"model": "Qwen3-VL-2B-Instruct", "event": "existing_artifact", "url": "https://dev-public.hailo.ai/v5.5.0/blob/Qwen3-VL-2B-Instruct.hef", "bytes": 3185773502, "sha256": "3e302b1d0bdc4beaf4ff982cb34f18bc957d3acd1e20e275eb0dd3536b3043a7"}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.20376440100000082, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 91484, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen3-VL-2B-Instruct", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen3-VL-2B-Instruct", "event": "existing_artifact_preserved"}

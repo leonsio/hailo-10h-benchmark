@@ -1,0 +1,23 @@
+{
+  "phase": "runtime55_suites_complete",
+  "archives": [
+    {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.5.0_20261105-043402.tar.gz",
+      "sha256": "19a73e2279984ed31a28bc6d30346ecfacbb7668779ad84a9a419aeab7e05b59",
+      "files": 75,
+      "verified": true
+    },
+    {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.4.0_20261105-074813.tar.gz",
+      "sha256": "a113af229c32b4d2a02923d7a47f680f6ef395d6fe1912f11b61daea5736d81a",
+      "files": 68,
+      "verified": true
+    }
+  ],
+  "next": "All requested runs on HailoRT 5.5.0 completed; editorial review may remain pending",
+  "updated": "2026-11-05T07:48:14+0100",
+  "editorial_review_complete": true,
+  "review_pending": 0,
+  "evaluation_archives": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/evaluation_archives_v1.3.json",
+  "evaluator_version": "reference-checks-v1.3"
+}

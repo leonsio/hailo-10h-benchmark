@@ -1,0 +1,18 @@
+[
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "artifact_bytes": 5656354387,
+    "hailo_ram_before_bytes_mean": 366441813.3333333,
+    "hailo_ram_before_bytes_samples": 3,
+    "hailo_ram_loaded_bytes_mean": 6579387050.666667,
+    "hailo_ram_loaded_bytes_samples": 3,
+    "hailo_ram_delta_bytes_mean": 6212945237.333333,
+    "hailo_ram_delta_bytes_samples": 3,
+    "host_rss_before_bytes_mean": 61414058.666666664,
+    "host_rss_before_bytes_samples": 3,
+    "host_rss_loaded_bytes_mean": 125186048,
+    "host_rss_loaded_bytes_samples": 3,
+    "host_rss_delta_bytes_mean": 63771989.333333336,
+    "host_rss_delta_bytes_samples": 3
+  }
+]

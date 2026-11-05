@@ -1,0 +1,14 @@
+[HailoRT] [error] CHECK_SUCCESS failed with status=HAILO_RESOURCE_EXHAUSTED(81) - Failed to create VLM
+[HailoRT] [error] CHECK_SUCCESS failed with status=HAILO_RESOURCE_EXHAUSTED(81) - Failed to create VLM
+[HailoRT] [error] Failed to create VLM with status HAILO_RESOURCE_EXHAUSTED(81). Check device logs for more details.
+Traceback (most recent call last):
+  File "/home/leonsio/hailo-10h-services/benchmarks/catalog55/run.py", line 337, in <module>
+    if args.worker: worker(args)
+                    ~~~~~~^^^^^^
+  File "/home/leonsio/hailo-10h-services/benchmarks/catalog55/run.py", line 81, in worker
+    model = stack.enter_context((VLM if kind=='vlm' else LLM)(device, args.artifact, optimize_memory_on_device=args.optimize_memory))
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/hailo_platform/pyhailort/pyhailort.py", line 4596, in __init__
+    self._vlm = _pyhailort.VLMWrapper.create(vdevice._vdevice, model_path, optimize_memory_on_device)
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+hailo_platform.pyhailort._pyhailort.HailoRTStatusException: 81

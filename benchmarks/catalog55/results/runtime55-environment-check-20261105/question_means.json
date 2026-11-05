@@ -1,0 +1,42 @@
+[
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "question": "C01",
+    "language": "de",
+    "successful_repeats": 1,
+    "ttft_s_mean": 1.285969903000023,
+    "total_s_mean": 1.5159948190000136,
+    "tokens_per_s_mean": 1.319265722371827,
+    "decode_tokens_per_s_mean": 4.593864332813007
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "question": "C01",
+    "language": "en",
+    "successful_repeats": 1,
+    "ttft_s_mean": 0.6475704329999985,
+    "total_s_mean": 0.8786088040000095,
+    "tokens_per_s_mean": 2.2763259267317544,
+    "decode_tokens_per_s_mean": 4.57086353956106
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "question": "C02",
+    "language": "de",
+    "successful_repeats": 1,
+    "ttft_s_mean": 1.273218098999962,
+    "total_s_mean": 1.5053328029999875,
+    "tokens_per_s_mean": 1.3286098569128282,
+    "decode_tokens_per_s_mean": 4.548832901620495
+  },
+  {
+    "model": "Qwen3-VL-2B-Instruct",
+    "question": "C02",
+    "language": "en",
+    "successful_repeats": 1,
+    "ttft_s_mean": 0.6464890839999953,
+    "total_s_mean": 0.8783973759999526,
+    "tokens_per_s_mean": 2.2768738325558338,
+    "decode_tokens_per_s_mean": 4.552195498624486
+  }
+]

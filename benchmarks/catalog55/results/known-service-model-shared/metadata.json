@@ -1,0 +1,18 @@
+{
+  "started": "2026-11-04T14:41:13+0100",
+  "runtime": "HailoRT-CLI version 5.4.0",
+  "firmware": "Executing on device: pci/0001:01:00.0\nIdentifying board\nControl Protocol Version: 2\nFirmware Version: 5.4.0 (release,app)\nLogger Version: 0\nDevice Architecture: HAILO10H\n\n",
+  "free_disk_bytes": 31572766720,
+  "meminfo": "MemTotal:       16386808 kB\nMemFree:          201596 kB\nMemAvailable:    9198136 kB\nBuffers:          210256 kB\nCached:          8977192 kB\nSwapCached:        11572 kB\nActive:          6970896 kB\nInactive:        8535532 kB\nActive(anon):    5808324 kB\nInactive(anon):   929368 kB\nActive(file):    1162572 kB\nInactive(file):  7606164 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:       2097148 kB\nSwapFree:        1888716 kB\nZswap:                 0 kB\nZswapped:              0 kB\nDirty:              1328 kB\nWriteback:             0 kB\nAnonPages:       6318312 kB\nMapped:           510060 kB\nShmem:            418884 kB\nKReclaimable:     344484 kB\nSlab:             490932 kB\nSReclaimable:     344484 kB\nSUnreclaim:       146448 kB\nKernelStack:        8768 kB\nPageTables:        29760 kB\nSecPageTables:      8212 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:    10290552 kB\nCommitted_AS:    9987080 kB\nVmallocTotal:   261087232 kB\nVmallocUsed:       82044 kB\nVmallocChunk:          0 kB\nPercpu:            10160 kB\nCmaTotal:          65536 kB\nCmaFree:              12 kB\nBalloon:               0 kB\n",
+  "models": [
+    "Qwen3-VL-2B-Instruct"
+  ],
+  "repeats": 3,
+  "max_tokens": 32,
+  "release": "existing-service-artifact",
+  "temperature": 0.1,
+  "context_tokens": 2048,
+  "service_state": "inactive",
+  "questions_sha256": "e34a5f9f7ae4e364e5a6a4bd33413a98d797b71468c5c7d7030423a8b1f456f1",
+  "measurements": "TTFT includes fresh context setup; throughput=retokenized output / total generation wall time; decode throughput excludes first chunk tokens. Loads are fresh process loads with OS file cache uncontrolled. Text-only VLM chat."
+}

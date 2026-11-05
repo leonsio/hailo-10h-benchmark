@@ -1,0 +1,28 @@
+[
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "language": "de",
+    "successful_answers": 0,
+    "errors": 0,
+    "successful_loads": 0,
+    "failed_starts": 0,
+    "ttft_s_mean": null,
+    "total_s_mean": null,
+    "tokens_per_s_mean": null,
+    "decode_tokens_per_s_mean": null,
+    "load_s_mean": null
+  },
+  {
+    "model": "Qwen3-4B-Instruct-2507",
+    "language": "en",
+    "successful_answers": 0,
+    "errors": 0,
+    "successful_loads": 0,
+    "failed_starts": 0,
+    "ttft_s_mean": null,
+    "total_s_mean": null,
+    "tokens_per_s_mean": null,
+    "decode_tokens_per_s_mean": null,
+    "load_s_mean": null
+  }
+]

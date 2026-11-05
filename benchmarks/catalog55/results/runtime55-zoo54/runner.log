@@ -1,0 +1,11 @@
+Download DeepSeek-R1-Distill-Qwen-1.5B: https://dev-public.hailo.ai/v5.4.0/blob/DeepSeek-R1-Distill-Qwen-1.5B.hef
+Download Qwen2.5-Coder-1.5B-Instruct: https://dev-public.hailo.ai/v5.4.0/blob/Qwen2.5-Coder-1.5B-Instruct.hef
+Download Qwen2-1.5B-Instruct: https://dev-public.hailo.ai/v5.4.0/blob/Qwen2-1.5B-Instruct.hef
+Download Qwen2-VL-2B-Instruct: https://dev-public.hailo.ai/v5.4.0/blob/Qwen2-VL-2B-Instruct.hef
+Download Qwen2.5-1.5B-Instruct: https://dev-public.hailo.ai/v5.4.0/blob/Qwen2.5-1.5B-Instruct.hef
+Download Qwen2-1.5B-Instruct-Function-Calling-v1: https://dev-public.hailo.ai/v5.4.0/blob/Qwen2-1.5B-Instruct-Function-Calling-v1.hef
+Download Llama3.2-1B-Instruct: https://dev-public.hailo.ai/v5.4.0/blob/Llama3.2-1B-Instruct.hef
+Download Qwen3-1.7B-Instruct: https://dev-public.hailo.ai/v5.4.0/blob/Qwen3-1.7B-Instruct.hef
+Download Qwen3-VL-2B-Instruct: https://dev-public.hailo.ai/v5.4.0/blob/Qwen3-VL-2B-Instruct.hef
+Download gemma-4-E2B-it: https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm/resolve/main/gemma-4-E2B-it.litertlm
+Results: /home/leonsio/hailo-10h-services/benchmarks/catalog55/results/runtime55-zoo54

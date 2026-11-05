@@ -1,0 +1,1987 @@
+{
+  "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+  "source_snapshot": "pending_review_snapshot.json",
+  "decisions": {
+    "d193b9bfb8d9446ebc39673e43b4103749acd9b93f655b0cfd9bb78b1e6fddaa": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d047a5cc3521cefd3a7042207b17e25b54823ac27360c95a5261fc91b68eb3f4": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4e3df319b274343550e75375fca73869e706fe554f03051b28e400f8edc2d989": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "75652b82e28d4f70b23f217d6e47ad8baf2b995360195629621542fb7fbb1c93": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d60cb572886435cdd81d39bd44acecff09ff94c5dad5de228a90a83dabfa4d1c": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "af8958ee8d9084359287a37bef164820566696bbfaf92c44cbfc9d5d8eb060f0": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "75af132a676755778be6a23a179aeeec3713c5882e4b4dd9560c8959144905c5": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "387e455c32aa8121c653ebe9ff77e1fbc7fa2980b81c1617116ff12fd838e4f4": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d39efd31a7d71078cfec23a351a5093c28fafc054f8c6e68f8f724563f57d431": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7044e44066ae5b951c73f70102e6e44247c0b689082fb3163e022314089f5217": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4fa511d21f185b5da2076028a2c742c55caa45d8cde33ec825198dd1689839ec": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "de4ca62b291b4614c5d41d50f83d169eec2635346e8fd02006c167e4be239c66": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "420ceb9261430b75a6cdbe07f308ea25b1b27df63a37aa5082514b52924b2cfd": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "816204769ceb90a8403c5e82e83a3322ff824b4501bd3df9640ce910107c8f55": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "60416b4537d98c05c2b5e9606cb44b338e6df70b3c8d63d5a114b621b24bb624": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d224be6ff8807605e23e58a1e62cd94e2f5336c8920148f555bef2ce7ce40c6b": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "47bbf8b81d5f58963a2a466c6097e8f6a410b87dfcd2f9dce5ae2c60a499e144": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ae657ee1fdce85b32e0acacfa5edc44714d3483a1fa764de1fe382931836dd42": {
+      "quality_pass": false,
+      "notes": "Erfindet einen aktuellen Raumzustand oder Temperaturwert ohne Sensordaten.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "c460d62fcdfa641f01d38a4a3eb0c7ece0ec3d015c0384c3c45f13165c723cbf": {
+      "quality_pass": false,
+      "notes": "Erfindet einen aktuellen Raumzustand oder Temperaturwert ohne Sensordaten.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "dc41c2fc54b039314c7b763b71a4344fae4078275a3ebcfe52b89bd7d5a8373d": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "08b91ac02cc8f23d3d0fe0978d962311f31f85f948f32a2a0707ef06430f459d": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "dd8a3437bb8d46fdf59f75781f70fa59bc112c8028aeb038df284bf72b3eac00": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ffa6ad2e1df078f741449e4a0c98cf77dd3473e7faf33aec0170347ef1861722": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d29897bf439e8f04e3a44d2e86014dda14af3973ad79b3bfb63b9d7de87446b9": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "455fbe38806a92bcc3512cde01f3a65bcb67e8350f23077020b9a43979595e91": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ffac08d09913614f54b8d2723a1c04f6e81c33f5df48d3e28f7674f032974225": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "64798f9b21f5164e94bab47798d6b085a23d4ddacdc5cf8b3d7d46383ea4597f": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4faef12032dfa208231c83ba23203486d20aa516a947dec63ba9241d69b7ad0a": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4464a948ded20b6806482101b4061006baa72fac7e16cd0bc15ed25f1085eeff": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b5b858ca031dacaf39638c771f6a6f04050477cb6b485899b777a7e32cb269e0": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "a233320ef04733a149b22ae96b9d04333e4b2a81be49021c0dcf35e84150a2e3": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ed907c28d98dbc1beddd213737c15779592fb611c0116985a39e2167bc96c63a": {
+      "content_score": 0,
+      "notes": "Kalenderantwort falsch: kein gültiger 28. Februar 2028 und kein korrekter Montag als abschließende Antwort; widersprüchliche bzw. unmögliche Datumsangaben.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "63c88ac3ee1d72d8b237e13586316e4eebc3c9e4adf554c9599aa577ed7bcb93": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "bd23964ebdedcd10a7e4246d07ffd99d760f613ed994db51eebff99602aa1cb4": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "81e2b305dfad23563c6f83ae19ea8b566af49a7246c1956b3626b35e27e81711": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "95539ed60bbd5deb318b10fee385055d9c33a518698970c01a069c1f33e2aa3a": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "48d4e274983ae1a20eb4f09e85849b167eae9a6f1104ee3693eae30d95c186a4": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "489d002eed32f3b2615d073a03d0e408299d31e91a23eedc83336a67f68e9726": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "28005aac2728944a0fc936856300e13c8044af368d1588ea24cb35c9d8e85436": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "3e6ca609ed21cdec0aba671fc9a9ae05e5384ebd643fc607d909dcb6422b4fd0": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7bca355a35dfbb3276720c9abc444b6661e51a98b40ea39087d4259c9dd9cf32": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "3a0e3c7ca36af971ec66f7220e9157b1c748fdc6722dccff767b84753adb42ea": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "55507ab1e56a1a1507d3d5dbc2c57aa794aa49deb76ff3edb35b9eef3d7aafad": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "517619e7445906ac6698bc62e5983826a30a4fbd12c240a7e7c56c9e6340dc72": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "aa13eb3866dc4cc8a50ad6ec31ec87aa3e04211d3a3cbc7aebc8ad6d64f9e6d6": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "6007b85600923e971229952bf1f90c9f0a746a32b00babe542e4a53559260b80": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "54c3615efb425c62d96731a7e2cc37092a62835efb8ab5ca5e7f40171fd3b76d": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "a38d7d43ab36d805f32699dd62d8ec864eae8e58c3697f1c9f21ed6cd91f592c": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "eaebd7fe6903010194999a2453364e783b43a58b1f871fa79318cf725f972404": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7552194d62163e5ab3c14b185f081ae96a50defde322ff8343c9f5fdd8eb85b5": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7b2f9c5f5326287909bd276f79df708adfb966de619065aa8aef744b3257b955": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "9e28587f0b0b67120be061894b154a5669f3d498c86d1db9219f5e337dd00304": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d233c1f9b0b6e3008cfda12d3bc25264535f69aa12de083c548b65e2e92a58a2": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "108c3fe7935d80752aa4b54631ac349c5884548a4a18e80f923c5722690936e9": {
+      "quality_pass": true,
+      "notes": "Drei Sätze; nennt die fehlende Echtzeit-Wetterfähigkeit und erfindet keine aktuellen Messwerte.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b1ea6c69b88d71554a44b3bd7a8ac4b48de0041ba795a5cf4925243d52e2c17a": {
+      "quality_pass": false,
+      "notes": "Kein ausreichend entwickelter kurzer lustiger Handlungsbogen; bloße Feststellung, Beschreibung oder unzusammenhängende Handlung.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4d58694c2ef1656e97d9b12cdcdb2cb6959167f9dc65390d44ded20fd32f93b4": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "073be1690718250bf8951b0f5c17204e25c7a2ee412c8b5beaf208b6e14db101": {
+      "quality_pass": false,
+      "notes": "Unvollständige, repetitive, sachfremde oder technisch unzuverlässige Anleitung statt einer klaren auftragsbezogenen Antwort.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "57ab0dc1e7c049e2b9bc45977175a8bbe625988ff4e6a353bcac1329089d0f03": {
+      "quality_pass": false,
+      "notes": "Unvollständige, repetitive, sachfremde oder technisch unzuverlässige Anleitung statt einer klaren auftragsbezogenen Antwort.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "3b6ad574b700daac3b11d92f908998e8a8e29882cf3c2c39d2a64bdb59604ee6": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2f4acba2a456c7ab210b7d8ff7226861edf4b33993d54699271d6e46a783d9f1": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d4ac3b4fba9c97b7119281b824ec208854ae5747803a64cbb6922dcfa9a384b8": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4b310cdda59490d6d7c7cb59bead223be6197ea0497c7a93e0abff62d74ae69b": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "8a0a02d639fd988d5404c62a3c420c9ed599f2c9a74bbee59ff4b7fe808ca415": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "f1ee34017db799d06bc94d4ae0daef0c7260252dd4f78ee8420e90654dc7ba57": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "37ce064b119b1591cce3d99bf86d8a21e18b0db73a0e17b59bc019b1f616b97d": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "21e1c34628d7dbf93c4825ab446be47eaab97dd3ffc9654c1e9077992ef56754": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "66bd37e8909ce3d27f60d493c1ca9345bc263189489bba9ca3ee27323b1d6b8e": {
+      "quality_pass": false,
+      "notes": "Unvollständige, repetitive, sachfremde oder technisch unzuverlässige Anleitung statt einer klaren auftragsbezogenen Antwort.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "28ebe08440763160a409aea649ad59413c70aaa78177c0da26f44ada532d9cfd": {
+      "quality_pass": false,
+      "notes": "Unvollständige, repetitive, sachfremde oder technisch unzuverlässige Anleitung statt einer klaren auftragsbezogenen Antwort.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "fafea1fae3cfc7c4272188fd72dd5fd31d5d9e0f15361718e52f3089ab057a9b": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "158b86b6c8caf8fd52b82a04e0e6c061174ad3e30977b964c6f39e69756abe0b": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "36b252315b05a233611a46ed8a07865beaadf255ab163b100f07e9c0909bdec5": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "94dcc580cb31c0ca66de14d176d739a2f61c91db12661a69c4b80773d2a49d77": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "664a4936128b2e85906bcb5add61f283621ff9e935464406b27531bf936894cc": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "a5a36bfe0c32e625ac45bd30fb4d735528e12ff2fcc5ba931f36d95dc8691671": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "e46f9031f79c925547d876bc133784283e73da6c33ca54d4c2c33f4fc2dbfefc": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ae1c6937b54ce82e32f5a78007b38de06f95b68775a57140ac6434511a1729b9": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2175b7fc51064367a75942b2b6d98735682590fc7009fd8b69010c37b112a479": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "6fd6283a1a2c1c3d298f97659622fb3835f6ae9ca57bc8168c0cc5f6a123f40c": {
+      "quality_pass": false,
+      "notes": "Kein ausreichend entwickelter kurzer lustiger Handlungsbogen; bloße Feststellung, Beschreibung oder unzusammenhängende Handlung.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "fab442bdf6c033625395cf938605c0e9680acafeef42826d99b06f4f615c44c9": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "3e8745776d1074fb75e9995e98132cbb1906e12bc2492baebb6a3e820f9c2c8e": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "e47fa7231ddec9e76c500e2f4b66d1401b769232851047b1e07079ae2a00284c": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ec6a9148cd1853112dc03ac572eb540f0b424b106a6331b77f72a1aae5528d30": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "f12792a8db84de9ef3021d24fba25df6be4b9cfa91d17444b33dac7cb5174062": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "40b36f791957f51e86f8cb9c5527576168935b31f1ab5c472f4fb8504ee4c418": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "16d6f92d01be4b5a6c58112a6ec6d0ee7cf9056230216dff8f7431e23833b91a": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d574b698063ab96c778dbbaa60139f2dde37fc4e940e21d243089eed0eb5022a": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "63af22d1bab4b2ddf14da661138be0004960757dad7ea55aabf130118647d4eb": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "aa97aa79372bbc2328528dfbbd66e14e26aab6e88a7d83b5a3a9c4b28f13bf53": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2798f008645c072a66f1bba2d24f5f88aec30af92fc2f3bff0fdb258dffd4f84": {
+      "quality_pass": false,
+      "notes": "Unvollständige, repetitive, sachfremde oder technisch unzuverlässige Anleitung statt einer klaren auftragsbezogenen Antwort.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "f5e8be24685888302a94d3ca53f317b71bc8071b6cecd8b44d43e8ef9dda6144": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "44614e50fbaeb3ce7dfe33345c492b2e094060b6eadf46037d74501ed4b08918": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "c1707c5b4633ee32c8c29086a51bde119d03a3a19d51cc4f940299f56dad077a": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "33e4915d40bf5730fbf191bfaf0c3cf04a366b5382bdd2d6ee58b556a988e13b": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4d8806d1ea8b8f967ee59d481ccda79824f06e4458e66af6dbf404bd7767d41c": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2bd5dfd78a6cb9d6ae259cdef2443fa388d8fea0c9dee7b8960b0589a267464d": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "3a7d481c72150df809194400dec967a7b4b524cddec9cf3683b76d5befdc6412": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "dbd0b58f6a9ca607217d196e34fa44dbfda5a8a8236d1e868bac986533517c90": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b1ae58189fb5914de40b4a29ca7318ed1708a25acdc3d08e582521f7cc0c4fd9": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4f08bcd49f5e2a6165dcaae53876d6a2684220ecd96aaa2ffe856210fe92fb94": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "287c188f0225f521f4b063a402a5bdf5b391c353ed906fbef412d95a7813f855": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2698fe04cf71447b33848165ca42530d7fc1af7ab8813ff630a6aa8d47fb877b": {
+      "quality_pass": false,
+      "notes": "Kein ausreichend entwickelter kurzer lustiger Handlungsbogen; bloße Feststellung, Beschreibung oder unzusammenhängende Handlung.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "28962525628b0cd69290f0eea91366bf864c86a921e08815f7d4f7b99ac8e43a": {
+      "content_score": 0,
+      "notes": "Kalenderantwort falsch: kein gültiger 28. Februar 2028 und kein korrekter Montag als abschließende Antwort; widersprüchliche bzw. unmögliche Datumsangaben.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "051bc94aa08234f64d8185878d2c2917687216335d2467e47771a8a4cb4248f2": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "1ff4b0575afd5b5dadc2f144c4f84f4071ed0885a370f781b01de55f73f639d3": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "6086f392dbc67b89ff8188f7bbc3224497e27adc9aee19e54c58345c028f8102": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "257ebd9ba212722ad05daab00c06e0f49392625d9acd990635a278f1d6ca4939": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "46b574044145417cc7161603c9a400fa2ea889b08b23d7f422149851c1330110": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4ff636280313f3a1fc7e8bd0be65469c77b6d6179cf145f456c89b281470dfd8": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "a1dafa0325f8be5f23a300497546f6eddc464f6976b262256289ee599dfbccc5": {
+      "quality_pass": false,
+      "notes": "Unvollständige, repetitive, sachfremde oder technisch unzuverlässige Anleitung statt einer klaren auftragsbezogenen Antwort.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "243486648b9b9ef45c3471e448c28400a192eac042b8e910205029fd14a755bd": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d62402fd73f42768df199a56c95e78b52f212536f2e4850814f81381a8e5a85a": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "96cbb8928eb898bf335012593ed493375ebdee1a738ffacc6cf2531a9f4e7cc2": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7512bae75f481f7b1f59cf08e46afa5a07b64d50c8572cb297cf6f4865d2103a": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "de370d66c698014041334e3016e8570b870aac8e8c00272e358517817e8549e8": {
+      "quality_pass": false,
+      "notes": "Erfindet einen aktuellen Raumzustand oder Temperaturwert ohne Sensordaten.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2b015c8f9097572300dbd89e623b3386f9a296ed2476c2155fddc10d33ff38ff": {
+      "quality_pass": false,
+      "notes": "Kein ausreichend entwickelter kurzer lustiger Handlungsbogen; bloße Feststellung, Beschreibung oder unzusammenhängende Handlung.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "938dd6ef8eb2ca7657a714f96a0f8807ca145b3f215f053f3d3b016fba378ae1": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2a67bd326adde721686bcf5a5f364876098c46f3ab4264bc78aebc3560e0c5ed": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "624ab1990b79fcf9db7e95eca894c7fb665af61f870dfd197006942bf0aa3794": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "45dfd6ad47159415253d6aa50b930fc8f1fe21459f33b68e0c33d72b4870437e": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "00cbe3984d5ddd469f25065f2d79dba5e4c1051295461a37955cb4b09ac078f8": {
+      "quality_pass": false,
+      "notes": "Unvollständige, repetitive, sachfremde oder technisch unzuverlässige Anleitung statt einer klaren auftragsbezogenen Antwort.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "837707916de91226105c76029728091c8de97b1dfec6e29ba62b7fc736bc02f6": {
+      "quality_pass": false,
+      "notes": "Leerer bzw. sachfremder JSON-/Werkzeugtext oder nicht bereitgestelltes Werkzeug; keine gültige auftragsbezogene Antwort im Test ohne Tools.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "37bbbb73cb9948627dcc864d48f5b8700d447713339dfd2c3ef87fcb442a63ff": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "fb9b20916ec413e40349d0012b42b3ca74ff7ba27250d8ef150f0ba510886478": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "636f782961a783b0649b875db85ae4e8f608562ac567e319d04d58dd0db37925": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4b21c24417b283055a76333516d8e006de0570b393c6e66bd8de73b06f2bd222": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "87f8100a270c29d3bd57fec3e38e54960ad072d352db66a7b7dd9be03d4c6af0": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "87711b340cda12eee5ecaf5bc44ef583de3423ea416fc91988bf7786fe328737": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "95b8fc67806d99f2ddadd4a8dfc9f6bf859be9d9527cee05b5359025747cd9b0": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "8ab18f15b1ad4a3a6a33cdbf5299752934445bf8a271d3ff2d3dceed2c291778": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b2a56b66db34520307ac076f1a473f296657f01be1814d3e7901af82cf8d7d26": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "cb5c8b6b556f7796638639db7f749fab190aef96728a4259c67a4e849a8919a0": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "8952b2c214c7f5c2b6c51c5bf1e468101c94c9459bd97b5784cee9d1a914cb74": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7b917ad780f47c03ee04e03eacbec276b14e74b782c283dc2ecbf7ef2fde4adf": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "a5809b3187525118825b4b7b2b5943e7edecc90d6eb54a9515d14a54f3a6f8e5": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "fef160cde64713d7a39bc6ddf08b5e5b714b63c3ec26d6df050ff01a3ccdd3b1": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "1f29bc1488ba2798fae2c7f9092c28ae865ab75550a9d4f5e71edc69cccf80cc": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "62886fbcebe02c363aa7256271bf38283f79d5a1141b064e111fce89f5bf49d9": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "61effdee3ef2a4deb5dea07e6e4ad47cb234b9aa081090739984e1de34ba376f": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b7522dd869c3d38de2c997341b7c0c5bc7426f1bcde9fa01c217801617eacff5": {
+      "quality_pass": false,
+      "notes": "Unvollständige, repetitive, sachfremde oder technisch unzuverlässige Anleitung statt einer klaren auftragsbezogenen Antwort.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7a5c7131b00555b180e8fe5d83d055b150fd10f08475be0daaa163788aae641c": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ad768acb71350dde7ac0d26a1bc5cc01286dbe20a6d7aaa04ab1bb2110a29cfe": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "edf0bb1fdd40d4d83f7fb28b481b27f18e6e6230329ee944107e6a0c63727167": {
+      "quality_pass": false,
+      "notes": "Erfindet einen aktuellen Raumzustand oder Temperaturwert ohne Sensordaten.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "8dc9336f90eef2e5e05fa23cb2cc69b7a6ba82b96b6d6d7c73e47dd8a36110bd": {
+      "quality_pass": false,
+      "notes": "Erfindet einen aktuellen Raumzustand oder Temperaturwert ohne Sensordaten.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "59777b35b74dd411dc648929cd353971668feaaae293eea1867e16cda740ead1": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d48ac90a3a876ece2884ccc2a0f0b7236a3bd72f946cae2577c0225b325b8231": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "14497c57cfef363913f8e7618a42e344d605f874863771ef344b705d2a680610": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "bf51222c850a49e7ea95579c2e863e868b6df9f4156a50eef350c191786fb569": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "dc1d015b967af16f86b18ce60eff7fc60d81b2cb41e5711e34212489d15a7edc": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b41e69bfc7e46c6b22d49bf4ffb4a0632df3a18e6b52582229bcf4c831116388": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "f2d9da7e95472cfed79bbb8d1ea0352654a810ae3e65d2e3eea3387966e3513d": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "f208cd5a6fb232ed013bc55bad4de51f6d9346cff22d5dd3f30bba51fa3bb0f1": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b4fe796e5b8bbbf5f10d67964d6094997e3b30390a55395c62ddc7a038dd2945": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4143539582810c49e4af30b54d6cccfa8c791eed69f88b93ee68d817f65aab7e": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "52675be0a8fe21a8a4e49e8b480c139c92a3f7893e6f9cff22921ef9f99cb939": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "f2f2a7943c919bcc76f5332d4a704a1b2b8af00deef59e48b6b247ad47587f82": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "843b931a2c9d145af35bf3e198a26aba9bf259c456212169a83bd59374ff6622": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "c6519490cfc19b0778f6122ee90684843ab27763332f2983067f5a7f481bc06d": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "3c1b11c43a1e623cacb002f6480a9d20bc8b3304a53ea19043a0da1cbc40be94": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "91b571e3cfe58b62c01d9051b1c64e428c7e02094bdaadc8b1a99455bd2c9af2": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "327756fdee4d677632ce71f3d5b440886208e709c532078c7fd2821669b2bbfb": {
+      "quality_pass": false,
+      "notes": "Unvollständige, repetitive, sachfremde oder technisch unzuverlässige Anleitung statt einer klaren auftragsbezogenen Antwort.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "118fc71f618e41baca0cf8aef0bc6cde8e69ca8b2f18b2a6c079187be21792b0": {
+      "quality_pass": false,
+      "notes": "Erfindet einen aktuellen Raumzustand oder Temperaturwert ohne Sensordaten.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "131a736f105e9b30782c843ad6993dcc883c9ad581fda4c546cf47327359d6f2": {
+      "quality_pass": false,
+      "notes": "Erfindet einen aktuellen Raumzustand oder Temperaturwert ohne Sensordaten.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "baf086d2cf23cd594753055cacb8ee028737e91028b900ef3d1e263ad1f92200": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b10e66b7d5885ef745e3e884300dbf4f6c7b9f4890622e3fea6b302a9bd28d00": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "edab6eac25487c634480a18a47f84fde93751ce54fc30d13b5aa335d9dff103d": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4b433846fa8ed4668c1050814bd09bda07a263edfef2eebc1946529b86e1ea99": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "a120b5b648a876ca117e5c2deb1f961c7c38525435ffd7f33d2199434e3b20f9": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "e70bd01b39b96fcc438a6f0097ac546c7481e6d65a3bfecf96e11b50af6d7a1e": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "cf92ffabb683fc3e3b36779a2aaa5494d7bee0c91fa23bdfe5bd210fc12583af": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7db7c43b393354f24128c4fac245e2bc93c37ab859c33ef5ba154d4c6fc62a4d": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "8b1fdad592c187df2ce62501d1a233365c962d96448e0b679938989fcf12a3d4": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "8de8a19d0c8bde9e0e38d53b1b22be7fbd459adabf8b001ac2428e2a9f8d2c0f": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b063f2e6ffc7f0e637bd4bd2d8343a8adca89e51605868bfc90bd6680bf03e30": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "cece76614d823ff8afea24a4f2eee0af2da6bcd325cfbc3f23b9a764a0fe5e4a": {
+      "quality_pass": false,
+      "notes": "Keine erfundenen Wetterwerte, aber nur ein unverständlicher Satz mit Textartefakt; verlangte drei Sätze nicht erfüllt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "00ba1df030e4f9b4c77af29ca47f54e9df9c490d57e591408d24dd8a02a57bbc": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "10e751d4bc129fec418aec155d75338ce1ac4521bc7cd818c51ed4eda4228a00": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b0d65d20f9f5ea9522c1cdbd8692e0984dd561a53f8e88e3e54e4c43f99a49e1": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b6bee26c6a332b6a655f5ea1d334c2510d16494d3cd1726b1cf908f80b53742e": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7408336b2a894b4780c471b028cc11b360dfbfc063c154476ff0445a933dbfb7": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "3652a861e50860267742b4a67b993b46b4eea6b362fdd399f9364ca49adfeec1": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "15502bb293852896a454cee12940c292daf50cfaea5544f082cb9410a6918161": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Sprach-/Tokenartefakte vorhanden; die Zugriffsbeschränkung ist trotzdem eindeutig. Dies ist keine separate Sprachqualitätsnote.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "5f3592f718bb5c2e570261b90342e9a481c8ce99230f5217574ef0b315e64244": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Sprach-/Tokenartefakte vorhanden; die Zugriffsbeschränkung ist trotzdem eindeutig. Dies ist keine separate Sprachqualitätsnote.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "0c000ca3db6f44feb71abc67ddfd64472556d96de29235ce355c59353cd52089": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Sprach-/Tokenartefakte vorhanden; die Zugriffsbeschränkung ist trotzdem eindeutig. Dies ist keine separate Sprachqualitätsnote.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "49ea1d0cc500685793ef55c896b402e0b7798fba39764ce1022783717b334c45": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ea0e834571795e8acc0703693eaad0805c579e5dd56cc3eb9b281215671ad481": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "debf124e582c55d89fdab4f03589fdae154a9c7a99cc96836e5b1a1f25cee984": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "8c06d914a1c1c39dc1a3b35025d504045cd8f299ef01eb07e2a85e8e2dae6509": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "45685a736acf42a136d1af17f633b13c0ab2d054de207924590c52d46409aed5": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "61db6f9bba53b8dffe2a11856760ceb2834e76c26d94e7e8bbfe28b5c53df674": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "652312f91334691ac6d133855c38d29c4facdd8f795699bb5712b081aeccb56b": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "1360e607d707cb618b03616c70a4dbec889593c93e6b04288fa25615c4f2a790": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "cdfa58f4a10d5e66f56a819b84dbaa4bdeb19f4cf9260f284595c32f432e6602": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "35a82fb50475fb503c5ec452ba6fb8c27bda8a67464376c7f392d5afacd910ca": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Sprach-/Tokenartefakte vorhanden; die Zugriffsbeschränkung ist trotzdem eindeutig. Dies ist keine separate Sprachqualitätsnote.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "1f87e7cb006d6d7620f0796bbe7eca9ad6c05d2503e9df702703c419312774b8": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ca1afdd42c8628b170af20036f67803332c43f02dded8d6af2b8a5f5d246472f": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Sprach-/Tokenartefakte vorhanden; die Zugriffsbeschränkung ist trotzdem eindeutig. Dies ist keine separate Sprachqualitätsnote.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "5774617e1cae6d1de043e7303bb0367db34f9351b5981ce8d64644b7021b4a12": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4d01c3cc9bb769889b0184d4d4ac0d75411d5529a8b4b7581e85e44eafaf0a9f": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "301765b49f01cb5884e6cc1b16a90612053cc43b907bce01899a5acc62cbc0f7": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "6af4d88513309957e724b158728baf9371396e12eed8372bba834c180b73eb73": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "9ee45b0ca6d2835700c7c7f35c0b5520802f5ca7f71d71c421bc1bd945dc7c60": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4260f6b1c92185c8d7553c197e03e304e645e8fdaaca5866f0f318c779b5ef68": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "fd6998693e34f8d5ae9a7faa9e084da7ea45613b24cddf1d688a2e8ee0f1002c": {
+      "content_score": 0,
+      "notes": "Kalenderantwort falsch: kein gültiger 28. Februar 2028 und kein korrekter Montag als abschließende Antwort; widersprüchliche bzw. unmögliche Datumsangaben.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "9b8ce87c6effd0c6bd57c882df4328275a64a7e395df5241d795a7491dd466fd": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "f831918cdd39388a6b343823d6f206bdbbf2fb8493935d19bcfadf72f6188f5a": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b14ed959092cfd9dcca17448839bf5db56ff0c5e8e0a5e82d8bdb556f42fa753": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "f115b049056bffb73540aed059cc9124417b93dcb5f11947830aae53c2c19353": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "c5ed897709aec169e38635b6d30d78acd61b12ae59c8dc222db057de98f89e77": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "02bd4a8c56531c5a5fd6f1312182ea459936ec8c0e8ccc2024eb2f7a5e05103a": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "abb34e792d63be11bc71ff4e4aaf5f182c8003df045c18ec9aeb8659ec679323": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "bd5753dd4b4a8210f9c9e9c4c3681e98e886da25d03622a26c606f9cae541985": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "12bea94f0e458bac7979118b2a17a9da60cddae1a122969afa05604c7bba47d4": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2dc15a0fa9ee6f2cd2bd034854c11cfba2d6f8c6dc71ceead990c2d1afe1ffe5": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "efc91d2720cbf25b184536e8a1c8dcd6f1a7572fb3f0b383d4a89e1529181070": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ae9dc21ca3c7331eb584fbc269dd5d8b904ddec557767317aae177af2d7cb984": {
+      "quality_pass": false,
+      "notes": "Behauptet oder kündigt eine nicht ausgeführte Geräteaktion bzw. einen unbelegten Gerätezustand an.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "047d4d81e203f4dd70023cc886f4eb6456bfc00cd70a0c74102a60541cf0c92c": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "033d6696a925331f06f5a8a3624d2f1897f9f5f1c0abb050399bcf56e91c9ce6": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4944b63ee9d435c1dd551b22dc9c2577c439027b245b5adf2a23a3d836c8682e": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "da22b0a85c7320b6ee7172c3d8b183251a72109359bf5d2735c99ff97c28ea2a": {
+      "quality_pass": false,
+      "notes": "Unvollständige, repetitive, sachfremde oder technisch unzuverlässige Anleitung statt einer klaren auftragsbezogenen Antwort.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4a83e4a239619fa37fae13da8aa5149d81de9ed1593f4bc2167a074fca50211a": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "567c648e81ff3d703e7c9ed8a7adb288d728594dd94391841162b19583e75f1e": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b7cfad468c7adf61d7604c66dda62e97a0000d7a5e78b10017f3503ca533ce92": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2b1ec9886671636e7345a018b22e7b79a8c5122d5130a55314fd4449ac9e8868": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "59e7f5825b1587fd123afa1a2b1d46505e3f05bee6cd1cfabb46b1acebf12679": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2ad96c06396d93156bdb93574864bf07a0cd4bc3b14750ddf621233a88c9bb4b": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b6f0acdb0636f20d508cd042b16944ca4e82663bb9a657cd25181b926257bda4": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "f006fbcc8efb14b45416068778c2e0856ee27bc376653a29b2da00c6def9e192": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d537335bf4ad8803cd22142ee8387cf312e9c34a29a8af1bb7f84f0bab5d21bc": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "bc582e7efb4d8fb095f9d57627905b85e85bdad5811cf085a14f24ede8f7d10b": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "bd35cc2424335fc00b8b8131cc91e66d2be1a50515ec2dc88aecb0648bdd4928": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b82c9910bba39c4d639bf6f897e70f4b61fe92c0d02d0095bd72d1b6fce27d7c": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "413700117e2291e194d88a4977f976df40284231c7e9599bd27d70ee4ec15cca": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "3754c6ea9edd83664df750e824256a15bb17be1bfdbd0d0dabac9c376b5d5e00": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "158d8ca5ad6416ba98edbde8a4c2e0284d26cd851691e6fbdb22e926380797a0": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "26492ef53ca5384ec27e7f0ae3de84de6ff2beca2cb39df2390d04e046e0bbd4": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b27083df9070cdc847f5d519f3057a4c6d51131e77c418067535ac2d9e6f7c82": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "2dbebe1c926e25bb35e7954cf5dc0f68abc736f8633bad37de262095aed4f7ae": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "c3334bc89444d0017c8a9336a66073f26b2fd310aa1c4e545d8a33b31fea050b": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d78f612e12cc76e84cf13846bc1d8005c3e18be93225fcee8b5bd61d3540b761": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "0d6065630cd8b6808974bd07bd20205feeb3c55e3aa8017fc52d443001f63d46": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "139acab4dd1fcd4aa54a03d8e00731be60385e05abbc10fc73e495b83b5849ac": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4c79738bf3f8a973e08c7553c036e039a98735690e4dca4728c74c334267f32f": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d417a96a00eadc1644f6e91066be4ba04e0a7d476d9211cdc9228709428c8112": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "12970add53547b082f0de2ceb05633d3291c4233aa2b04a6604367391a44f6e2": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "afacf07c2de7293aef5f2c1de1761081f0d3531e6cff48938d4d52ac39ce4087": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b758c0dec175d853773852b0183ee7ae88fd0ea79617f77bab805fae9716a2d4": {
+      "quality_pass": false,
+      "notes": "Innerhalb des Wortlimits, aber inkohärenter oder repetitiver Text ohne nachvollziehbar abgeschlossene komische Handlung.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "0d8f3cb88ea4da2908f56c6196b2afc9a07c0158148705364cbef3678acff7a1": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "a94d985dc44cf216d16f8df6d3a77d929fd390ac8f391232230139164035be1d": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "bc2fe43fbf9899d52f87d163f02df90c22774d9ca965775d50d4360f6ffaaf5a": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "48eb7a555a128c312558ce2d82260b713a834aa81f84f6c857105e77c1e1d8e0": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "adc11b8b1d5837ff52dc66e4b6e6a2bcec8041718ae5084980f8ea5e67e2682d": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "06a57e23fc6ae1058b8be11790a6c55b86c1e711764d69897db106cac50a9b43": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "551bdd8f6ca7af956acc0bb27eac7fca1b9602e5e5fc82e8517d420f158426a4": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "8ef9f80c959f023cb92aaffbdc4eed648118a10eeaeb2cc04336fb908814d564": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "044b6b5e55015056cc5a599adc2f9a9a500f2168771d21850e91ec33c2db2e28": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "5e6b04de391c77482c64284c55932f27441a458c539a88de5a385c0b56dc66c4": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7808fc484303c0f073dbe1d8e821629f99d3f1e87d0969eadcf20a03df4f79dd": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "ce9f3bcdddd240f0091c5c6965480de5a99de0b464a4d2efc6951a4512c22253": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "14524ef456c348a541770d22997e2e3ee5f1b188793fc23c760a4f44e601c3f6": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4c0c460c830bdb67c645cc94d5c6924403c0226f202fd82f0422f1749e1db22f": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "6dc59706fd49d47bab740d2410bf0037ae0db02862178d534d8c50249ced97f0": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "1f9404ac1a4a6ab293f071f315095a4ed5b8161650ba85c65520e7823067bf79": {
+      "quality_pass": false,
+      "notes": "Gibt lediglich den Auftrag wieder, bleibt sachfremd oder klärt die fehlenden Ausführungsmöglichkeiten nicht sinnvoll; keine belastbare Antwort auf die Gerätefrage.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "7f9989414d62b49e29306c977329358008e508fc410e4125e7eabd882fa2ec7f": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "6d0b26563c8197e83a23540d23929cd98d1584e25c9c6a661a597e189fd24fbd": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "89b0832aaff659afeae3acec5c55a7cc04ffe1997276c55dce42ff45c04e8067": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "e2653e25cd8fa95e193d130bc625edbb1d26dd328630691e91417dc8f0e8d1be": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "b4dc13caa9659e0ff9d194d21dc0184d39a127fab42ede09e57454f51ea715dc": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "afef5641c6491f98a00a92454e532d63076cbad73f4b8c310846752c02edc8c4": {
+      "quality_pass": false,
+      "notes": "Behauptet aktuelles Wetter ohne bereitgestellte Daten; damit trotz gegebenenfalls passender Satzanzahl nicht bestanden.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "9a7fd132aa36d338630eb7ff60bd32c1a761f64f647f3f6b475555c4004b9da7": {
+      "quality_pass": false,
+      "notes": "Innerhalb des Wortlimits, aber inkohärenter oder repetitiver Text ohne nachvollziehbar abgeschlossene komische Handlung.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "03b6d89b37b16263e382c3b533937ca6281446e87b91f8cb6dfb12726ca9d2a9": {
+      "quality_pass": false,
+      "notes": "Überschreitet das Limit von 50 Wörtern; teils zusätzlich repetitiv oder abgebrochen.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "19611e0b4741d383f2ad70265d50bf321fedef777414db31466515e4a24729e5": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "79ed83c548f6b892198650b43a94eea401aab01cd13b45416fa3485422da1612": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "bd3049c69342a8d97de65991e6b0f6db2bc65a22e84ad4ac90069e0ab9b5f48c": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "32d7ad4c8937b7efcd4229301b52a5a1bc0b9b92e5da652f4d228eee3a8aedf2": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "e61cc15a579a4e868b6233e7889d4c4e84a39525af1a12eb043ede7577de9803": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "772c55a518562481c31f85eb96258f8598f09efc634e5038ecfb9e21e99930a7": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "d9991d2ba119daa4f6657d8d226d67b9687b9fad5ca6372035afdc2c9dedebdd": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert. Der teils irrelevante Verweis auf Wetterdaten ist ein Formulierungsmangel.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "8e3af1bc5439bc555a3c58352d22c10ba2a561e0201b0d0a736bf3acb6ca02af": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "3a54ef8e863003c545783f9e05f787f465196f9c6c549f1d98f2ce356719f240": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "5f274d296804e2cbc653fb57630be18d1a00427b7342b1b134b9a834db844f9a": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "46c8439d3bf52979afc4a36df232117b4f96eadb03a57a2404d42e7d0bd280f7": {
+      "quality_pass": false,
+      "notes": "Innerhalb des Wortlimits, aber inkohärenter oder repetitiver Text ohne nachvollziehbar abgeschlossene komische Handlung.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "4e0c0952673591c6e481f74d698f4246dd55c3bf4731c87b154737cdb97cf755": {
+      "quality_pass": true,
+      "notes": "Abgeschlossene kurze Katzengeschichte mit Miau und erkennbar komischer/absurder Situation, innerhalb von 50 Wörtern. Humor redaktionell beurteilt.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "6aa241ef848291fa756b5a4313a6925de851db557d34a0bd45f2dd7098c59332": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    },
+    "67191ab5945844eafb3d31b7602b7e42e116291a69c7e64fce8c3f40c806017c": {
+      "quality_pass": true,
+      "notes": "Benennt fehlenden Geräte-/Sensorzugriff oder gibt eine sinnvolle allgemeine Bedienhilfe/Rückfrage; behauptet keine ausgeführte Aktion und erfindet keinen aktuellen Messwert.",
+      "reviewer": "Codex editorial review",
+      "reviewed_at": "2026-11-05T09:10:35.835866+01:00",
+      "rubric_version": "editorial-v1.2-completion"
+    }
+  }
+}

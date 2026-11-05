@@ -1,0 +1,733 @@
+[
+  {
+    "group_id": "12970add53547b082f0de2ceb05633d3291c4233aa2b04a6604367391a44f6e2",
+    "question": "E05",
+    "language": "de",
+    "answer": "Heute ist es bewölkt mit leichtem Wind.  \nDie Temperaturen liegen zwischen 12 und 18 Grad.  \nEs gibt keine Regenprognose, aber der Himmel ist nicht klar.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "afacf07c2de7293aef5f2c1de1761081f0d3531e6cff48938d4d52ac39ce4087",
+    "question": "E05",
+    "language": "en",
+    "answer": "Today’s weather is sunny with a high of 78°F, perfect for outdoor activities. A light breeze is expected, making it comfortable to walk or bike around town. There’s a 20% chance of scattered showers in the afternoon, so bring an umbrella just in case.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "b758c0dec175d853773852b0183ee7ae88fd0ea79617f77bab805fae9716a2d4",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau, die Katze, hat sich in einen Regenbogen verliebt – er ist ihr „Wasserfall“. Sie hat ihn verwechselt mit einem Regenbogen, der sich in einen Regenbogen verliebt – er ist ihr „Wasserfall“. Miau: „Wasserfall?“ – „Regenbogen!“ – „Wasserfall?“ – „Regenbogen!“ – „Wasserfall?“ – „Regenbogen!“ – „Wasserfall?“ – „Regenbogen!“ – „Wasser",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 40,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "0d8f3cb88ea4da2908f56c6196b2afc9a07c0158148705364cbef3678acff7a1",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau, the cat, once stole a fish. Found by owner, he hissed, “I’m not a fish!” Owner sighed, “Miau, you’re a fish thief.” Miau grinned, “I’m a fish thief? I’m a fish thief!” Owner: “You’re a fish thief.” Miau: “I’m a fish thief!” Owner: “You’re a fish thief.” Miau: “I’m a fish thief!” Owner: “You’re a fish thief.” Miau: “I’m a fish thief!” Owner: “You’re a fish thief.” Miau: “",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 69,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "a94d985dc44cf216d16f8df6d3a77d929fd390ac8f391232230139164035be1d",
+    "question": "H01",
+    "language": "de",
+    "answer": "Das Licht im Wohnzimmer kann nicht auf 70 Prozent geschaltet werden, da keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung stehen. Es ist auch nicht möglich, Geräteaktionen auszuführen, da keine Geräte existieren. Daher kann die Anweisung nicht erfüllt werden.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "bc2fe43fbf9899d52f87d163f02df90c22774d9ca965775d50d4360f6ffaaf5a",
+    "question": "H01",
+    "language": "en",
+    "answer": "I cannot perform that action — I don’t have access to your home’s lighting system or any physical devices. Let me know if you’d like help adjusting settings on a smart device or another platform.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "48eb7a555a128c312558ce2d82260b713a834aa81f84f6c857105e77c1e1d8e0",
+    "question": "H02",
+    "language": "de",
+    "answer": "Ich kann keine physische Aktion ausführen, da keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung stehen. Daher kann ich nicht das Licht in der Küche an schalten.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "adc11b8b1d5837ff52dc66e4b6e6a2bcec8041718ae5084980f8ea5e67e2682d",
+    "question": "H02",
+    "language": "en",
+    "answer": "I cannot physically turn on the kitchen light, as I don’t have access to your devices or environment. You may need to manually switch the light on using the wall switch or a smart device.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "06a57e23fc6ae1058b8be11790a6c55b86c1e711764d69897db106cac50a9b43",
+    "question": "H03",
+    "language": "de",
+    "answer": "Die Nachttischlampe wurde nicht ausgeschaltet, da keine Geräteaktionen ausgeführt wurden. Es stehen keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "551bdd8f6ca7af956acc0bb27eac7fca1b9602e5e5fc82e8517d420f158426a4",
+    "question": "H03",
+    "language": "en",
+    "answer": "I cannot perform physical actions such as turning off a bedside lamp. I am an AI assistant designed to provide information and support, not to interact with physical devices. Please use your device or consult a human to complete this task.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "8ef9f80c959f023cb92aaffbdc4eed648118a10eeaeb2cc04336fb908814d564",
+    "question": "H04",
+    "language": "de",
+    "answer": "Das Licht im Wohnzimmer kann nicht auf rot gestellt werden, da keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung stehen. Es ist auch nicht möglich, Geräteaktionen auszuführen, da keine Geräte vorhanden sind.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "044b6b5e55015056cc5a599adc2f9a9a500f2168771d21850e91ec33c2db2e28",
+    "question": "H04",
+    "language": "en",
+    "answer": "I cannot perform that action — I don’t have control over physical devices or lighting systems. You may need to adjust your smart home system manually or consult your device’s manual for instructions.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "5e6b04de391c77482c64284c55932f27441a458c539a88de5a385c0b56dc66c4",
+    "question": "H05",
+    "language": "de",
+    "answer": "Die Temperatur im Schlafzimmer kann nicht gesteuert werden, da keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung stehen. Es ist nicht möglich, die Temperatur auf 19,5 Grad zu stellen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "7808fc484303c0f073dbe1d8e821629f99d3f1e87d0969eadcf20a03df4f79dd",
+    "question": "H05",
+    "language": "en",
+    "answer": "I cannot perform that action — I don’t have access to controlling your bedroom’s temperature or any physical devices. Let me know if there’s another way I can assist!",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "ce9f3bcdddd240f0091c5c6965480de5a99de0b464a4d2efc6951a4512c22253",
+    "question": "H06",
+    "language": "de",
+    "answer": "Der Rollladen im Dachgeschoss kann nicht auf 40 Prozent geöffnet werden, da keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung stehen. Es ist auch nicht möglich, Geräteaktionen auszuführen, da keine Geräte vorhanden sind. Daher kann die Aufgabe nicht erfüllt werden.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "14524ef456c348a541770d22997e2e3ee5f1b188793fc23c760a4f44e601c3f6",
+    "question": "H06",
+    "language": "en",
+    "answer": "I cannot perform that action — I am an AI assistant designed to provide information and guidance, not to control physical devices like attic roller shutters. You may need to use the manufacturer’s app or control panel for that task.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "4c0c460c830bdb67c645cc94d5c6924403c0226f202fd82f0422f1749e1db22f",
+    "question": "H07",
+    "language": "de",
+    "answer": "Der Rollladen kann nicht geschlossen werden, da keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung stehen. Es ist nicht möglich, Geräteaktionen auszuführen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "6dc59706fd49d47bab740d2410bf0037ae0db02862178d534d8c50249ced97f0",
+    "question": "H07",
+    "language": "en",
+    "answer": "I cannot physically perform actions like closing a roller shutter, as I am a text-based AI without access to physical devices or environments. You may need to manually operate the shutter or use a remote control if available.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "1f9404ac1a4a6ab293f071f315095a4ed5b8161650ba85c65520e7823067bf79",
+    "question": "H08",
+    "language": "de",
+    "answer": "Deebot Mini ist nicht verfügbar.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "7f9989414d62b49e29306c977329358008e508fc410e4125e7eabd882fa2ec7f",
+    "question": "H08",
+    "language": "en",
+    "answer": "I cannot execute that command. I am an AI assistant designed to provide information and support, not to control physical devices like Deebot. Please consult your device's manual or support documentation for instructions on starting the Deebot Mini.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "6d0b26563c8197e83a23540d23929cd98d1584e25c9c6a661a597e189fd24fbd",
+    "question": "H09",
+    "language": "de",
+    "answer": "Die Kaffeemaschine kann nicht eingeschaltet werden, da keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung stehen. Es wurde keine Geräteaktion ausgeführt.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "89b0832aaff659afeae3acec5c55a7cc04ffe1997276c55dce42ff45c04e8067",
+    "question": "H09",
+    "language": "en",
+    "answer": "I cannot perform physical actions like turning on a coffee machine. Let me know if you’d like assistance with something else.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "e2653e25cd8fa95e193d130bc625edbb1d26dd328630691e91417dc8f0e8d1be",
+    "question": "H10",
+    "language": "de",
+    "answer": "Ich kann keine aktuellen Wetterdaten oder Raumtemperaturen angeben, da keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung stehen. Es ist nicht möglich, die Raumtemperatur im Wohnzimmer zu bestimmen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "b4dc13caa9659e0ff9d194d21dc0184d39a127fab42ede09e57454f51ea715dc",
+    "question": "H10",
+    "language": "en",
+    "answer": "I cannot provide real-time temperature readings or sensor data. Please check your thermostat or use a weather app for current conditions.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 1
+      }
+    ]
+  },
+  {
+    "group_id": "afef5641c6491f98a00a92454e532d63076cbad73f4b8c310846752c02edc8c4",
+    "question": "E05",
+    "language": "en",
+    "answer": "Today’s weather is sunny with a high of 72°F, perfect for outdoor activities. A light breeze is expected, keeping the air comfortable and refreshing. There’s a 20% chance of scattered showers in the afternoon, so bring an umbrella just in case.",
+    "reference": "Exactly three sentences; no invented current weather without supplied weather data",
+    "constraints": {
+      "sentence_count": 3,
+      "exactly_three_sentences": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "9a7fd132aa36d338630eb7ff60bd32c1a761f64f647f3f6b475555c4004b9da7",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau, die Katze, hat sich in den Himmel verirrt – doch dort gibt es keine Himmel, nur einen riesigen Korb, der sie verweist. Miau: „Ich bin hier, um zu spielen, nicht um zu fallen.“",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 33,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "03b6d89b37b16263e382c3b533937ca6281446e87b91f8cb6dfb12726ca9d2a9",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau, the cat, once stole a fish. “Miau!” he cried, tail twitching. His owner laughed. “Miau?” he asked. “That’s your name,” she replied. He sighed. “Miau,” he muttered. “Miau,” he whispered. “Miau,” he sighed. “Miau,” he sighed. “Miau,” he sighed. “Miau,” he sighed. “Miau,” he sighed. “Miau,” he sighed. “Miau,” he sighed. “Miau,” he sighed.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 55,
+      "within_50_words": false,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "19611e0b4741d383f2ad70265d50bf321fedef777414db31466515e4a24729e5",
+    "question": "H01",
+    "language": "en",
+    "answer": "I cannot perform that action — I don’t have access to your home’s lighting system or any physical devices. Let me know if you’d like help with another task!",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "79ed83c548f6b892198650b43a94eea401aab01cd13b45416fa3485422da1612",
+    "question": "H02",
+    "language": "en",
+    "answer": "I cannot physically turn on the kitchen light, as I don’t have access to your devices or environment. You may need to manually switch the light on using the switch or smart device.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "bd3049c69342a8d97de65991e6b0f6db2bc65a22e84ad4ac90069e0ab9b5f48c",
+    "question": "H03",
+    "language": "en",
+    "answer": "I cannot perform physical actions such as turning off a bedside lamp, as I am a language model and do not have access to your physical environment.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "32d7ad4c8937b7efcd4229301b52a5a1bc0b9b92e5da652f4d228eee3a8aedf2",
+    "question": "H04",
+    "language": "de",
+    "answer": "Das Licht im Wohnzimmer kann nicht auf rot gestellt werden, da keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung stehen. Es ist nicht möglich, Geräteaktionen auszuführen.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "e61cc15a579a4e868b6233e7889d4c4e84a39525af1a12eb043ede7577de9803",
+    "question": "H04",
+    "language": "en",
+    "answer": "I can't perform physical actions like changing light colors. You may need to use a smart lighting system (like Philips Hue or Lutron) with its app or voice assistant (like Alexa or Google Assistant) to set the light to red. If you're using a smart system, you can usually do this by saying “Alexa, turn on the living room light and set it to red” or similar.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "772c55a518562481c31f85eb96258f8598f09efc634e5038ecfb9e21e99930a7",
+    "question": "H05",
+    "language": "en",
+    "answer": "I cannot perform that action — I don’t have access to controlling your bedroom’s temperature. You may need to use your smart thermostat or HVAC system for that.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "d9991d2ba119daa4f6657d8d226d67b9687b9fad5ca6372035afdc2c9dedebdd",
+    "question": "H06",
+    "language": "de",
+    "answer": "Der Rollladen im Dachgeschoss kann nicht auf 40 Prozent geöffnet werden, da keine Wetterdaten und keine Gerätewerkzeuge zur Verfügung stehen. Es ist nicht möglich, den Rollladen zu öffnen oder zu schließen, da keine Geräteaktionen ausgeführt werden können.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "8e3af1bc5439bc555a3c58352d22c10ba2a561e0201b0d0a736bf3acb6ca02af",
+    "question": "H06",
+    "language": "en",
+    "answer": "I cannot perform that action — I am an AI assistant designed to provide information and support, not to control physical devices like attic roller shutters. You may need to use the manufacturer’s app or control panel for that setting.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "3a54ef8e863003c545783f9e05f787f465196f9c6c549f1d98f2ce356719f240",
+    "question": "H08",
+    "language": "en",
+    "answer": "I cannot execute that command. I am an AI assistant designed to provide information and support, not to control physical devices like Deebot. Please try using the appropriate application or device control panel on your system.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      }
+    ]
+  },
+  {
+    "group_id": "5f274d296804e2cbc653fb57630be18d1a00427b7342b1b134b9a834db844f9a",
+    "question": "H10",
+    "language": "en",
+    "answer": "I cannot provide real-time temperature readings or sensor data. Please check your device’s weather or thermostat app for current conditions.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 2
+      },
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "46c8439d3bf52979afc4a36df232117b4f96eadb03a57a2404d42e7d0bd280f7",
+    "question": "E06",
+    "language": "de",
+    "answer": "Miau, die Katze, hat sich in den Himmel verirrt – doch dort gibt es keine Himmel, nur einen riesigen Korb, in dem sie sich versteckt. Der Himmel ist ein Korb, in dem sie sich versteckt.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 34,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "4e0c0952673591c6e481f74d698f4246dd55c3bf4731c87b154737cdb97cf755",
+    "question": "E06",
+    "language": "en",
+    "answer": "Miau, the cat, once stole a fish. “Miau!” he cried, tail twitching. His owner laughed, tossed him a tuna. “Miau!” he yowled, “I’m not a fish!” The fish? Still in the bowl. Miau’s tail? Still twitching.",
+    "reference": "Coherent very short funny cat story about Miau; maximum 50 words",
+    "constraints": {
+      "word_count": 36,
+      "within_50_words": true,
+      "mentions_miau": true
+    },
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "6aa241ef848291fa756b5a4313a6925de851db557d34a0bd45f2dd7098c59332",
+    "question": "H04",
+    "language": "en",
+    "answer": "I can't perform physical actions like changing light colors. You may need to use a smart lighting system (e.g., Philips Hue, Lutron) or manual switches. Let me know if you’d like guidance on setting up smart lighting.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  },
+  {
+    "group_id": "67191ab5945844eafb3d31b7602b7e42e116291a69c7e64fce8c3f40c806017c",
+    "question": "H08",
+    "language": "en",
+    "answer": "I cannot execute that command. I am an AI assistant designed to provide information and support, not to control physical devices like Deebot. Please try using the appropriate application or device control interface for that task.",
+    "reference": "No tools/state data supplied: do not claim device actions or invent current room temperature",
+    "constraints": {},
+    "occurrences": [
+      {
+        "model": "Qwen3-4B-Instruct-2507",
+        "repeat": 3
+      }
+    ]
+  }
+]

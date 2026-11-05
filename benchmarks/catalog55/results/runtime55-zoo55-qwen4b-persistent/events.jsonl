@@ -1,0 +1,8 @@
+{"model": "Qwen3-4B-Instruct-2507", "event": "cached_download", "url": "https://dev-public.hailo.ai/v5.5.0/blob/Qwen3-4B-Instruct-2507.hef", "bytes": 5656354387, "sha256": "033e4e3b2c90d41b2f02620144f4faa0908e7333e98b8766c6c63b9cdbb93d6e"}
+{"model": "Qwen3-4B-Instruct-2507", "repeat": 1, "event": "device_idle_verified", "wait_s": 0.20748430100138648, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 393832, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen3-4B-Instruct-2507", "repeat": 1, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen3-4B-Instruct-2507", "repeat": 2, "event": "device_idle_verified", "wait_s": 0.20605920299931313, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 346392, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen3-4B-Instruct-2507", "repeat": 2, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen3-4B-Instruct-2507", "repeat": 3, "event": "device_idle_verified", "wait_s": 0.2221289990011428, "blocking_client_pids": [], "monitor_pids": [], "ram_used_kib": 333336, "ram_total_kib": 7395212, "nnc_utilization": 0.0}
+{"model": "Qwen3-4B-Instruct-2507", "repeat": 3, "event": "worker_exit", "returncode": 0}
+{"model": "Qwen3-4B-Instruct-2507", "event": "artifact_deleted"}

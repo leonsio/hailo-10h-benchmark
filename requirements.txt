@@ -1,0 +1,4 @@
+PyYAML>=6
+Jinja2>=3.1
+# HailoRT must match installed native runtime/firmware; install vendor ARM64 wheel.
+# For the optional CPU reference: install litert-lm in a compatible environment.

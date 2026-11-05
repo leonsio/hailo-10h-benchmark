@@ -1,0 +1,52 @@
+[
+  {
+    "run": "runtime54-prefetch",
+    "archive": {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.4.0_zoo-v5.5.0_20261105-091102.tar.gz",
+      "sha256": "7caab468926a6cfb06ff29d89731ef341575a31789dd7492f4ebb76ca20bd764",
+      "files": 100,
+      "verified": true
+    },
+    "review_pending": 0
+  },
+  {
+    "run": "runtime54-zoo54",
+    "archive": {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.4.0_zoo-v5.4.0_20261105-091102.tar.gz",
+      "sha256": "d8847faee48b9eeb5b7e954b553a3aada02ff91139b19a0981af784285adeb7d",
+      "files": 79,
+      "verified": true
+    },
+    "review_pending": 0
+  },
+  {
+    "run": "runtime55-zoo55",
+    "archive": {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.5.0_20261105-091102.tar.gz",
+      "sha256": "586f7d7aba60d6f21b3704c781c4add8093ffb6d77b5e77e76888a987fb163b0",
+      "files": 81,
+      "verified": true
+    },
+    "review_pending": 0
+  },
+  {
+    "run": "runtime55-zoo54",
+    "archive": {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.4.0_20261105-091103.tar.gz",
+      "sha256": "2cdf6a1d666d2424eedbdc48e9e16697cd4de189a95380e9fd716dd07e90d3dc",
+      "files": 74,
+      "verified": true
+    },
+    "review_pending": 0
+  },
+  {
+    "run": "runtime55-zoo55-qwen4b-persistent",
+    "archive": {
+      "path": "/home/leonsio/hailo-10h-services/benchmarks/catalog55/results/archives/hailort-5.5.0_zoo-v5.5.0_20261105-091103.tar.gz",
+      "sha256": "3f26978f62b314887215a729758238a27d4a6d2b7e1d69577c1aa6e5f2902694",
+      "files": 48,
+      "verified": true
+    },
+    "review_pending": 0
+  }
+]
